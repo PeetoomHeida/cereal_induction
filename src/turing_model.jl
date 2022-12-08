@@ -1,6 +1,16 @@
 module TuringModel
-using Turing
-using imports
+begin
+    using Turing;
+    using Random;
+    using Distributions;
+    using Plots;
+    using Statistics;
+    using StatsPlots;
+    using StatsBase;
+    using MLDataUtils: rescale!;
+    using Bijectors;
+    using DynamicPPL: getlogp, settrans!, getval, reconstruct, vectorize, setval! ;
+end
 
 #This module defines the models and helper fxns for
 # the induction experiment on Canadian cereal crops.
