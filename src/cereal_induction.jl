@@ -1,18 +1,11 @@
 using CSV
-
-### Generate Fake Data to validate a Turing Model
-
-include("data_generation.jl")
-n_reps = 7; #replicates per genotype
-species = categorical(["Triticale", "Wheat", "Barley", "Oats"]); #Grain crops
-genotypes = categorical([1,2,3]); #three genotypes per species
-treatments = categorical(["Control", "MeJA", "Insect"]);
-colnames = [:Species, :Induction, :Genotype, :uniqueID];
-
-fake_data = dataframeinit(treatments1=treatments, treatments2=species, groups=genotypes, replicates=n_reps, dfnames=colnames)
-generated_params = generatedata(df= fake_data, idcol=:uniqueID, nested=:Genotype, seed=4444)
-CSV.write("/home/isaac/Coding/Stats/cereal_induction/data/fake_data/fake_data.csv",fake_data)
-CSV.write("data/fake_data/generated_params.csv", generated_params)
+using MLDataUtils: rescale!
+using Plots
+using StatsPlots
+using MCMCChains
+using GLM
+using MixedModels
+using TuringGLM
 
 ### Combine 2019-2021 insured acreages of grain crops
 ### Data sourced from the Canadian Grain Commission https://www.grainscanada.gc.ca/en/grain-research/statistics/varieties-by-acreage/
@@ -27,4 +20,79 @@ acreages3years = compiledf(files=mylist)
 
 totalacres = sumacres(data = acreages3years[:,[:grain_code, :variety, :acres]], groupon = :variety, vals = :acres, idcol = :grain_code)
 CSV.write("data/acreages/varieties_three_year_ac.csv", totalacres)
+
+
+### Generate Fake Data to validate a Turing Model
+begin
+include("data_generation.jl")
+n_reps = 7; #replicates per genotype
+species = categorical(["Triticale", "Wheat", "Barley", "Oats"]); #Grain crops
+genotypes = categorical([1,2,3]); #three genotypes per species
+treatments = categorical(["Control", "MeJA", "Insect"]);
+colnames = [:Species, :Induction, :Genotype, :uniqueID];
+
+fake_data = dataframeinit(treatments1=treatments, treatments2=species, groups=genotypes, replicates=n_reps, dfnames=colnames)
+generated_params = generatedata(df= fake_data, idcol=:uniqueID, nested=:Genotype, seed=4444)
+CSV.write("data/fake_data/fake_data.csv",fake_data)
+CSV.write("data/fake_data/generated_params.csv", generated_params)
+end
+
+### Prep data for model use
+include("turing_model.jl")
+analysis_data = CSV.read("data/fake_data/fake_data.csv", DataFrame)
+ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], interaction=true)
+cols_list = names(analysis_data_spread)
+scale_vals = DataFrame()
+ads_centered = rescalecols(df=analysis_data_spread, collist=Symbol.(cols_list[6:length(cols_list)]), centers = scale_vals)
+adsc_idx = stringcoltoint(df=ad_spread, stringcol=:Genotype, intcol=:idx)
+y_vals = Float64.(adsc_idx.response)
+preds = Matrix(adsc_idx[:, 6:24])
+idx = Int.(adsc_idx.idx)
+my_model = randomintercept_regression(y_vals, preds, idx)
+num_chains = 4
+chains = sample(my_model, NUTS(0.5), MCMCThreads(), 1_000, num_chains)
+summarystats(chains) |> DataFrame |> println
+plt = plot(chains)
+
+function changechainnames(chain, df, range1, range2)
+    _namedict = Dict()
+    if length(range1) != length(range2)
+        println("Range lengths do no match")
+    else
+        _oldnames = String.(names(chain)[range1])
+        _newnames = String.(names(df[:,range2]))
+        for i in 1:length(range1)
+            _namedict[_oldnames[i]] = _newnames[i]
+        end
+        _newchain = replacenames(chain, _namedict)
+    end
+    return _newchain
+end
+
+newnamesch = changechainnames(chains, adsc_idx, 2:20, 6:24)
+namedchdf = DataFrame(summarystats(newnamesch))
+usedparams = CSV.read("data/fake_data/generated_params.csv", DataFrame)
+
+
+### Model didn't return the parameters I was expecting
+### Check to see if my data generation was wrong
+include("data_generation.jl")
+fake_data = dataframeinit(treatments1=treatments, treatments2=species, groups=genotypes, replicates=n_reps, dfnames=colnames)
+fd_spread = spreadvars(df=fake_data, treat_types=[:Species,:Induction], interaction=false)
+df_with_resp, sim_params = generatedata(fd_spread, 5:11, :Genotype, 4444)
+
+dfr_spread = spreadvars(df=df_with_resp, treat_types=[:Species,:Induction], interaction=false)
+adsc_idx = stringcoltoint(df=dfr_spread, stringcol=:Genotype, intcol=:idx)
+y_vals = Float64.(adsc_idx.response)
+preds = Matrix(adsc_idx[:, 6:12])
+idx = Int.(adsc_idx.idx)
+new_model = randomintercept_regression(y_vals, preds, idx)
+regression_chains = sample(new_model, NUTS(0.5), MCMCThreads(), 1_000, num_chains)
+summarystats(regression_chains)
+
+fit(MixedModel, @formula(response ~ Induction + Species + (1|Genotype)), df_with_resp)
+
+fm = @formula(response ~ Induction + Species + (1|Genotype))
+model = turing_model(fm, df_with_resp)
+glmchains = sample(model, NUTS(), MCMCThreads(), 1_000, num_chains)
 

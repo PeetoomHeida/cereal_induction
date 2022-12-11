@@ -1,15 +1,11 @@
-module TuringModel
 begin
     using Turing;
     using Random;
     using Distributions;
-    using Plots;
     using Statistics;
-    using StatsPlots;
     using StatsBase;
     using MLDataUtils: rescale!;
-    using Bijectors;
-    using DynamicPPL: getlogp, settrans!, getval, reconstruct, vectorize, setval! ;
+    using LinearAlgebra: I
 end
 
 #This module defines the models and helper fxns for
@@ -28,26 +24,71 @@ end
 # prior for the average Si content (%) across all the species in the study
 # σₐ ~ Exponential(a number)
 # prior for variance among genotypes of the grasses
-# βⱼ ~ Normal(β, σᵦ) for j = 1:number of genotypes
+# βⱼ ~ Normal(β, σᵦ) for j = 1:number of genotypesSS
 # β̄ ~ Normal(0, 5)
 # prior for distribution of slopes
 # σᵦ ~ Exponential(1)
 
-@model function multislope_regression(x, y, groups)
-  
-    n_gr = length(levels(groups)) # groups refers to cultivars, each cultivar is unique accross spp.
-    #priors
-    α ~ truncated(Normal(1, 0.75), 0, 15) # population-level intercept
-    σ ~ Exponential(1) # residual SD
-    #prior for variance of random intercepts
-    #usually requires thoughtful specification
-    τ ~ truncated(Normal(0, 5), 0, Inf)     # species-level SDs of intercepts
-    αⱼ ~ filldist(Normal(0, τ), n_gr)       # species-level intercepts
-    ζ ~ truncated(Normal(0,5), 0, Inf)    #species-level SDs slopes
-    βⱼ ~ filldist(Normal(0,ζ), n_gr)  # species-level coefficients
-    #likelihood
-    ŷ = α .+ x .* βⱼ[groups] .+ αⱼ[groups] 
-    y ~ MvNormal(ŷ, σ)
+function spreadvars(;df::DataFrame, treat_types::Vector{Symbol}, interaction::Bool) 
+  _df = df
+  #spread data to wide format
+  length(treat_types) > 2 ? println("Fxn can only handle two treatment types") :
+  for tr1 in unique(_df[:, treat_types[1]])
+    _df[:, "treat1_$tr1"] = ifelse.(_df[:, treat_types[1]] .== tr1, 1, 0)
+    for tr2 in unique(_df[:, treat_types[2]])
+      _df[:, "treat2_$tr2"] = ifelse.(_df[:,treat_types[2]] .== tr2, 1,0)
+      #Create columns for interactions
+      if interaction
+        _df[:, "$(tr1)x$(tr2)"] = ifelse.((_df[:,treat_types[1]] .== tr1 .&& _df[:,treat_types[2]] .== tr2), 1,0 )
+      end
+    end
   end
+  return _df
+end
 
+function rescalecols(;df::DataFrame, collist::Vector{Symbol}, centers::DataFrame)
+  _df = df
+  mus = []
+  sigmas = []
+  symbols = []
+  centered_df_names = [:variable, :μ, :σ] 
+  for i in collist
+    _df[!,i] = convert.(Float64, _df[:, i])
+    mu, sigma = rescale!(_df[!, i]) # rescale each predictor
+    push!(mus, mu)
+    push!(sigmas, sigma)
+    push!(symbols, i)
+  end
+  append!(centers, DataFrame([symbols, mus, sigmas], centered_df_names))
+  return _df
+end
+
+function stringcoltoint(;df::DataFrame, stringcol::Symbol, intcol::Symbol)
+  _df = df
+  _dict = Dict()
+  _vec = Vector()
+  #fill dict
+  for (index, entry) in enumerate(unique(_df[:, stringcol]))
+      _dict[entry] = index
+  end
+  #fill vec
+  for strings in _df[:, stringcol]
+      push!(_vec, _dict[strings])
+  end
+  _df[:, intcol] = _vec
+  return _df
+end
+    
+@model function randomintercept_regression(y,X,idx; n_gr=length(unique(idx)), predictors=size(X, 2))
+  #priors, depends on data that has been rescaled
+  α ~ Normal(0, 10) # population-level intercept
+  β ~ filldist(Normal(0,10), predictors)
+  σ ~ Exponential(10) # residual SD
+  #prior for variance of random intercepts
+  #usually requires thoughtful specification
+  τ ~ truncated(Cauchy(0, 10); lower=0) #group level SDs
+  αⱼ ~ filldist(Normal(0, τ), n_gr) # group level intercepts
+  #likelihood
+  ŷ = α .+ X * β .+ αⱼ[idx] 
+  y ~ MvNormal(ŷ, σ^2 * I)
 end
