@@ -40,17 +40,25 @@ end
 ### Prep data for model use
 include("turing_model.jl")
 analysis_data = CSV.read("data/fake_data/fake_data.csv", DataFrame)
-ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], interaction=true)
-cols_list = names(analysis_data_spread)
-scale_vals = DataFrame()
-ads_centered = rescalecols(df=analysis_data_spread, collist=Symbol.(cols_list[6:length(cols_list)]), centers = scale_vals)
+ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], interaction=false)
+#To incorporate Control & Barley into the intercept
+begin
+    ad_spread = ad_spread[:, Not([:treat1_Control, :treat2_Barley])]
+end
+
+#To center the data run this
+begin
+    cols_list = names(analysis_data_spread)
+    scale_vals = DataFrame()
+    ads_centered = rescalecols(df=analysis_data_spread, collist=Symbol.(cols_list[6:length(cols_list)]), centers = scale_vals)
+end
 adsc_idx = stringcoltoint(df=ad_spread, stringcol=:Genotype, intcol=:idx)
 y_vals = Float64.(adsc_idx.response)
-preds = Matrix(adsc_idx[:, 6:24])
+preds = Matrix(adsc_idx[:, 6:10])
 idx = Int.(adsc_idx.idx)
 my_model = randomintercept_regression(y_vals, preds, idx)
 num_chains = 4
-chains = sample(my_model, NUTS(0.5), MCMCThreads(), 1_000, num_chains)
+chains = sample(my_model, NUTS(0.6), MCMCThreads(), 1_000, num_chains)
 summarystats(chains) |> DataFrame |> println
 plt = plot(chains)
 
@@ -69,7 +77,7 @@ function changechainnames(chain, df, range1, range2)
     return _newchain
 end
 
-newnamesch = changechainnames(chains, adsc_idx, 2:20, 6:24)
+newnamesch = changechainnames(chains, adsc_idx, 2:8, 6:12)
 namedchdf = DataFrame(summarystats(newnamesch))
 usedparams = CSV.read("data/fake_data/generated_params.csv", DataFrame)
 
@@ -90,9 +98,9 @@ new_model = randomintercept_regression(y_vals, preds, idx)
 regression_chains = sample(new_model, NUTS(0.5), MCMCThreads(), 1_000, num_chains)
 summarystats(regression_chains)
 
-fit(MixedModel, @formula(response ~ Induction + Species + (1|Genotype)), df_with_resp)
+fit(MixedModel, @formula(response ~ Induction + Species + (1|Genotype)), analysis_data)
 
 fm = @formula(response ~ Induction + Species + (1|Genotype))
-model = turing_model(fm, df_with_resp)
+model = turing_model(fm, analysis_data)
 glmchains = sample(model, NUTS(), MCMCThreads(), 1_000, num_chains)
-
+summarystats(glmchains) |> DataFrame |> println

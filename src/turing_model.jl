@@ -1,13 +1,13 @@
-begin
-    using Turing;
-    using Random;
-    using Distributions;
-    using Statistics;
-    using StatsBase;
-    using MLDataUtils: rescale!;
-    using LinearAlgebra: I
-end
-
+using Turing;
+using Random;
+using Distributions;
+using Statistics;
+using StatsBase;
+using MLDataUtils: rescale!;
+using LinearAlgebra: I
+using DataFrames;
+using CSV;
+using Plots, StatsPlots;
 #This module defines the models and helper fxns for
 # the induction experiment on Canadian cereal crops.
 # The models will be hierarchical bayesian models using Turing.jl
@@ -33,13 +33,20 @@ function spreadvars(;df::DataFrame, treat_types::Vector{Symbol}, interaction::Bo
   _df = df
   #spread data to wide format
   length(treat_types) > 2 ? println("Fxn can only handle two treatment types") :
-  for tr1 in unique(_df[:, treat_types[1]])
-    _df[:, "treat1_$tr1"] = ifelse.(_df[:, treat_types[1]] .== tr1, 1, 0)
-    for tr2 in unique(_df[:, treat_types[2]])
-      _df[:, "treat2_$tr2"] = ifelse.(_df[:,treat_types[2]] .== tr2, 1,0)
-      #Create columns for interactions
-      if interaction
+  if interaction == true
+    for tr1 in unique(_df[:, treat_types[1]])
+      _df[:, "treat1_$tr1"] = ifelse.(_df[:, treat_types[1]] .== tr1, 1, 0)
+      for tr2 in unique(_df[:, treat_types[2]])
+        _df[:, "treat2_$tr2"] = ifelse.(_df[:,treat_types[2]] .== tr2, 1,0)
+        #Create columns for interactions
         _df[:, "$(tr1)x$(tr2)"] = ifelse.((_df[:,treat_types[1]] .== tr1 .&& _df[:,treat_types[2]] .== tr2), 1,0 )
+      end
+    end
+  else 
+    for tr1 in unique(_df[:, treat_types[1]])
+      _df[:, "treat1_$tr1"] = ifelse.(_df[:, treat_types[1]] .== tr1, 1, 0)
+      for tr2 in unique(_df[:, treat_types[2]])
+        _df[:, "treat2_$tr2"] = ifelse.(_df[:,treat_types[2]] .== tr2, 1,0)
       end
     end
   end
