@@ -29,7 +29,7 @@ n_reps = 7; #replicates per genotype
 species = categorical(["Triticale", "Wheat", "Barley", "Oats"]); #Grain crops
 genotypes = categorical([1,2,3]); #three genotypes per species
 treatments = categorical(["Control", "MeJA", "Insect"]);
-colnames = [:Species, :Induction, :Genotype, :uniqueID];
+colnames = [:Induction, :Species, :Genotype, :uniqueID];
 
 fake_data = dataframeinit(treatments1=treatments, treatments2=species, groups=genotypes, replicates=n_reps, dfnames=colnames)
 generated_params = generatedata(df= fake_data, idcol=:uniqueID, nested=:Genotype, seed=4444)
@@ -104,3 +104,12 @@ fm = @formula(response ~ Induction + Species + (1|Genotype))
 model = turing_model(fm, analysis_data)
 glmchains = sample(model, NUTS(), MCMCThreads(), 1_000, num_chains)
 summarystats(glmchains) |> DataFrame |> println
+
+### Plotting
+plotting_data = CSV.read("data/fake_data/fake_data.csv", DataFrame)
+
+mp = @df plotting_data groupedboxplot(:Induction, :response, group = :Species)
+plot!(mp, xlabel = "Induction Treatment", ylabel = "Silicon Content (%)")
+
+test_df = DataFrame(var1 = repeat(["A", "B", "C"], inner = 3, outer =3), var2 = repeat(["D", "E", "F"], inner = 9, outer = 1), yvals = rand(Normal(0,1), 27))
+tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
