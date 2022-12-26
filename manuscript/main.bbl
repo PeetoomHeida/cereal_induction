@@ -1,0 +1,2472 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{chen_crop_2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b26538dfbd50f43df01d2e7617e484b6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yolanda\bibnamedelima H.},
+           giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0bf97f8bbbe2eaabf7a67d10519b9b7}{%
+           family={Gols},
+           familyi={G\bibinitperiod},
+           given={Rieta},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c23008af7f70e373355c7fe4cddc8eec}{%
+           family={Benrey},
+           familyi={B\bibinitperiod},
+           given={Betty},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b1a3c55d3aeb074804ca64a25c2db96d}
+      \strng{fullhash}{0091f5844ad5766a39c7985eebba87c5}
+      \strng{bibnamehash}{0091f5844ad5766a39c7985eebba87c5}
+      \strng{authorbibnamehash}{0091f5844ad5766a39c7985eebba87c5}
+      \strng{authornamehash}{b1a3c55d3aeb074804ca64a25c2db96d}
+      \strng{authorfullhash}{0091f5844ad5766a39c7985eebba87c5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Crop domestication is the process of artiﬁcially selecting plants to increase their suitability to human requirements: taste, yield, storage, and cultivation practices. There is increasing evidence that crop domestication can profoundly alter interactions among plants, herbivores, and their natural enemies. Overall, little is known about how these interactions are affected by domestication in the geographical ranges where these crops originate, where they are sympatric with the ancestral plant and share the associated arthropod community. In general, domestication consistently has reduced chemical resistance against herbivorous insects, improving herbivore and natural enemy performance on crop plants. More studies are needed to understand how changes in morphology and resistance-related traits arising from domestication may interact with environmental variation to affect species interactions across multiple scales in agroecosystems and natural ecosystems.}
+      \field{day}{7}
+      \field{issn}{0066-4170, 1545-4487}
+      \field{journaltitle}{Annual Review of Entomology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Annu. Rev. Entomol.}
+      \field{title}{Crop Domestication and Its Impact on Naturally Selected Trophic Interactions}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{60}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{35\bibrangedash 58}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1146/annurev-ento-010814-020601
+      \endverb
+      \verb{file}
+      \verb Chen et al. - 2015 - Crop Domestication and Its Impact on Naturally Sel.pdf:/home/isaac/Zotero/storage/ZVLNZBEV/Chen et al. - 2015 - Crop Domestication and Its Impact on Naturally Sel.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev-ento-010814-020601
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev-ento-010814-020601
+      \endverb
+    \endentry
+    \entry{christian_breeding_2022}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3c32223d34cf14124871e0e38d963d62}{%
+           family={Christian},
+           familyi={C\bibinitperiod},
+           given={Marylyn\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b80f0a6bedb72f221ac5564565a4f54d}{%
+           family={Shimelis},
+           familyi={S\bibinitperiod},
+           given={Hussein},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73865a0b1a840388ec26ed7eef7b6cb6}{%
+           family={Laing},
+           familyi={L\bibinitperiod},
+           given={Mark\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91e75346454e443a362510c7df844c65}{%
+           family={Tsilo},
+           familyi={T\bibinitperiod},
+           given={Toi\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4913b0be1f61c0af0df75dda6f4d4729}{%
+           family={Mathew},
+           familyi={M\bibinitperiod},
+           given={Isack},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc8244cbbe142951efc918e7689f1878}
+      \strng{fullhash}{efe737157f3c350f37ba28ffbda3a18d}
+      \strng{bibnamehash}{efe737157f3c350f37ba28ffbda3a18d}
+      \strng{authorbibnamehash}{efe737157f3c350f37ba28ffbda3a18d}
+      \strng{authornamehash}{dc8244cbbe142951efc918e7689f1878}
+      \strng{authorfullhash}{efe737157f3c350f37ba28ffbda3a18d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The production and quality of wheat are affected by abiotic constraints including water stress and soil nutrient deficiencies. It is imperative to develop drought-tolerant wheat varieties with high yield potential and enhanced grain protein content for food security. Silicon (Si) is important for plant growth and development but its role in abiotic stress tolerance has been overlooked in breeding programs. Identifying the underlying functional genes controlling drought tolerance, protein content and grain yield is essential for wheat improvement, especially under drought stress. Silicon uptake is conditioned by several Si transporter genes such as Lsi1, Lsi2 and Lsi6 and aquaporins, which facilitate transport of silicon and water between cells. The objectives of this review are to examine the role of Si in improving plant nutrition and drought tolerance, and to appraise the genetic control of Si uptake and breeding methods for improving Si uptake for drought adaptation and improved grain yield and quality. The review highlights the limited progress made in breeding for drought tolerance in wheat, especially in sub-Sahara Africa where the challenge is prevalent. Limited understanding of the genetic basis for Si uptake and physiology contribute to the limited progress in its exploitation in wheat improvement programs.}
+      \field{day}{31}
+      \field{issn}{0906-4710}
+      \field{journaltitle}{Acta Agriculturae Scandinavica, Section B — Soil \& Plant Science}
+      \field{month}{12}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/09064710.2021.1984564}
+      \field{number}{1}
+      \field{shorttitle}{Breeding for silicon-use efficiency, protein content and drought tolerance in bread wheat (Triticum aestivum L.)}
+      \field{title}{Breeding for silicon-use efficiency, protein content and drought tolerance in bread wheat (Triticum aestivum L.): a review}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2022}
+      \field{volume}{72}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{17\bibrangedash 29}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1080/09064710.2021.1984564
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/NEZDBG8Y/Christian et al. - 2022 - Breeding for silicon-use efficiency, protein conte.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/SZSN6T2C/09064710.2021.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/09064710.2021.1984564
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/09064710.2021.1984564
+      \endverb
+      \keyw{Drought-tolerance,genomic selection,grain yield,phenotypic selection,protein content,silicon uptake,silicon-use efficiency,wheat}
+    \endentry
+    \entry{cooke_consistent_2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=595f2cea3c731e85faaa3f6c6033a606}{%
+           family={Cooke},
+           familyi={C\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f70d2734e1d8b0d078baa0f31bb72895}{%
+           family={Leishman},
+           familyi={L\bibinitperiod},
+           given={Michelle\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \strng{fullhash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \strng{bibnamehash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \strng{authorbibnamehash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \strng{authornamehash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \strng{authorfullhash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Hundreds of single species studies have demonstrated the facility of silicon (Si) to alleviate diverse abiotic stresses in plants. Understanding of the mechanisms of Si-mediated stress alleviation is progressing, and several reviews have brought information together. A quantitative assessment of the alleviative capacity of Si, however, which could elucidate plant Si function more broadly, was lacking. We combined the results of 145 experiments, predominantly on agricultural species, in a meta-analysis to statistically assess the responses of stressed plants to Si supply across multiple plant families and abiotic stresses. We interrogated our database to determine whether stressed plants increased in dry mass and net assimilation rate, oxidative stress markers were reduced, antioxidant responses were increased and whether element uptake showed consistent changes when supplied with Si. We demonstrated that across plant families and stress types, Si increases dry weight, assimilation rate and chlorophyll biosynthesis and alleviates oxidative damage in stressed plants. In general, results indicated that plant family (as a proxy for accumulator type) and stress type had significant explanatory power for variation in responses. The consistent reduction in oxidative damage was not mirrored by consistent increases in antioxidant production, indicative of the several different stress alleviation mechanisms in which Si is involved. Silicon addition increased K in shoots, decreased As and Cd in roots and Na and Cd in shoots. Silicon addition did not affect Al, Ca or Mn concentration in shoots and roots of stressed plants. Plants had significantly lower concentrations of Si accumulated in shoots but not in roots when stressed. Meta-analyses showed consistent alleviation by Si of oxidative damage caused by a range of abiotic stresses across diverse species. Our findings indicate that Si is likely to be a useful fertilizer for many crops facing a spectrum of abiotic stresses. Similarities in responses across families provide strong support for a role of Si in the alleviation of abiotic stress in natural systems, where it has barely been explored. We suggest this role may become more important under a changing climate and more experiments using non-agricultural species are now needed.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Functional Ecology}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2435.12713}
+      \field{number}{8}
+      \field{shorttitle}{Consistent alleviation of abiotic stress with silicon addition}
+      \field{title}{Consistent alleviation of abiotic stress with silicon addition: a meta-analysis}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2021}
+      \field{volume}{30}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1340\bibrangedash 1357}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1111/1365-2435.12713
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/MY3KYVAQ/Cooke and Leishman - 2016 - Consistent alleviation of abiotic stress with sili.pdf:application/pdf;Full Text PDF:/home/isaac/Zotero/storage/49BRP7A7/Cooke and Leishman - 2016 - Consistent alleviation of abiotic stress with sili.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/XB8Z4X9S/1365-2435.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12713
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12713
+      \endverb
+      \keyw{agriculture,heavy metal toxicity,oxidative stress,silica,silicon fertilizer,stress alleviation}
+    \endentry
+    \entry{coskun_controversies_2019}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=bd40162e8e34ae6add8e49efab276c77}{%
+           family={Coskun},
+           familyi={C\bibinitperiod},
+           given={Devrim},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=864f5f95567a98a4763d10f207000687}{%
+           family={Deshmukh},
+           familyi={D\bibinitperiod},
+           given={Rupesh},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b6db37d45cd11c55cdf6162fa3015fa}{%
+           family={Sonah},
+           familyi={S\bibinitperiod},
+           given={Humira},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df41076b76421fbde8d521f624a65f46}{%
+           family={Menzies},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=082ccbda60a3514a8b789be8f4afee5a}{%
+           family={Reynolds},
+           familyi={R\bibinitperiod},
+           given={Olivia},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a3a0e9a43fde0989430652beeca871}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jian\bibnamedelima Feng},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f07f8d8cb424ee1bae76dfa5a6e5fb89}{%
+           family={Kronzucker},
+           familyi={K\bibinitperiod},
+           given={Herbert\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc6fe402dbd2e42337307efae763ed6f}{%
+           family={Bélanger},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f7a978ef7ac5e86ebf90f2a033d59f09}
+      \strng{fullhash}{a5966568ecc074577786fe6b956ce90e}
+      \strng{bibnamehash}{a5966568ecc074577786fe6b956ce90e}
+      \strng{authorbibnamehash}{a5966568ecc074577786fe6b956ce90e}
+      \strng{authornamehash}{f7a978ef7ac5e86ebf90f2a033d59f09}
+      \strng{authorfullhash}{a5966568ecc074577786fe6b956ce90e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Contents Summary 67 I. Introduction 68 {II}. Silicon transport in plants: to absorb or not to absorb 69 {III}. The role of silicon in plants: not just a matter of semantics 71 {IV}. Silicon and biotic stress: beyond mechanical barriers and defense priming 76 V. Silicon and abiotic stress: a proliferation of proposed mechanisms 78 {VI}. The apoplastic obstruction hypothesis: a working model 79 {VII}. Perspectives and conclusions 80 Acknowledgements 81 References 81 Summary Silicon (Si) is not classified as an essential plant nutrient, and yet numerous reports have shown its beneficial effects in a variety of species and environmental circumstances. This has created much confusion in the scientific community with respect to its biological roles. Here, we link molecular and phenotypic data to better classify Si transport, and critically summarize the current state of understanding of the roles of Si in higher plants. We argue that much of the empirical evidence, in particular that derived from recent functional genomics, is at odds with many of the mechanistic assertions surrounding Si's role. In essence, these data do not support reports that Si affects a wide range of molecular-genetic, biochemical and physiological processes. A major reinterpretation of Si's role is therefore needed, which is critical to guide future studies and inform agricultural practice. We propose a working model, which we term the ‘apoplastic obstruction hypothesis’, which attempts to unify the various observations on Si's beneficial influences on plant growth and yield. This model argues for a fundamental role of Si as an extracellular prophylactic agent against biotic and abiotic stresses (as opposed to an active cellular agent), with important cascading effects on plant form and function.}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytologist}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/nph.15343}
+      \field{number}{1}
+      \field{title}{The controversies of silicon's role in plant biology}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{volume}{221}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{67\bibrangedash 85}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1111/nph.15343
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/NRPBEJQZ/Coskun et al. - 2019 - The controversies of silicon's role in plant biolo.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/X8FT7GMA/nph.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/nph.15343
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/nph.15343
+      \endverb
+      \keyw{abiotic stress,apoplast,biotic stress,membrane transport,plant nutrition,silicon (Si)}
+    \endentry
+    \entry{dorairaj_influence_2017}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d5f2ce392a8bfc5d8894fbb86d32e302}{%
+           family={Dorairaj},
+           familyi={D\bibinitperiod},
+           given={Deivaseeno},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d5ed7b670f40271ab10b73e581899f4}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={Mohd\bibnamedelima Razi},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dce21aa9a612ef430bc214cd9e27fdaf}{%
+           family={Sinniah},
+           familyi={S\bibinitperiod},
+           given={Uma\bibnamedelima Rani},
+           giveni={U\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a83745f0568717b81826542f8ccba53}{%
+           family={Kar\bibnamedelima Ban},
+           familyi={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Tan},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{204d26a63adc55ab0ae07f76a6b27fa7}
+      \strng{fullhash}{2f949741adc438693741aff9524fb71e}
+      \strng{bibnamehash}{2f949741adc438693741aff9524fb71e}
+      \strng{authorbibnamehash}{2f949741adc438693741aff9524fb71e}
+      \strng{authornamehash}{204d26a63adc55ab0ae07f76a6b27fa7}
+      \strng{authorfullhash}{2f949741adc438693741aff9524fb71e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lodging has limited yield and potential of increasing yield in rice. Lodging could be minimized by increasing the mechanical or physical strength of the rice culm. Silicon (Si) is associated with sturdiness and rigidity. Therefore, the objectives of this experiment were to evaluate the effects and optimum rate of Si application to improve yield, growth, and lodging resistance of {MR}219, a popular rice variety in Malaysia. Si, in the form of fertilizer, was applied at the onset of reproductive stage as topdressing. All Si-treated plants showed an increase in number of tillers, number of spikelets per panicle, number of effective tillers, percentage of filled spikelets, and weight per panicle in Si-treated plants as compared to control. Lodging resistance was higher in plants treated with Si as shown by bending parameters. Si-treated plants showed significant increase in flag leaf area, chlorophyll content, and Si content.}
+      \field{day}{9}
+      \field{issn}{0190-4167}
+      \field{journaltitle}{Journal of Plant Nutrition}
+      \field{month}{5}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/01904167.2016.1264420}
+      \field{number}{8}
+      \field{title}{Influence of silicon on growth, yield, and lodging resistance of {MR}219, a lowland rice of Malaysia}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{40}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1111\bibrangedash 1124}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1080/01904167.2016.1264420
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/01904167.2016.1264420
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/01904167.2016.1264420
+      \endverb
+      \keyw{growth,lodging,{MR}219,resistance,Silicon,yield}
+    \endentry
+    \entry{epstein_silicon_1999}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=caf772172c32ec688ce44d810a7f9612}{%
+           family={Epstein},
+           familyi={E\bibinitperiod},
+           given={Emanuel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{caf772172c32ec688ce44d810a7f9612}
+      \strng{fullhash}{caf772172c32ec688ce44d810a7f9612}
+      \strng{bibnamehash}{caf772172c32ec688ce44d810a7f9612}
+      \strng{authorbibnamehash}{caf772172c32ec688ce44d810a7f9612}
+      \strng{authornamehash}{caf772172c32ec688ce44d810a7f9612}
+      \strng{authorfullhash}{caf772172c32ec688ce44d810a7f9612}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Plant Physiology and Plant Molecular Biology}
+      \field{langid}{american}
+      \field{month}{6}
+      \field{title}{Silicon}
+      \field{volume}{50}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{641\bibrangedash 664}
+      \range{pages}{24}
+      \verb{doi}
+      \verb https://doi.org/10.1146/annurev.arplant.50.1.641
+      \endverb
+    \endentry
+    \entry{faostat}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4807e0aebe86c17f559853f35515b533}{%
+           family={FAO},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{fullhash}{4807e0aebe86c17f559853f35515b533}
+      \strng{bibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorbibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authornamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorfullhash}{4807e0aebe86c17f559853f35515b533}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{License: CC BY-NC-SA 3.0 IGO, Date accessed: 26-12-2022}
+      \field{title}{FAOSTAT}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.fao.org/faostat/en/#data
+      \endverb
+      \verb{url}
+      \verb https://www.fao.org/faostat/en/#data
+      \endverb
+      \warn{\item Entry 'faostat' (datasets.bib): Invalid format '26-12-2022' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{farooq_silicon_2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d1b98a92c2e2f9c2f97fe2c99c9a1797}{%
+           family={Farooq},
+           familyi={F\bibinitperiod},
+           given={Muhammad\bibnamedelima Ansar},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db47a93b1a3b00d21a4f10778ec20989}{%
+           family={Dietz},
+           familyi={D\bibinitperiod},
+           given={Karl-Josef},
+           giveni={K\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8d5808676d436dbd98c5f7d15b5f185}
+      \strng{fullhash}{f8d5808676d436dbd98c5f7d15b5f185}
+      \strng{bibnamehash}{f8d5808676d436dbd98c5f7d15b5f185}
+      \strng{authorbibnamehash}{f8d5808676d436dbd98c5f7d15b5f185}
+      \strng{authornamehash}{f8d5808676d436dbd98c5f7d15b5f185}
+      \strng{authorfullhash}{f8d5808676d436dbd98c5f7d15b5f185}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Silicon (Si) serves as bioactive beneficial element. Si is highly abundant in soil, and occurs ubiquitously in all organisms including plants and humans. During the last three decades, nutritional significance of Si for plant and human health has received increasing attention. Plant Si plays a pivotal role in growth and development, and this beneficial effect depends usually on accumulation in plant tissues, which are then protected from various forms of biotic and abiotic stresses. Likewise, human exposure to Si imparts health benefits and essentially occurs through plant-derived food products. Si bioavailability in human diet, e.g., strengthens bones and improves immune response, as well as neuronal and connective tissue health. Despite this empiric knowledge, the essentiality of Si still remains enigmatic. Thus the link between Si availability for plant development and its profound implication for human welfare should receive attention. This review aims to provide a broad perspective on Si as important element for plant and human nutrition and to define research fields for interdisciplinary research.}
+      \field{issn}{1664-462X}
+      \field{journaltitle}{Frontiers in Plant Science}
+      \field{shorttitle}{Silicon as Versatile Player in Plant and Human Biology}
+      \field{title}{Silicon as Versatile Player in Plant and Human Biology: Overlooked and Poorly Understood}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/H3LRUGQW/Farooq and Dietz - 2015 - Silicon as Versatile Player in Plant and Human Bio.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/articles/10.3389/fpls.2015.00994
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/articles/10.3389/fpls.2015.00994
+      \endverb
+    \endentry
+    \entry{fauteux_silicon_2005}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=efa4036d2f5788ae04360d655640861a}{%
+           family={Fauteux},
+           familyi={F\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab749ec50fb1efbc2281842dc1e92b03}{%
+           family={Rémus-Borel},
+           familyi={R\bibinithyphendelim B\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df41076b76421fbde8d521f624a65f46}{%
+           family={Menzies},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc6fe402dbd2e42337307efae763ed6f}{%
+           family={Bélanger},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5bfc4398d7a75ba5f8d601f6e4867186}
+      \strng{fullhash}{966c438889066411eb4e82912e5cf856}
+      \strng{bibnamehash}{966c438889066411eb4e82912e5cf856}
+      \strng{authorbibnamehash}{966c438889066411eb4e82912e5cf856}
+      \strng{authornamehash}{5bfc4398d7a75ba5f8d601f6e4867186}
+      \strng{authorfullhash}{966c438889066411eb4e82912e5cf856}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Silicon (Si) is a bioactive element associated with beneficial effects on mechanical and physiological properties of plants. Silicon alleviates abiotic and biotic stresses, and increases the resistance of plants to pathogenic fungi. Several studies have suggested that Si activates plant defense mechanisms, yet the exact nature of the interaction between the element and biochemical pathways leading to resistance remains unclear. Silicon possesses unique biochemical properties that may explain its bioactivity as a regulator of plant defense mechanisms. It can act as a modulator influencing the timing and extent of plant defense responses in a manner reminiscent of the role of secondary messengers in induced systemic resistance; it can also bind to hydroxyl groups of proteins strategically involved in signal transduction; or it can interfere with cationic co-factors of enzymes influencing pathogenesis-related events. Silicon may therefore interact with several key components of plant stress signaling systems leading to induced resistance.}
+      \field{day}{1}
+      \field{issn}{0378-1097}
+      \field{journaltitle}{{FEMS} Microbiology Letters}
+      \field{month}{8}
+      \field{number}{1}
+      \field{shortjournal}{{FEMS} Microbiology Letters}
+      \field{title}{Silicon and plant disease resistance against pathogenic fungi}
+      \field{urlday}{13}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{volume}{249}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.femsle.2005.06.034
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/S2TKPDKF/Fauteux et al. - 2005 - Silicon and plant disease resistance against patho.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/94A6WAB5/753472.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.femsle.2005.06.034
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.femsle.2005.06.034
+      \endverb
+    \endentry
+    \entry{hafeez_creation_2021}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d851fe916fc78f775b5a44cd7423bf6d}{%
+           family={Hafeez},
+           familyi={H\bibinitperiod},
+           given={Amber\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9af8f40f9c9d4a037e3506efaf5519fd}{%
+           family={Arora},
+           familyi={A\bibinitperiod},
+           given={Sanu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10d764f71e3dbc8a62a68ef9757f7bbe}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Sreya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d914915b9636943df69405ed649bc1ae}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50d53cd01aab689d67c110003947ad68}{%
+           family={Bowden},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=197a8b54f6ac2db5588d12aa6bedddd1}{%
+           family={Wulff},
+           familyi={W\bibinitperiod},
+           given={Brande\bibnamedelimb B.\bibnamedelimi H.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7bbeeec7bd8d172933642e70f0f2d7b3}
+      \strng{fullhash}{5bd4044915517ae99592b1e0b67973c2}
+      \strng{bibnamehash}{5bd4044915517ae99592b1e0b67973c2}
+      \strng{authorbibnamehash}{5bd4044915517ae99592b1e0b67973c2}
+      \strng{authornamehash}{7bbeeec7bd8d172933642e70f0f2d7b3}
+      \strng{authorfullhash}{5bd4044915517ae99592b1e0b67973c2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Disease-resistance (R) gene cloning in wheat (Triticum aestivum) has been accelerated by the recent surge of genomic resources, facilitated by advances in sequencing technologies and bioinformatics. However, with the challenges of population growth and climate change, it is vital not only to clone and functionally characterize a few handfuls of R genes, but also to do so at a scale that would facilitate the breeding and deployment of crops that can recognize the wide range of pathogen effectors that threaten agroecosystems. Pathogen populations are continually changing, and breeders must have tools and resources available to rapidly respond to those changes if we are to safeguard our daily bread. To meet this challenge, we propose the creation of a wheat R-gene atlas by an international community of researchers and breeders. The atlas would consist of an online directory from which sources of resistance could be identified and deployed to achieve more durable resistance to the major wheat pathogens, such as wheat rusts, blotch diseases, powdery mildew, and wheat blast. We present a costed proposal detailing how the interacting molecular components governing disease resistance could be captured from both the host and the pathogen through biparental mapping, mutational genomics, and whole-genome association genetics. We explore options for the configuration and genotyping of diversity panels of hexaploid and tetraploid wheat, as well as their wild relatives and major pathogens, and discuss how the atlas could inform a dynamic, durable approach to R-gene deployment. Set against the current magnitude of wheat yield losses worldwide, recently estimated at 21\%, this endeavor presents one route for bringing R genes from the lab to the field at a considerable speed and quantity.}
+      \field{day}{5}
+      \field{issn}{1674-2052}
+      \field{journaltitle}{Molecular Plant}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shortjournal}{Molecular Plant}
+      \field{title}{Creation and judicious application of a wheat resistance gene atlas}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{volume}{14}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1053\bibrangedash 1070}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.molp.2021.05.014
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/isaac/Zotero/storage/A9WAN6GZ/Hafeez et al. - 2021 - Creation and judicious application of a wheat resi.pdf:application/pdf;ScienceDirect Full Text PDF:/home/isaac/Zotero/storage/WDSCIX58/Hafeez et al. - 2021 - Creation and judicious application of a wheat resi.pdf:application/pdf;ScienceDirect Snapshot:/home/isaac/Zotero/storage/CX7EX8AX/S1674205221001751.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1674205221001751
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1674205221001751
+      \endverb
+      \keyw{association genetics,disease resistance,durable resistance,gene stewardship,genes,wheat}
+    \endentry
+    \entry{hartley_ecology_2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c84fe06640a128f5f55234e483a10179}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a653acde77538ed1ba99ce0e96f77662}{%
+           family={{DeGabriel}},
+           familyi={D\bibinitperiod},
+           given={Jane\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{584e2de6b5adde95ac54567db5a82d7a}
+      \strng{fullhash}{584e2de6b5adde95ac54567db5a82d7a}
+      \strng{bibnamehash}{584e2de6b5adde95ac54567db5a82d7a}
+      \strng{authorbibnamehash}{584e2de6b5adde95ac54567db5a82d7a}
+      \strng{authornamehash}{584e2de6b5adde95ac54567db5a82d7a}
+      \strng{authorfullhash}{584e2de6b5adde95ac54567db5a82d7a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Silicon as a defence against herbivory in grasses has gained increasing recognition and has now been studied in a wide range of species, at scales from individual plants in pots to plant communities in the field. The impacts of these defences have been assessed on herbivores ranging from insects to rodents to ungulates. Here, we review current knowledge of silicon mediation of plant–herbivore interactions in an ecological context. The production of silicon defences by grasses is affected by both abiotic and biotic factors and by their interactions. Climate, soil type and water availability all influence levels of silicon uptake, as does plant phenology and previous herbivory. The type of defoliation matters and artificial clipping does not appear to have the same impact on silicon defence induction as herbivory which includes the presence of saliva. Induction of silicon defences has been demonstrated to require a threshold level of damage, both in the laboratory and in the field. In recent studies of vole–plant interactions, the patterns of induction were found to be quantitatively similar in glasshouse compared with field experiments, in terms of both the threshold required for induction and timing of the induction response. The impacts of silicon defences differ between different classes of herbivore, possibly reflecting differences in body size, feeding behaviour and digestive physiology. General patterns are hard to discern however, and a greater number of studies on wild mammalian herbivores are required to elucidate these, particularly with an inclusion of major groups for which there are currently no data, one such example being marsupials. We highlight new research areas to address what still remains unclear about the role of silicon as a plant defence, particularly in relation to plant–herbivore interactions in the field, where the effects of grazing on defence induction are harder to measure. We discuss the obstacles inherent in scaling up laboratory work to landscape-scale studies, the most ecologically relevant but most difficult to carry out, which is the next challenge in silicon ecology.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Functional Ecology}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2435.12706}
+      \field{number}{8}
+      \field{title}{The ecology of herbivore-induced silicon defences in grasses}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{volume}{30}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1311\bibrangedash 1322}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1111/1365-2435.12706
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/9492RW7B/Hartley and DeGabriel - 2016 - The ecology of herbivore-induced silicon defences .pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/VVKQ3L64/1365-2435.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12706
+      \endverb
+      \verb{url}
+      \verb https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12706
+      \endverb
+      \keyw{defence induction,herbivory,insect,landscape scale,mammal,physical defences,plant–herbivore interactions,silica}
+    \endentry
+    \entry{haynes_contemporary_2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6cc6470173ae0f739dec1b2416a37768}{%
+           family={Haynes},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6cc6470173ae0f739dec1b2416a37768}
+      \strng{fullhash}{6cc6470173ae0f739dec1b2416a37768}
+      \strng{bibnamehash}{6cc6470173ae0f739dec1b2416a37768}
+      \strng{authorbibnamehash}{6cc6470173ae0f739dec1b2416a37768}
+      \strng{authornamehash}{6cc6470173ae0f739dec1b2416a37768}
+      \strng{authorfullhash}{6cc6470173ae0f739dec1b2416a37768}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Our current understanding of silicon (Si) availability in agricultural soils is reviewed and knowledge gaps are highlighted. Silicon is a beneficial rather than essential plant nutrient and yield responses to its application have been frequently demonstrated in Si-accumulator crops such as rice and sugarcane. These crops are typically grown on highly weathered (desilicated) soils where soil solution Si concentrations are low. Increased yields are the result of simultaneous increases in plant tolerance to a wide range of biotic (plant pathogens, insect pests) and abiotic (water shortage, excess salts, metal toxicities) stresses. Traditionally, soil solution Si is viewed as being supplied by dissolution of primary and secondary minerals and buffered by adsorption/desorption of silicate onto Al and Fe hydrous oxide surfaces. In recent years it has become recognized that phytogenic cycling of Si [uptake of Si by plants, formation of phytogenic silica ({SiO}2 · {nH}2O) mainly in leaves and subsequent return of this silica to soils in plant litter] is the main determinant of soil solution Si concentrations in natural forests and grasslands. Considerable diminution of the phytogenic Si pool in agricultural soils is likely due to regular removal of Si in harvested products. A range of extractants (unbuffered salts, acetate-based solutions, and acids) can provide valuable information on the Si status of soils and the likelihood of a yield response in rice and sugarcane. The most common Si fertilizers used are industrial byproducts (e.g., blast furnace slag, steel slag, ferromanganous slag, Ca slag). Since agriculture promotes soil desilication and Si is presently being promoted as a broad spectrum plant prophylactic, the future use of Si in agriculture is likely to increase. Aspects that require future research include the role of specific adsorption of silicate onto hydrous oxides, the significance of phytogenic Si in agricultural soils, the extent of loss of phytogenic Si due to crop harvest, the role of hydroxyaluminosilicate formation in fertilized soils, and the effect of soil {pH} on Si availability.}
+      \field{issn}{1522-2624}
+      \field{journaltitle}{Journal of Plant Nutrition and Soil Science}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/jpln.201400202}
+      \field{number}{6}
+      \field{title}{A contemporary overview of silicon availability in agricultural soils}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{volume}{177}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{831\bibrangedash 844}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1002/jpln.201400202
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/Y9XZQE7H/Haynes - 2014 - A contemporary overview of silicon availability in.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/VM8ISL3Q/jpln.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jpln.201400202
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jpln.201400202
+      \endverb
+      \keyw{biogenic Si,fertilizer Si,phytoliths,silicon,soil desilication,soil Si pools}
+    \endentry
+    \entry{johnson_silicon_2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bb5f10a5ce4fe4a443f1c92369519e36}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Scott\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c84fe06640a128f5f55234e483a10179}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56ad47f944fdefb70fcbf9d04411c254}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Ben\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3d393a7065dca1e0e460fb53eb060f51}
+      \strng{fullhash}{e2909b4ad0c4115bf6ed1269ea2c1f51}
+      \strng{bibnamehash}{e2909b4ad0c4115bf6ed1269ea2c1f51}
+      \strng{authorbibnamehash}{e2909b4ad0c4115bf6ed1269ea2c1f51}
+      \strng{authornamehash}{3d393a7065dca1e0e460fb53eb060f51}
+      \strng{authorfullhash}{e2909b4ad0c4115bf6ed1269ea2c1f51}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Silicon accumulation is a key defence against herbivorous pests, but may have wider detrimental impacts if plants become unpalatable for livestock. We argue that some herbivores are better adapted to silicon-rich diets than others; herbivore anatomy and physiology, and the nature of silicon deposition, are crucial to understanding these differences.}
+      \field{day}{1}
+      \field{issn}{1360-1385}
+      \field{journaltitle}{Trends in Plant Science}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Trends in Plant Science}
+      \field{shorttitle}{Silicon Defence in Plants}
+      \field{title}{Silicon Defence in Plants: Does Herbivore Identity Matter?}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{volume}{26}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{99\bibrangedash 101}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/j.tplants.2020.10.005
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/home/isaac/Zotero/storage/F6U32QMB/S1360138520303290.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1360138520303290
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1360138520303290
+      \endverb
+    \endentry
+    \entry{jones_silica_1967}{incollection}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f6c507df345a8ae79bee24353f69c753}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={L.\bibnamedelimi H.\bibnamedelimi P.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46b29f8f69f8d668276e5b383be59087}{%
+           family={Handreck},
+           familyi={H\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=af32d13315a1e428774002962fb38051}{%
+           family={Norman},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{c2f1abf93327f089064fed8526c2fc41}
+      \strng{fullhash}{c2f1abf93327f089064fed8526c2fc41}
+      \strng{bibnamehash}{c2f1abf93327f089064fed8526c2fc41}
+      \strng{authorbibnamehash}{c2f1abf93327f089064fed8526c2fc41}
+      \strng{authornamehash}{c2f1abf93327f089064fed8526c2fc41}
+      \strng{authorfullhash}{c2f1abf93327f089064fed8526c2fc41}
+      \strng{editorbibnamehash}{af32d13315a1e428774002962fb38051}
+      \strng{editornamehash}{af32d13315a1e428774002962fb38051}
+      \strng{editorfullhash}{af32d13315a1e428774002962fb38051}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter discusses several aspects of silica in the chain from soil through plant to animal. Soil solution is the immediate source of the silica that is always absorbed by soil-grown plants. The factors affecting the silica content of plants include: soil {pH} and the content of iron and aluminum oxides present in plants. Plants take up different amounts of silica, according to their species. Silicon sometimes has a beneficial effect through alleviating manganese toxicity. Silicon alters the distribution of manganese in the leaf tissues, thereby preventing it from collecting into localized areas that become necrotic. The presence of silica in pasture plants ensures that grazing ruminants ingest rather large amounts of silica, most of which is in the solid form. Apart from slight dissolution, this silica is unchanged in passing along the alimentary tract and its known effects on the animal are physical or mechanical. The dissolved silica that is absorbed from the alimentary tract is carried to the kidney and excreted in the urine. Although it is normally excreted readily, the silica is sometimes deposited to form calculi or uroliths that can cause serious economic loss.}
+      \field{booktitle}{Advances in Agronomy}
+      \field{day}{1}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{Silica In Soils, Plants, and Animals}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{19}
+      \field{year}{1967}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{107\bibrangedash 149}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1016/S0065-2113(08)60734-8
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/home/isaac/Zotero/storage/NPQAZ3D2/S0065211308607348.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0065211308607348
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0065211308607348
+      \endverb
+    \endentry
+    \entry{massey_are_2008}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=f02137ec57e7525cf2dd19aa19159936}{%
+           family={Massey},
+           familyi={M\bibinitperiod},
+           given={F.p},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=df69444675d6ed373315866e55ce5dd0}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={M.j},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47196e41efb6117c94383456161af6d0}{%
+           family={Lambin},
+           familyi={L\bibinitperiod},
+           given={X},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ae0ca305383ae95b5555639467fa062}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={S.e},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21e133f1888d4ce8bc72104200629a67}
+      \strng{fullhash}{e5e5aa3371f8a58fa5a3fbc996799906}
+      \strng{bibnamehash}{e5e5aa3371f8a58fa5a3fbc996799906}
+      \strng{authorbibnamehash}{e5e5aa3371f8a58fa5a3fbc996799906}
+      \strng{authornamehash}{21e133f1888d4ce8bc72104200629a67}
+      \strng{authorfullhash}{e5e5aa3371f8a58fa5a3fbc996799906}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding the factors that drive species population dynamics is fundamental to biology. Cyclic populations of microtine rodents have been the most intensively studied to date, yet there remains great uncertainty over the mechanisms determining the dynamics of most of these populations. For one such population, we present preliminary evidence for a novel mechanism by which herbivore-induced reductions in plant quality alter herbivore life-history parameters and subsequent population growth. We tested the effect of high silica levels on the population growth and individual performance of voles (Microtus agrestis) reared on their winter food plant (Deschampsia caespitosa). In sites where the vole population density was high, silica levels in D. caespitosa leaves collected several months later were also high and vole populations subsequently declined; in sites where the vole densities were low, levels of silica were low and population density increased. High silica levels in their food reduced vole body mass by 0.5\% a day. We argue that silica-based defences in grasses may play a key role in driving vole population cycles.}
+      \field{day}{23}
+      \field{journaltitle}{Biology Letters}
+      \field{month}{8}
+      \field{note}{Publisher: Royal Society}
+      \field{number}{4}
+      \field{title}{Are silica defences in grasses driving vole population cycles?}
+      \field{urlday}{24}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{volume}{4}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{419\bibrangedash 422}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1098/rsbl.2008.0106
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/WZBSWEFS/Massey et al. - 2008 - Are silica defences in grasses driving vole popula.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/MSRMJYF4/rsbl.2008.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://royalsocietypublishing.org/doi/full/10.1098/rsbl.2008.0106
+      \endverb
+      \verb{url}
+      \verb https://royalsocietypublishing.org/doi/full/10.1098/rsbl.2008.0106
+      \endverb
+    \endentry
+    \entry{massey_herbivore_2007}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=695f826847c5a647eb1fbdc54d3e398c}{%
+           family={Massey},
+           familyi={M\bibinitperiod},
+           given={Fergus\bibnamedelima P.},
+           giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=0aa8fe20d5a543e4959d799aa2f42c78}{%
+           family={Roland\bibnamedelima Ennos},
+           familyi={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a382ce3a123769d34d16eb34d216231}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Sue\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a1c4b3e125ab95b64aaed2af6bcab3cc}
+      \strng{fullhash}{7e1b6220fe20d99e11d6ff413518f3f6}
+      \strng{bibnamehash}{7e1b6220fe20d99e11d6ff413518f3f6}
+      \strng{authorbibnamehash}{7e1b6220fe20d99e11d6ff413518f3f6}
+      \strng{authornamehash}{a1c4b3e125ab95b64aaed2af6bcab3cc}
+      \strng{authorfullhash}{7e1b6220fe20d99e11d6ff413518f3f6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Induced plant responses to herbivory have major impacts on herbivore feeding behaviour, performance and population dynamics. These effects are well established for chemical defences, but induction of physical defences remains far less studied. However, for many plants, it is physical defences that play the major role in regulating the levels of herbivore damage sustained. We provide evidence that, in grasses, induction of physical defences is both specific to herbivore feeding, as opposed to mechanical damage, and may be dependant on the amount of damage imposed. Furthermore, we show that the magnitude of the induction response is sufficient to deter further damage and affect herbivore performance. We compared silica induction in two grass species in response to vertebrate and invertebrate damage, and to mechanical defoliation. Induction was assessed at two levels of damage over 16 months. Foliar silica content did not increase in response to mechanical defoliation, but damage by either voles or locusts resulted in increases in silica content of over 400\%. This increase deterred feeding by both voles and locusts. Silica induction in grasses due to repeated damage events over a prolonged period suggests a possible role for silica defence in the cyclical population fluctuations observed in many grass-feeding herbivores.}
+      \field{day}{1}
+      \field{issn}{1432-1939}
+      \field{journaltitle}{Oecologia}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shortjournal}{Oecologia}
+      \field{title}{Herbivore specific induction of silica-based plant defences}
+      \field{urlday}{8}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{volume}{152}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{677\bibrangedash 683}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/s00442-007-0703-5
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/isaac/Zotero/storage/TRTWYQLZ/Massey et al. - 2007 - Herbivore specific induction of silica-based plant.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00442-007-0703-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00442-007-0703-5
+      \endverb
+    \endentry
+    \entry{meena_case_2014}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=c91465ac3886819252af5048ec6e7a0b}{%
+           family={Meena},
+           familyi={M\bibinitperiod},
+           given={V.\bibnamedelimi D.},
+           giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41cdfb3b40a27ea23e024b93a92cecb9}{%
+           family={Dotaniya},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbbd00364776213471183c39ff397e65}{%
+           family={Coumar},
+           familyi={C\bibinitperiod},
+           given={Vassanda},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68115d9c40b8746ee4b38d33fb1c7735}{%
+           family={Rajendiran},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2b4ffb1fce6be175baac966150f9390}{%
+           family={{Ajay}},
+           familyi={A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9089e9431d682ec321402c7384cc4658}{%
+           family={Kundu},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8c473ac728b22633ef4559d40fa0d2c}{%
+           family={Subba\bibnamedelima Rao},
+           familyi={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab37fba22f84bcdd4afabb34914bb8b9}
+      \strng{fullhash}{7d278db13ac1c123439d554629221559}
+      \strng{bibnamehash}{7d278db13ac1c123439d554629221559}
+      \strng{authorbibnamehash}{7d278db13ac1c123439d554629221559}
+      \strng{authornamehash}{ab37fba22f84bcdd4afabb34914bb8b9}
+      \strng{authorfullhash}{7d278db13ac1c123439d554629221559}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Long period of intensive crop cultivation deplete the available soil silicon (Si). Depletion of available Si in the soil could be one of the possible limiting factors amongst others contributing to declining yields. The lower values for Si in the soil can be justified due to (i) severe and frequent soil erosion and sediment transportation. (ii) Usually plants absorb Si almost equal to the concentration of most of macronutrients. (iii) Due to the desilication process, Si in the soil is continuously lost as the result of leaching process. Subtropical and tropical soils are generally low in available Si and would benefit from Si fertilization. The silicon content in some regions might be limited to sustainable crop production. Hence, improved Si management to increase yield and sustain crop productivity appears to be necessary in temperate as well in tropical countries. In order to address this problem of yield decline or stagnation, it seems necessary to survey the Si status of agriculturally important soils of different parts of the country and develop region-specific integrated nutrient management systems that include the Si element.}
+      \field{day}{1}
+      \field{issn}{2250-1746}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences, India Section B: Biological Sciences}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shortjournal}{Proc. Natl. Acad. Sci., India, Sect. B Biol. Sci.}
+      \field{title}{A Case for Silicon Fertilization to Improve Crop Yields in Tropical Soils}
+      \field{urlday}{2}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{volume}{84}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{505\bibrangedash 518}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s40011-013-0270-y
+      \endverb
+      \verb{file}
+      \verb Springer Full Text PDF:/home/isaac/Zotero/storage/G9YJPA5Q/Meena et al. - 2014 - A Case for Silicon Fertilization to Improve Crop Y.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s40011-013-0270-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s40011-013-0270-y
+      \endverb
+    \endentry
+    \entry{muszynska_mechanistic_2021}{article}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=afef0b20bc9443e87ac3d77203d64051}{%
+           family={Muszynska},
+           familyi={M\bibinitperiod},
+           given={Aleksandra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35a936a791cff553306f75d1bf89baff}{%
+           family={Guendel},
+           familyi={G\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4375ba92539445bcbc71b0a03a91e9c5}{%
+           family={Melzer},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12162a6e004700e38a27c3545bc1fe16}{%
+           family={Tandron\bibnamedelima Moya},
+           familyi={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Yudelsy\bibnamedelima Antonia},
+           giveni={Y\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=caed88f5994cb38ca28aba8c1233dc11}{%
+           family={Röder},
+           familyi={R\bibinitperiod},
+           given={Marion\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2b528fda15315f0cd844ecbaaecdb34}{%
+           family={Rolletschek},
+           familyi={R\bibinitperiod},
+           given={Hardy},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c81b8aaeb2c74118e88db1c64dcac986}{%
+           family={Rutten},
+           familyi={R\bibinitperiod},
+           given={Twan},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=519df473f8e355c4d596c2774c533224}{%
+           family={Munz},
+           familyi={M\bibinitperiod},
+           given={Eberhard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4616dfe0ee1584843a24c75a1a18335}{%
+           family={Melz},
+           familyi={M\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a70c580f255f8ef60ec3138bafca7f8f}{%
+           family={Ortleb},
+           familyi={O\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4f0c7bb5b401d23acc9a4a38704c5d4}{%
+           family={Borisjuk},
+           familyi={B\bibinitperiod},
+           given={Ljudmilla},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0681ef96d8a8ee21331c3f3ca27dfa6}{%
+           family={Börner},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{74588441251f9a5104effb683dd01209}
+      \strng{fullhash}{b60d46fb60273fd0fbaa3918269a8bb0}
+      \strng{bibnamehash}{b60d46fb60273fd0fbaa3918269a8bb0}
+      \strng{authorbibnamehash}{b60d46fb60273fd0fbaa3918269a8bb0}
+      \strng{authornamehash}{74588441251f9a5104effb683dd01209}
+      \strng{authorfullhash}{b60d46fb60273fd0fbaa3918269a8bb0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The development of crop varieties that are resistant to lodging is a top priority for breeding programmes. Herein, we characterize the rye mutant ´Stabilstroh’ (‘stable straw’) possessing an exceptional combination of high lodging resistance, tall posture and high biomass production. Nuclear magnetic resonance imaging displayed the 3-dimensional assembly of vascular bundles in stem. A higher number of vascular bundles and a higher degree of their incline were the features of lodging-resistant versus lodging-prone lines. Histology and electron microscopy revealed that stems are fortified by a higher proportion of sclerenchyma and thickened cell walls, as well as some epidermal invaginations. Biochemical analysis using Fourier-transform infrared spectroscopy and inductively coupled plasma-optical emission spectrometry further identified elevated levels of lignin, xylan, zinc and silicon as features associated with high lodging resistance. Combined effects of above features caused superior culm stability. A simplistic mathematical model showed how mechanical forces distribute within the stem under stress. Main traits of the lodging-resistant parental line were heritable and could be traced back to the genetic structure of the mutant. Evaluation of lodging-resistant wheat ‘Babax’ (‘Baviacora’) versus contrasting, lodging-prone, genotype ´Pastor´ agreed with above findings on rye. Our findings on mechanical stability and extraordinary culm properties may be important for breeders for the improvement of lodging resistance of tall posture cereal crops.}
+      \field{issn}{1467-7652}
+      \field{journaltitle}{Plant Biotechnology Journal}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/pbi.13689}
+      \field{number}{12}
+      \field{shorttitle}{A mechanistic view on lodging resistance in rye and wheat}
+      \field{title}{A mechanistic view on lodging resistance in rye and wheat: a multiscale comparative study}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{19}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2646\bibrangedash 2661}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/pbi.13689
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/6HWKZPMS/Muszynska et al. - 2021 - A mechanistic view on lodging resistance in rye an.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/9S5XF3ZA/pbi.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13689
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13689
+      \endverb
+      \keyw{cell wall,Fourier-transform infrared spectroscopy,lodging resistance,nuclear magnetic resonance imaging,{QTL} mapping,scanning electron microscopy}
+    \endentry
+    \entry{nawaz_phytolith_2019}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=2979468678308d3cf3325f4e28eec20a}{%
+           family={Nawaz},
+           familyi={N\bibinitperiod},
+           given={Muhammad\bibnamedelima Amjad},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8ca5a935a7540337606ef07264ad0cd}{%
+           family={Zakharenko},
+           familyi={Z\bibinitperiod},
+           given={Alexander\bibnamedelima Mikhailovich},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46d93644973d186cdf2547d2322f848d}{%
+           family={Zemchenko},
+           familyi={Z\bibinitperiod},
+           given={Ivan\bibnamedelima Vladimirovich},
+           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b2222c9274041cf53178b697bb3a9f5}{%
+           family={Haider},
+           familyi={H\bibinitperiod},
+           given={Muhammad\bibnamedelima Sajjad},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e36d8d3363c2797f7a6f4dfe476a2fb3}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Muhammad\bibnamedelima Amjad},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1cca2605648b084c0716bd4b9967e448}{%
+           family={Imtiaz},
+           familyi={I\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cc11c47be407f5614dfdaacec584046}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Gyuhwa},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e387f9ae86468e758838044286e0d326}{%
+           family={Tsatsakis},
+           familyi={T\bibinitperiod},
+           given={Aristides},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3f5ad8ba6642c69186c937738728719}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Sangmi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49f2b178bbf7689abe72739d670c59a0}{%
+           family={Golokhvast},
+           familyi={G\bibinitperiod},
+           given={Kirill\bibnamedelima Sergeyevich},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b633ebb0aba0aea7a9c8b14eefd319d3}
+      \strng{fullhash}{628d7fe8af86d4533b6ac0fcc2916b63}
+      \strng{bibnamehash}{628d7fe8af86d4533b6ac0fcc2916b63}
+      \strng{authorbibnamehash}{628d7fe8af86d4533b6ac0fcc2916b63}
+      \strng{authornamehash}{b633ebb0aba0aea7a9c8b14eefd319d3}
+      \strng{authorfullhash}{628d7fe8af86d4533b6ac0fcc2916b63}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Silica is deposited extra- and intracellularly in plants in solid form, as phytoliths. Phytoliths have emerged as accepted taxonomic tools and proxies for reconstructing ancient flora, agricultural economies, environment, and climate. The discovery of silicon transporter genes has aided in the understanding of the mechanism of silicon transport and deposition within the plant body and reconstructing plant phylogeny that is based on the ability of plants to accumulate silica. However, a precise understanding of the process of silica deposition and the formation of phytoliths is still an enigma and the information regarding the proteins that are involved in plant biosilicification is still scarce. With the observation of various shapes and morphologies of phytoliths, it is essential to understand which factors control this mechanism. During the last two decades, significant research has been done in this regard and silicon research has expanded as an Earth-life science superdiscipline. We review and integrate the recent knowledge and concepts on the uptake and transport of silica and its deposition as phytoliths in plants. We also discuss how different factors define the shape, size, and chemistry of the phytoliths and how biosilicification evolved in plants. The role of channel-type and efflux silicon transporters, proline-rich proteins, and siliplant1 protein in transport and deposition of silica is presented. The role of phytoliths against biotic and abiotic stress, as mechanical barriers, and their use as taxonomic tools and proxies, is highlighted.}
+      \field{issn}{2223-7747}
+      \field{journaltitle}{Plants}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{note}{Number: 8 Publisher: Multidisciplinary Digital Publishing Institute}
+      \field{number}{8}
+      \field{shorttitle}{Phytolith Formation in Plants}
+      \field{title}{Phytolith Formation in Plants: From Soil to Cell}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{8}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{249}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/plants8080249
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/RLF4BFYC/Nawaz et al. - 2019 - Phytolith Formation in Plants From Soil to Cell.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2223-7747/8/8/249
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2223-7747/8/8/249
+      \endverb
+      \keyw{biomineralization,biosilicification,Lsi,palaeoenvironment reconstruction,phytoliths,silicon,siliplant1 (Sip1) protein}
+    \endentry
+    \entry{piperno_phytoliths_2006}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=14e2ca89c3c8367d945e975b84d82dcf}{%
+           family={Piperno},
+           familyi={P\bibinitperiod},
+           given={Dolores\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Rowman Altamira}%
+      }
+      \strng{namehash}{14e2ca89c3c8367d945e975b84d82dcf}
+      \strng{fullhash}{14e2ca89c3c8367d945e975b84d82dcf}
+      \strng{bibnamehash}{14e2ca89c3c8367d945e975b84d82dcf}
+      \strng{authorbibnamehash}{14e2ca89c3c8367d945e975b84d82dcf}
+      \strng{authornamehash}{14e2ca89c3c8367d945e975b84d82dcf}
+      \strng{authorfullhash}{14e2ca89c3c8367d945e975b84d82dcf}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The study of phytoliths—inorganic silica remnants plants leave behind when they die and decay—has developed dramatically over the last twenty years. New publications have documented a diverse array of phytoliths from many regions around the globe, while new understandings have emerged as to how and why plants produce phytoliths. Together, these developments make phytoliths a powerful tool in reconstructing past environments and human uses of plants. In Phytoliths, Dolores Piperno makes sense of the discipline for both those working directly with phytoliths in the field or the lab as well as for those who rely on the results of phytolith studies for their own research. Including over a hundred images, Piperno's book will be of great benefit to archaeologists and paleobotanists in the classroom or the lab.}
+      \field{day}{30}
+      \field{isbn}{978-0-7591-1446-3}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Google-Books-{ID}: {VWYnAAAAQBAJ}}
+      \field{pagetotal}{249}
+      \field{shorttitle}{Phytoliths}
+      \field{title}{Phytoliths: A Comprehensive Guide for Archaeologists and Paleoecologists}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \keyw{Social Science / Archaeology}
+    \endentry
+    \entry{reidinger_rapid_2012}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=14aea8d0597e262fe6a4bd2ba250fa03}{%
+           family={Reidinger},
+           familyi={R\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09edc01bd8708b529f79baf69fa43bf7}{%
+           family={Ramsey},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c84fe06640a128f5f55234e483a10179}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d58dde025d5d9d0e780998f6069bafb1}
+      \strng{fullhash}{c9c4c21d09df219948583d0951c3724e}
+      \strng{bibnamehash}{c9c4c21d09df219948583d0951c3724e}
+      \strng{authorbibnamehash}{c9c4c21d09df219948583d0951c3724e}
+      \strng{authornamehash}{d58dde025d5d9d0e780998f6069bafb1}
+      \strng{authorfullhash}{c9c4c21d09df219948583d0951c3724e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{• The elemental analysis of plant material is a frequently employed tool across biological disciplines, yet accurate, convenient and economical methods for the determination of some important elements are currently lacking. For instance, digestion-based techniques are often hazardous and time-consuming and, particularly in the case of silicon (Si), can suffer from low accuracy due to incomplete solubilization and potential volatilization, whilst other methods may require large, expensive and specialised equipment. • Here, we present a rapid, safe and accurate procedure for the simultaneous, nonconsumptive analysis of Si and phosphorus (P) in as little as 0.1 g dried and ground plant material using a portable X-ray fluorescence spectrometer (P-{XRF}). • We used certified reference materials from different plant species to test the analytical performance of P-{XRF} and show that the analysis suffers from very little bias and that the repeatability precision of the measurements is as good as or better than that of other methods. • Using this technique we were able to process and analyse 200 ground samples a day, so P-{XRF} could provide a particularly valuable tool for plant biologists requiring the simultaneous nonconsumptive analysis of multiple elements, including those known to be difficult to measure such as Si, in large numbers of samples.}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytologist}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://nph.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1469-8137.2012.04179.x}
+      \field{number}{3}
+      \field{title}{Rapid and accurate analyses of silicon and phosphorus in plants using a portable X-ray fluorescence spectrometer}
+      \field{urlday}{16}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{volume}{195}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{699\bibrangedash 706}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/j.1469-8137.2012.04179.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/5LLRRZDI/Reidinger et al. - 2012 - Rapid and accurate analyses of silicon and phospho.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/W53RZLDH/j.1469-8137.2012.04179.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-8137.2012.04179.x
+      \endverb
+      \verb{url}
+      \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-8137.2012.04179.x
+      \endverb
+      \keyw{elemental analysis,herbage,phosphorus (P),portable X-ray fluorescence spectrometry (P-{XRF}),silicon (Si)}
+    \endentry
+    \entry{schmelz_quantitative_2003}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d6123e0b8ecbb214861600206dcf608f}{%
+           family={Schmelz},
+           familyi={S\bibinitperiod},
+           given={Eric\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d6670943b9c872a2ae19dbe9a821144}{%
+           family={Alborn},
+           familyi={A\bibinitperiod},
+           given={Hans\bibnamedelima T.},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47469c1064f2faaa0bff89525bac6f35}{%
+           family={Banchio},
+           familyi={B\bibinitperiod},
+           given={Erika},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fceb978ee30600e5d9fcd830d82ab45}{%
+           family={Tumlinson},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ab8b16cfb5b2ce81fbf39e90aa20062}
+      \strng{fullhash}{2d8c761a4a55d5b2a51eb775d3f0b50d}
+      \strng{bibnamehash}{2d8c761a4a55d5b2a51eb775d3f0b50d}
+      \strng{authorbibnamehash}{2d8c761a4a55d5b2a51eb775d3f0b50d}
+      \strng{authornamehash}{3ab8b16cfb5b2ce81fbf39e90aa20062}
+      \strng{authorfullhash}{2d8c761a4a55d5b2a51eb775d3f0b50d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Jasmonic acid ({JA}) has long been hypothesized to be an important regulator of insect-induced volatile emission; however, current models are based primarily on circumstantial evidence derived from pharmacological studies. Using beet armyworm caterpillars ({BAW}: Spodoptera exigua) and intact corn seedlings, we examine this hypothesis by measuring both the time-course of insect-induced {JA} levels and the relationships between endogenous {JA} levels, ethylene, indole and sesquiterpenes. In separate Morning and Evening time-course trials, {BAW} feeding stimulated increases in {JA} levels within the first 4–6 h and resulted in maximal increases in {JA}, indole, sesquiterpenes and ethylene 8–16 h later. During {BAW} herbivory, increases in {JA} either paralleled or preceded the increases in indole, sesquiterpenes and ethylene in the Morning and Evening trials, respectively. By varying the intensity of the {BAW} herbivory, we demonstrate that strong positive relationships exist between the resulting variation in insect-induced {JA} levels and volatile emissions such as indole and the sesquiterpenes. To address potential signaling interactions between herbivore-induced {JA} and ethylene, plants were pretreated with 1-methylcyclopropene (1-{MCP}), an inhibitor of ethylene perception. 1-{MCP} pretreatment resulted in reduced production of ethylene and volatile emission following {BAW} herbivory but did not alter the insect-induced accumulation of {JA}. Our results strongly support a role for {JA} in the regulation of insect-induced volatile emission but also suggest that ethylene perception regulates the magnitude of volatile emission during herbivory.}
+      \field{day}{1}
+      \field{issn}{1432-2048}
+      \field{journaltitle}{Planta}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{4}
+      \field{shortjournal}{Planta}
+      \field{title}{Quantitative relationships between induced jasmonic acid levels and volatile emission in Zea mays during Spodoptera exigua herbivory}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{216}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{665\bibrangedash 673}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s00425-002-0898-y
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/CM6YQCV6/Schmelz et al. - 2003 - Quantitative relationships between induced jasmoni.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00425-002-0898-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00425-002-0898-y
+      \endverb
+      \keyw{Ethylene Insect herbivory Jasmonic acid Spodoptera Volatile emission Zea}
+    \endentry
+    \entry{simpson_still_2017}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a0b769d583da8df5b57619c0561b6461}{%
+           family={Simpson},
+           familyi={S\bibinitperiod},
+           given={Kimberley\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bdee7aa620a155199337d7863a45f6f}{%
+           family={Wade},
+           familyi={W\bibinitperiod},
+           given={Ruth\bibnamedelima N.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=499064983a8192ef378dc3c4308f2438}{%
+           family={Rees},
+           familyi={R\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8e6ebf733357a10f56fb05ff9c5c4f1}{%
+           family={Osborne},
+           familyi={O\bibinitperiod},
+           given={Colin\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a382ce3a123769d34d16eb34d216231}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Sue\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d91dcb38221a2c9dfda30907703627ae}
+      \strng{fullhash}{1bb0853f364f59dd0c7f689cf8884f24}
+      \strng{bibnamehash}{1bb0853f364f59dd0c7f689cf8884f24}
+      \strng{authorbibnamehash}{1bb0853f364f59dd0c7f689cf8884f24}
+      \strng{authornamehash}{d91dcb38221a2c9dfda30907703627ae}
+      \strng{authorfullhash}{1bb0853f364f59dd0c7f689cf8884f24}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Plant phenotypes reflect trade-offs between competing resource-intensive physiological processes. A shift in resource allocation, away from anti-herbivore defences and towards growth and reproduction, is predicted through plant domestication, such that crops are faster growing and higher yielding than their wild ancestors. These changes are hypothesized to have come at the cost of defence investment, leaving crops “disarmed by domestication”. Silicon is the principal anti-herbivore defence in grasses, including many of our most important staple cereal crops, but the impact of domestication on silicon-based defences is unknown. We measured the effects of both domestication and modern agronomic selection on growth rate and a suite of anti-herbivore defences, specifically leaf toughness, silicon and phenolic concentrations. Our comparison of wild, landrace and modern cultivated cereals spanned multiple cereal species, including wheat, barley and maize, sampling eight independent domestication events and five examples of modern agronomic selection. Leaf silicon concentration showed a small, but significant, 10\% reduction through domestication, but there was no effect of modern agronomic selection, and phenolic concentration was not affected by either factor. Silicon concentration correlated positively with leaf tensile strength, but negatively with foliar phenolic concentrations, suggesting a trade-off between chemical and physical defences. Size-standardized growth rate was independent of domestication status, and did not trade-off with silicon or phenolic defences. However, modelling showed that relative growth rate slowed more with increasing size in plants with higher silicon levels, so that they reached a smaller final size, implying a cost of silicon-based defence. We found the opposite pattern for phenolic-based defence, with increasing phenolic concentrations associated with a greater plant size at maturity, and faster maximum relative growth rates. Silicon-based defences have been reduced in cereals through domestication, consistent with our predicted costs of these defences to growth. However, modern agronomic selection has not influenced silicon defences in cereal crops and the small decrease in silicon concentration associated with domestication is unlikely to have a major effect on the ability of cereals to withstand a range of abiotic and biotic stresses. These findings have broad implications for crop protection and our understanding of plant trade-offs. A plain language summary is available for this article.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Functional Ecology}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2435.12935}
+      \field{number}{11}
+      \field{shorttitle}{Still armed after domestication?}
+      \field{title}{Still armed after domestication? Impacts of domestication and agronomic selection on silicon defences in cereals}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{volume}{31}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2108\bibrangedash 2117}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/1365-2435.12935
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/J9X95MI3/Simpson et al. - 2017 - Still armed after domestication Impacts of domest.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/C24EQ6EV/1365-2435.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12935
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12935
+      \endverb
+      \keyw{cereals,crop protection,growth-defence trade-offs,herbivory,landraces,modern cultivars,phenolics,silica,wild ancestors}
+    \endentry
+    \entry{smith_domestication_2019}{article}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=e4c8c37e34209dd0f61d34723d9061fe}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a8369a23dd79957252e103cc34cf809}{%
+           family={Nicholson},
+           familyi={N\bibinitperiod},
+           given={William\bibnamedelima V.},
+           giveni={W\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=013018a205010a75addc3733be7bddf6}{%
+           family={Kistler},
+           familyi={K\bibinitperiod},
+           given={Logan},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f18a2ec42b44b0c4b765c189eb43bf5}{%
+           family={Mace},
+           familyi={M\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=210a73ec8f0dc68d1b9f09b93fadc1a6}{%
+           family={Clapham},
+           familyi={C\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1cefe072c79b94f9db15c25d90894d51}{%
+           family={Rose},
+           familyi={R\bibinitperiod},
+           given={Pamela},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e7b6de17b0a8deba9343dc65048552f}{%
+           family={Stevens},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e053591882357ab5d7335cb3e20b6cbd}{%
+           family={Ware},
+           familyi={W\bibinitperiod},
+           given={Roselyn},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da4318b0f9fe35d43f353e6bf694c7ba}{%
+           family={Samavedam},
+           familyi={S\bibinitperiod},
+           given={Siva},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d3a4cebf58ecbaddcbbb625334fddf4}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83e21a0d54beaf00242bba44315ae82e}{%
+           family={Jordan},
+           familyi={J\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8660d029f33bb1d51c0a2d8a7a6fdd4}{%
+           family={Fuller},
+           familyi={F\bibinitperiod},
+           given={Dorian\bibnamedelima Q.},
+           giveni={D\bibinitperiod\bibinitdelim Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=950dd8a322900177760e6737a35fecdf}{%
+           family={Allaby},
+           familyi={A\bibinitperiod},
+           given={Robin\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9290b030c702262c9711ebcdb55f95c8}
+      \strng{fullhash}{62e369e38320eaff9d6123f3cf1c2f69}
+      \strng{bibnamehash}{62e369e38320eaff9d6123f3cf1c2f69}
+      \strng{authorbibnamehash}{62e369e38320eaff9d6123f3cf1c2f69}
+      \strng{authornamehash}{9290b030c702262c9711ebcdb55f95c8}
+      \strng{authorfullhash}{62e369e38320eaff9d6123f3cf1c2f69}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The evolution of domesticated cereals was a complex interaction of shifting selection pressures and repeated episodes of introgression. Genomes of archaeological crops have the potential to reveal these dynamics without being obscured by recent breeding or introgression. We report a temporal series of archaeogenomes of the crop sorghum (Sorghum bicolor) from a single locality in Egyptian Nubia. These data indicate no evidence for the effects of a domestication bottleneck, but instead reveal a steady decline in genetic diversity over time coupled with an accumulating mutation load. Dynamic selection pressures acted sequentially to shape architectural and nutritional domestication traits and to facilitate adaptation to the local environment. Later introgression between sorghum races allowed the exchange of adaptive traits and achieved mutual genomic rescue through an ameliorated mutation load. These results reveal a model of domestication in which genomic adaptation and deterioration were not focused on the initial stages of domestication but occurred throughout the history of cultivation.}
+      \field{issn}{2055-0278}
+      \field{journaltitle}{Nature Plants}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{note}{Number: 4 Publisher: Nature Publishing Group}
+      \field{number}{4}
+      \field{shortjournal}{Nat. Plants}
+      \field{title}{A domestication history of dynamic adaptation and genomic deterioration in Sorghum}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{5}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{369\bibrangedash 379}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1038/s41477-019-0397-9
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/PNYS4FZJ/Smith et al. - 2019 - A domestication history of dynamic adaptation and .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41477-019-0397-9
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41477-019-0397-9
+      \endverb
+      \keyw{Archaeology,Evolution,Genome evolution}
+    \endentry
+    \entry{strauss_direct_2002}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e3f0fe27e53a8d05ee98a2db52615806}{%
+           family={Strauss},
+           familyi={S\bibinitperiod},
+           given={Sharon\bibnamedelima Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef35120d35301991ed1da9f5ec2d96ea}{%
+           family={Rudgers},
+           familyi={R\bibinitperiod},
+           given={Jennifer\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c79f273b8a5b5da06f2f5a8f8097b85}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Jennifer\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e052a663b8e802c767af1deeeca4735}{%
+           family={Irwin},
+           familyi={I\bibinitperiod},
+           given={Rebecca\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a4acad7b1c14edb212920f5b18f3fd1a}
+      \strng{fullhash}{436c1cdd16259ba554037c8447686d85}
+      \strng{bibnamehash}{436c1cdd16259ba554037c8447686d85}
+      \strng{authorbibnamehash}{436c1cdd16259ba554037c8447686d85}
+      \strng{authornamehash}{a4acad7b1c14edb212920f5b18f3fd1a}
+      \strng{authorfullhash}{436c1cdd16259ba554037c8447686d85}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Herbivores can consume significant amounts of plant biomass in many environments. Yet plants are not defenseless against such attack. Although defenses might benefit plants in the presence of herbivores, herbivore attack varies both spatially and temporally, and the expression of plant resistance to herbivores can be costly in the absence of plant enemies. Costs can be described as allocation costs, resource-based tradeoffs between resistance and fitness, or as ecological costs, decreases in fitness resulting from interactions with other species. Here, we update the seminal 1996 Bergelson and Purrington review of resistance costs and find that many more studies have documented costs of resistance (sensu lato) than found during the 1996 survey. Eighty-two percent of studies in which genetic background is controlled, demonstrate significant fitness reductions associated with herbivore resistance. We categorize studies by type of resistance, induced or constitutive, by type of cost, and also by the degree to which investigators controlled for genetic background. Recent work has commonly detected both direct resistance costs, such as resource-based tradeoffs, and ecological costs, which depend on interactions with other species.}
+      \field{day}{1}
+      \field{issn}{0169-5347}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shortjournal}{Trends in Ecology \& Evolution}
+      \field{title}{Direct and ecological costs of resistance to herbivory}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{17}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{278\bibrangedash 285}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/S0169-5347(02)02483-7
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/isaac/Zotero/storage/9WV46ITW/Strauss et al. - 2002 - Direct and ecological costs of resistance to herbi.pdf:application/pdf;ScienceDirect Snapshot:/home/isaac/Zotero/storage/MC5YZHQ6/S0169534702024837.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169534702024837
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169534702024837
+      \endverb
+      \keyw{allocation,cost,ecological cost,herbivory,induction,plant biology,plant defence,resistance,tradeoffs}
+    \endentry
+    \entry{stromberg_functions_2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=053e831163843e855cd9f0860804aafa}{%
+           family={Strömberg},
+           familyi={S\bibinitperiod},
+           given={Caroline\bibnamedelimb A.\bibnamedelimi E.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=311e8e5162f2e1a497f4ffc75076b421}{%
+           family={Stilio},
+           familyi={S\bibinitperiod},
+           given={Verónica\bibnamedelimb S.\bibnamedelimi Di},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a51852245cb96b981ce9ccd80643beb0}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Zhaoliang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{22e68ec46d6399cdc19f49a525456707}
+      \strng{fullhash}{70cc12dfb623709ce162bca50e19593f}
+      \strng{bibnamehash}{70cc12dfb623709ce162bca50e19593f}
+      \strng{authorbibnamehash}{70cc12dfb623709ce162bca50e19593f}
+      \strng{authornamehash}{22e68ec46d6399cdc19f49a525456707}
+      \strng{authorfullhash}{70cc12dfb623709ce162bca50e19593f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Solid biosilica (phytoliths) deposited in plant tissues is thought to function as structural support, as a cost-effective alternative to lignin, and in herbivore defence, by limiting nutrient access/extraction and abrading herbivore mouthparts. It has been assumed that active phytolith accumulation evolved for these purposes, but these hypotheses remain untested. For example, an influential idea holds that grasses became so silica-rich through antagonistic co-evolution with mammalian grazers during the Cenozoic. We examine whether phytoliths fulfil criteria established for adaptations, focusing on three aspects. First, we evaluate the recent debate concerning whether plant silica wears herbivore mouthparts/teeth. Secondly, we test whether the evolutionary pattern of phytolith accumulation is consistent with adaptive hypotheses by mapping silica content onto time-calibrated land plant and grass phylogenies. Thirdly, we compare with palaeontological evidence for the timing of the ‘demand’ for the hypothesized function (structural support, herbivore defence). Our survey demonstrates that phytoliths meet several criteria for adaptations, but key aspects require further study. For example, phytoliths wear teeth but are likely less important than dietary grit, suggesting that silica deterrence is ineffective against large mammalian grazers. Mapping analysis indicates that active silica accumulation evolved numerous times, rather than being ancestral in land plants. However, a clear temporal link between these events and hypothesized functional ‘demands’ is still missing. For example, we find no convincing evidence for Cenozoic grass-grazer co-evolution. Synthesis. Phytoliths help support and defend plants today, but the adaptive origin of this trait requires further testing. Such tests should integrate the phylogenetic distributions of phytoliths with ecology and biomechanics and use fossil evidence to evaluate the correlation between functional ‘demand’ and plant evolution.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Functional Ecology}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2435.12692}
+      \field{number}{8}
+      \field{shorttitle}{Functions of phytoliths in vascular plants}
+      \field{title}{Functions of phytoliths in vascular plants: an evolutionary perspective}
+      \field{urlday}{16}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{volume}{30}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1286\bibrangedash 1297}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/1365-2435.12692
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/7IH58S2P/Strömberg et al. - 2016 - Functions of phytoliths in vascular plants an evo.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/LFBENZMW/1365-2435.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12692
+      \endverb
+      \verb{url}
+      \verb https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12692
+      \endverb
+      \keyw{adaptation,evolution,herbivore defence,phytoliths,plant silica,structural support}
+    \endentry
+    \entry{takahashi_possibility_1990}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=385d4a1e17eb26b2b1a81470b3ec82a2}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f29229b81b5e67faa4d2d45ee8fb93b}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5ff675d64187e763e310cac83e7510c}{%
+           family={Miyake},
+           familyi={M\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bf3052d6c6190174e4df9ff46d51672f}
+      \strng{fullhash}{1fe345bdf311e64a07732e359fb4176e}
+      \strng{bibnamehash}{1fe345bdf311e64a07732e359fb4176e}
+      \strng{authorbibnamehash}{1fe345bdf311e64a07732e359fb4176e}
+      \strng{authornamehash}{bf3052d6c6190174e4df9ff46d51672f}
+      \strng{authorfullhash}{1fe345bdf311e64a07732e359fb4176e}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Higher plants can be divided into Si accumulators and non-accumulators according to their Si content and Si/Ca ratio. Si accumulators show a characteristic distribution in the phylogenetic system. Three modes of Si uptake are recognized, i.e., active (rice), passive (cucumber), and exclusive (tomato). Active uptake of Si by rice is a metabolic energy-dependent process. Growth responses to Si are...}
+      \field{issn}{0892-2101}
+      \field{journaltitle}{Comments on Agricultural and Food Chemistry}
+      \field{number}{2}
+      \field{title}{The possibility of silicon as an essential element for higher plants.}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{2}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{99\bibrangedash 102}
+      \range{pages}{4}
+      \verb{file}
+      \verb Snapshot:/home/isaac/Zotero/storage/DERZY6RR/19921964619.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cabdirect.org/cabdirect/abstract/19921964619
+      \endverb
+      \verb{url}
+      \verb https://www.cabdirect.org/cabdirect/abstract/19921964619
+      \endverb
+    \endentry
+    \entry{de_tombeur_plants_2020}{article}{}
+      \name{author}{8}{}{%
+        {{un=2,uniquepart=given,hash=00572957052ef10291089b37eb16292f}{%
+           family={Tombeur},
+           familyi={T\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=2,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=c9aef9170254694919e80df3a67f18ad}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={B.\bibnamedelimi L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5c5e4cacbaf85e20db92602fcf1e4ca}{%
+           family={Laliberté},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a199d63402f4b442138a96e70d76ff7}{%
+           family={Lambers},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6655f66fec683b74845244c586d793c}{%
+           family={Mahy},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c557aae2ec95ce97ae80e01ee4fa8028}{%
+           family={Faucon},
+           familyi={F\bibinitperiod},
+           given={M.-P.},
+           giveni={M\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8bfdfe71099e4644abf960028becbd0}{%
+           family={Zemunik},
+           familyi={Z\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c59bb9a46237261de54c84d1b2f3b07e}{%
+           family={Cornelis},
+           familyi={C\bibinitperiod},
+           given={J.-T.},
+           giveni={J\bibinithyphendelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6083feafe80786b390ca0d03602fd3db}
+      \strng{fullhash}{b1ce267fd9a1c47546394b49cc611849}
+      \strng{bibnamehash}{b1ce267fd9a1c47546394b49cc611849}
+      \strng{authorbibnamehash}{b1ce267fd9a1c47546394b49cc611849}
+      \strng{authornamehash}{6083feafe80786b390ca0d03602fd3db}
+      \strng{authorfullhash}{b1ce267fd9a1c47546394b49cc611849}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{journaltitle}{Science}
+      \field{month}{9}
+      \field{note}{Publisher: American Association for the Advancement of Science}
+      \field{number}{6508}
+      \field{title}{Plants sustain the terrestrial silicon cycle during ecosystem retrogression}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{369}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1245\bibrangedash 1248}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.abc0393
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.abc0393
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.abc0393
+      \endverb
+    \endentry
+    \entry{de_tombeur_silicon_2021-1}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=2,uniquepart=given,hash=e82a403fbeccc346bb13e8fe43b8631d}{%
+           family={Tombeur},
+           familyi={T\bibinitperiod},
+           given={Félix},
+           giveni={F\bibinitperiod},
+           givenun=2,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=7bf084c47f7a6137e77eefe610cfcdd9}{%
+           family={Cornelis},
+           familyi={C\bibinitperiod},
+           given={Jean-Thomas},
+           giveni={J\bibinithyphendelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8d63af1c0a0366c416046ffa5c7f937}{%
+           family={Lambers},
+           familyi={L\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fa3126e8dcbf7ca31ce03eef38227367}
+      \strng{fullhash}{b066bc10c390f3607355376f6546b2c1}
+      \strng{bibnamehash}{b066bc10c390f3607355376f6546b2c1}
+      \strng{authorbibnamehash}{b066bc10c390f3607355376f6546b2c1}
+      \strng{authornamehash}{fa3126e8dcbf7ca31ce03eef38227367}
+      \strng{authorfullhash}{b066bc10c390f3607355376f6546b2c1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Plants have evolved numerous strategies to acquire poorly available nutrients from soil, including the release of carboxylates from their roots. Silicon (Si) release from mineral dissolution increases in the presence of chelating substances, and recent evidence shows that leaf [Si] increases markedly in old phosphorus (P)-depleted soils, where many species exhibit carboxylate-releasing strategies, compared with younger P-richer soils. Here, we propose that root-released carboxylates, and more generally rhizosphere processes, play an overlooked role in plant Si accumulation by increasing soil Si mobilisation from minerals. We suggest that Si mobilisation is costly in terms of carbon but becomes cheaper if those costs are already met to acquire poorly available P. Uptake of the mobilised Si by roots will then depend on whether they express Si transporters.}
+      \field{day}{1}
+      \field{issn}{1360-1385}
+      \field{journaltitle}{Trends in Plant Science}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{Trends in Plant Science}
+      \field{title}{Silicon mobilisation by root-released carboxylates}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{volume}{26}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1116\bibrangedash 1125}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.tplants.2021.07.003
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S136013852100176X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S136013852100176X
+      \endverb
+      \keyw{manganese,mycorrhiza,nutrient-acquisition strategies,phosphorus limitation,rhizosphere processes,root exudates}
+    \endentry
+    \entry{de_tombeur_silicon_2021}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=2,uniquepart=given,hash=e82a403fbeccc346bb13e8fe43b8631d}{%
+           family={Tombeur},
+           familyi={T\bibinitperiod},
+           given={Félix},
+           giveni={F\bibinitperiod},
+           givenun=2,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=18d6bffe87c1622d838c185ffc298541}{%
+           family={Roux},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bf084c47f7a6137e77eefe610cfcdd9}{%
+           family={Cornelis},
+           familyi={C\bibinitperiod},
+           given={Jean-Thomas},
+           giveni={J\bibinithyphendelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{049211f73d3a07c5a36c4bc084be38fe}
+      \strng{fullhash}{965c372cbe2371ce0a0d7352be1f080f}
+      \strng{bibnamehash}{965c372cbe2371ce0a0d7352be1f080f}
+      \strng{authorbibnamehash}{965c372cbe2371ce0a0d7352be1f080f}
+      \strng{authornamehash}{049211f73d3a07c5a36c4bc084be38fe}
+      \strng{authorfullhash}{965c372cbe2371ce0a0d7352be1f080f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Silicon (Si) is increasingly recognized as a pivotal beneficial element for plants in ecology and agricultural sciences, but soil-plant Si cycling has been considered mostly through the prism of abiotic mineral weathering, whilst numerous biological processes have been overlooked. Leveraging ecological processes that impact soil-plant Si cycling in cropping systems might improve crop Si status, but this remains hypothetical to date.}
+      \field{day}{1}
+      \field{issn}{1573-5036}
+      \field{journaltitle}{Plant and Soil}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{1}
+      \field{shortjournal}{Plant Soil}
+      \field{shorttitle}{Silicon dynamics through the lens of soil-plant-animal interactions}
+      \field{title}{Silicon dynamics through the lens of soil-plant-animal interactions: perspectives for agricultural practices}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{467}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/s11104-021-05076-8
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/3DCBP9TF/de Tombeur et al. - 2021 - Silicon dynamics through the lens of soil-plant-an.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11104-021-05076-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11104-021-05076-8
+      \endverb
+      \keyw{Biochar,Cover crops,Facilitation,Integrated crop-livestock systems,Intercropping,Large herbivores,Nutrient-acquisition strategies,Recycling crop residues,Sustainable agroecosystems}
+    \endentry
+    \entry{waterman_short-term_2021-1}{article}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=5c3e517bfe33a883a18947e6bb8d4b6c}{%
+           family={Waterman},
+           familyi={W\bibinitperiod},
+           given={Jamie\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0bb783d8b0bac1997024beb6a9a4200}{%
+           family={Cibils-Stewart},
+           familyi={C\bibinithyphendelim S\bibinitperiod},
+           given={Ximena},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8ca3762a6654627b5c38bcd49456cb7}{%
+           family={Cazzonelli},
+           familyi={C\bibinitperiod},
+           given={Christopher\bibnamedelima I.},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c84fe06640a128f5f55234e483a10179}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb5f10a5ce4fe4a443f1c92369519e36}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Scott\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce331d8731d8d4bd7c9bdda6ace335f7}
+      \strng{fullhash}{e3e5970f0e093813dcf18ec3efb255a9}
+      \strng{bibnamehash}{e3e5970f0e093813dcf18ec3efb255a9}
+      \strng{authorbibnamehash}{e3e5970f0e093813dcf18ec3efb255a9}
+      \strng{authornamehash}{ce331d8731d8d4bd7c9bdda6ace335f7}
+      \strng{authorfullhash}{e3e5970f0e093813dcf18ec3efb255a9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Silicon (Si) can adversely affect insect herbivores, particularly in plants that evolved the ability to accumulate large quantities of Si. Very rapid herbivore-induced accumulation of Si has recently been demonstrated, but the level of protection against herbivory this affords plants remains unknown. Brachypodium distachyon, a model Si hyperaccumulating grass, was exposed to the chewing herbivore, Helicoverpa armigera, and grown under three conditions: supplied Si over 34 d (+Si), not supplied Si (−Si), or supplied Si once herbivory began (−Si → +Si). We evaluated the effectiveness of each Si treatment at reducing herbivore performance and measured Si-based defenses and phenolics (another form of defense often reduced by Si). Although Si concentrations remained lower, within 72 h of exposure to Si, −Si → +Si plants were as resistant to herbivory as +Si plants. Both +Si and −Si → +Si treatments reduced herbivore damage and growth, and increased mandible wear compared to −Si. After 6 h, herbivory increased filled Si cell density in −Si → +Si plants, and within 24 h, −Si → +Si plants reached similar filled Si cell densities to +Si plants, although decreased phenolics only occurred in +Si plants. We demonstrate that plants with short-term Si exposure can rapidly accumulate Si-based antiherbivore defenses as effectively as plants with long-term exposure.}
+      \field{issn}{1939-9170}
+      \field{journaltitle}{Ecology}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ecy.3438}
+      \field{number}{9}
+      \field{title}{Short-term exposure to silicon rapidly enhances plant resistance to herbivory}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{volume}{102}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e03438}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/ecy.3438
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/XXB64CHD/Waterman et al. - 2021 - Short-term exposure to silicon rapidly enhances pl.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/3F3QAP62/ecy.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3438
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3438
+      \endverb
+      \keyw{Helicoverpa armigera,herbivory,plant defense,silica cells,silicon}
+    \endentry
+    \entry{waterman_short-term_2021}{article}{}
+      \name{author}{6}{ul=2}{%
+        {{un=0,uniquepart=base,hash=5c3e517bfe33a883a18947e6bb8d4b6c}{%
+           family={Waterman},
+           familyi={W\bibinitperiod},
+           given={Jamie\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=799c961b11f62f5dc4f8d2496a6c9b66}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Casey\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9c0a19a6b62044392e5aca1bf4437da}{%
+           family={Mikhael},
+           familyi={M\bibinitperiod},
+           given={Meena},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8ca3762a6654627b5c38bcd49456cb7}{%
+           family={Cazzonelli},
+           familyi={C\bibinitperiod},
+           given={Christopher\bibnamedelima I.},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c84fe06640a128f5f55234e483a10179}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb5f10a5ce4fe4a443f1c92369519e36}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Scott\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{df54f781bf0efecced4de30d6a6bfd96}
+      \strng{fullhash}{a03235e0e14ce9b5fbf6973dbc7f39e5}
+      \strng{bibnamehash}{a03235e0e14ce9b5fbf6973dbc7f39e5}
+      \strng{authorbibnamehash}{a03235e0e14ce9b5fbf6973dbc7f39e5}
+      \strng{authornamehash}{df54f781bf0efecced4de30d6a6bfd96}
+      \strng{authorfullhash}{a03235e0e14ce9b5fbf6973dbc7f39e5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Silicon (Si) is known to alleviate diverse biotic and abiotic stresses including insect herbivory. Si accumulation in plants, notably the Poaceae, can be induced through stimulation of the jasmonic acid ({JA}) pathway (associated with chewing herbivores). Nevertheless, the temporal dynamics of Si accumulation as a defence response and its consequential effects on carbon-based defences (e.g. phenolics), particularly in the short-term, remain unclear. The model grass Brachypodium distachyon was grown in a hydroponic solution where half the plants were supplemented with 2 {mM} potassium silicate and half had no Si supplied. Plants were treated with methyl jasmonate ({MeJA}) as a form of standardised simulated herbivory. We measured Si accumulation, the phytohormones {JA} and salicylic acid ({SA}) and carbon-based defences over 24 hr to determine the temporal dynamics of Si accumulation and the interplay between Si, simulated herbivory and plant defence machinery. {MeJA}-induced Si accumulation occurred as early as 6 hr after treatment via increased {JA} concentrations. Si supplementation decreased {SA} concentrations, which could have implications on additional downstream defences. We show a trade-off between Si and phenolics in untreated plants, but this relationship was weakened upon {MeJA} treatment. Further, this trade-off did not apply to the phenolic precursor compound, phenylalanine. We provide evidence for rapidly induced Si accumulation associated with herbivory, and that increased Si accumulation impacts on phytohormones and carbon-based defences over a 24-hr period. Additionally, herbivory modifies the relationship between Si- and carbon-based defences. Thus, in addition to its well-documented role as a long-term defence against herbivores, we demonstrate that, over short-term temporal scales, Si accumulation responds to herbivore signals and impacts on plant defence machinery. A free Plain Language Summary can be found within the Supporting Information of this article.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Functional Ecology}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2435.13702}
+      \field{number}{1}
+      \field{shorttitle}{Short-term resistance that persists}
+      \field{title}{Short-term resistance that persists: Rapidly induced silicon anti-herbivore defence affects carbon-based plant defences}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{35}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{82\bibrangedash 92}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/1365-2435.13702
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/CCEG7FED/Waterman et al. - 2021 - Short-term resistance that persists Rapidly induc.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/FNHWUVT6/1365-2435.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.13702
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.13702
+      \endverb
+      \keyw{herbivory,jasmonic acid,phenolics,phytohormones,plant defence,silicon,simulated herbivory}
+    \endentry
+    \entry{whitehead_domestication_2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=af6d5e0eeff5c116c6317d032d386cdf}{%
+           family={Whitehead},
+           familyi={W\bibinitperiod},
+           given={Susan\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3581f40ec594b51b6ad52cc05196fece}{%
+           family={Turcotte},
+           familyi={T\bibinitperiod},
+           given={Martin\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdbff80619bd3f4fe7c6d2fc30b70ee3}{%
+           family={Poveda},
+           familyi={P\bibinitperiod},
+           given={Katja},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{176ccc5afb548cb3968c58c7412286f0}
+      \strng{fullhash}{2a18ce4e8bbf560f5075c107df0af172}
+      \strng{bibnamehash}{2a18ce4e8bbf560f5075c107df0af172}
+      \strng{authorbibnamehash}{2a18ce4e8bbf560f5075c107df0af172}
+      \strng{authornamehash}{176ccc5afb548cb3968c58c7412286f0}
+      \strng{authorfullhash}{2a18ce4e8bbf560f5075c107df0af172}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{For millennia, humans have imposed strong selection on domesticated crops, resulting in drastically altered crop phenotypes compared with wild ancestors. Crop yields have increased, but a long-held hypothesis is that domestication has also unintentionally decreased plant defences against herbivores. To test this hypothesis, we conducted a phylogenetically controlled meta-analysis comparing insect herbivore resistance and putative plant defence traits between crops and their wild relatives. Our database included 2098 comparisons made across 73 crops in 89 studies. We found that domestication consistently reduced plant resistance to herbivores, although the magnitude of the effects varied across plant organs and depended on how resistance was measured. However, domestication had no consistent effects on the specific plant defence traits underlying resistance, including secondary metabolites and physical feeding barriers. The values of these traits sometimes increased and sometimes decreased during domestication. Consistent negative effects of domestication were observed only when defence traits were measured in reproductive organs or in the plant organ that was harvested. These results highlight the complexity of evolution under domestication and the need for an improved theoretical understanding of the mechanisms through which agronomic selection can influence the species interactions that impact both the yield and sustainability of our food systems. This article is part of the themed issue ‘Human influences on evolution, and the ecological and societal consequences’.}
+      \field{day}{19}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B: Biological Sciences}
+      \field{month}{1}
+      \field{note}{Publisher: Royal Society}
+      \field{number}{1712}
+      \field{shorttitle}{Domestication impacts on plant–herbivore interactions}
+      \field{title}{Domestication impacts on plant–herbivore interactions: a meta-analysis}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{372}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{20160034}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rstb.2016.0034
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/4DVXC2HR/Whitehead et al. - 2017 - Domestication impacts on plant–herbivore interacti.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://royalsocietypublishing.org/doi/full/10.1098/rstb.2016.0034
+      \endverb
+      \verb{url}
+      \verb https://royalsocietypublishing.org/doi/full/10.1098/rstb.2016.0034
+      \endverb
+      \keyw{agronomic selection,crop yield,herbivore resistance,plant defence theory,resource allocation,secondary metabolites}
+    \endentry
+    \entry{yamaji_transporter_2008}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=0,uniquepart=base,hash=36d35694223c70e0686bbd1a6bfbb779}{%
+           family={Yamaji},
+           familyi={Y\bibinitperiod},
+           given={Naoki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbb7b4d26e364fa0941b1e7a8af395a8}{%
+           family={Mitatni},
+           familyi={M\bibinitperiod},
+           given={Namiki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a3a0e9a43fde0989430652beeca871}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jian\bibnamedelima Feng},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2c5ae10bbf024fe19bdc3468b14e01a8}
+      \strng{fullhash}{1ff2f045d2b329e9596a8ca49a655f06}
+      \strng{bibnamehash}{1ff2f045d2b329e9596a8ca49a655f06}
+      \strng{authorbibnamehash}{1ff2f045d2b329e9596a8ca49a655f06}
+      \strng{authornamehash}{2c5ae10bbf024fe19bdc3468b14e01a8}
+      \strng{authorfullhash}{1ff2f045d2b329e9596a8ca49a655f06}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Rice (Oryza sativa) accumulates very high concentrations of silicon (Si) in the shoots, and the deposition of Si as amorphous silica helps plants to overcome biotic and abiotic stresses. Here, we describe a transporter, Lsi6, which is involved in the distribution of Si in the shoots. Lsi6 belongs to the nodulin-26 intrinsic protein {III} subgroup of aquaporins and is permeable to silicic acid. Lsi6 is expressed in the leaf sheath and leaf blades as well as in the root tips. Cellular localization studies revealed that Lsi6 is found in the xylem parenchyma cells of the leaf sheath and leaf blades. Moreover, Lsi6 showed polar localization at the side facing toward the vessel. Knockdown of Lsi6 did not affect the uptake of Si by the roots but resulted in disordered deposition of silica in the shoots and increased excretion of Si in the guttation fluid. These results indicate that Lsi6 is a transporter responsible for the transport of Si out of the xylem and subsequently affects the distribution of Si in the leaf.}
+      \field{day}{1}
+      \field{issn}{1040-4651}
+      \field{journaltitle}{The Plant Cell}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{The Plant Cell}
+      \field{title}{A Transporter Regulating Silicon Distribution in Rice Shoots}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{20}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1381\bibrangedash 1389}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1105/tpc.108.059311
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/LV6BR5YA/Yamaji et al. - 2008 - A Transporter Regulating Silicon Distribution in R.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/YE8K4SDQ/6091373.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1105/tpc.108.059311
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1105/tpc.108.059311
+      \endverb
+    \endentry
+    \entry{yamaji_orchestration_2015}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=36d35694223c70e0686bbd1a6bfbb779}{%
+           family={Yamaji},
+           familyi={Y\bibinitperiod},
+           given={Naoki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=575c8fa07c371bc623aa03b82fa2d1e2}{%
+           family={Sakurai},
+           familyi={S\bibinitperiod},
+           given={Gen},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ddce2653e7aabcf4793c27bb277ff7d}{%
+           family={Mitani-Ueno},
+           familyi={M\bibinithyphendelim U\bibinitperiod},
+           given={Namiki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a3a0e9a43fde0989430652beeca871}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jian\bibnamedelima Feng},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bcf0561c5f35bae5d18828d23edd43d7}
+      \strng{fullhash}{78c8540b522608de49970fcb20723475}
+      \strng{bibnamehash}{78c8540b522608de49970fcb20723475}
+      \strng{authorbibnamehash}{78c8540b522608de49970fcb20723475}
+      \strng{authornamehash}{bcf0561c5f35bae5d18828d23edd43d7}
+      \strng{authorfullhash}{78c8540b522608de49970fcb20723475}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Requirement of mineral elements in different plant tissues is not often consistent with their transpiration rate; therefore, plants have developed systems for preferential distribution of mineral elements to the developing tissues with low transpiration. Here we took silicon (Si) as an example and revealed an efficient system for preferential distribution of Si in the node of rice (Oryza sativa). Rice is able to accumulate more than 10\% Si of the dry weight in the husk, which is required for protecting the grains from water loss and pathogen infection. However, it has been unknown for a long time how this hyperaccumulation is achieved. We found that three transporters (Lsi2, Lsi3, and Lsi6) located at the node are involved in the intervascular transfer, which is required for the preferential distribution of Si. Lsi2 was polarly localized to the bundle sheath cell layer around the enlarged vascular bundles, which is next to the xylem transfer cell layer where Lsi6 is localized. Lsi3 was located in the parenchyma tissues between enlarged vascular bundles and diffuse vascular bundles. Similar to Lsi6, knockout of Lsi2 and Lsi3 also resulted in decreased distribution of Si to the panicles but increased Si to the flag leaf. Furthermore, we constructed a mathematical model for Si distribution and revealed that in addition to cooperation of three transporters, an apoplastic barrier localized at the bundle sheath cells and development of the enlarged vascular bundles in node are also required for the hyperaccumulation of Si in rice husk.}
+      \field{day}{8}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{9}
+      \field{note}{Publisher: Proceedings of the National Academy of Sciences}
+      \field{number}{36}
+      \field{title}{Orchestration of three transporters and distinct vascular structures in node for intervascular transfer of silicon in rice}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{112}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{11401\bibrangedash 11406}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1508987112
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/TLHDK5ZR/Yamaji et al. - 2015 - Orchestration of three transporters and distinct v.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.1508987112
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.1508987112
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
