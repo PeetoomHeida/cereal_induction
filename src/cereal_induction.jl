@@ -77,7 +77,7 @@ function changechainnames(chain, df, range1, range2)
     return _newchain
 end
 
-newnamesch = changechainnames(chains, adsc_idx, 2:8, 6:12)
+newnamesch = changechainnames(chains, adsc_idx, 2:8, 6:10)
 namedchdf = DataFrame(summarystats(newnamesch))
 usedparams = CSV.read("data/fake_data/generated_params.csv", DataFrame)
 
@@ -110,6 +110,6 @@ plotting_data = CSV.read("data/fake_data/fake_data.csv", DataFrame)
 
 mp = @df plotting_data groupedboxplot(:Induction, :response, group = :Species)
 plot!(mp, xlabel = "Induction Treatment", ylabel = "Silicon Content (%)")
-
+png(mp, "induction_plot")
 test_df = DataFrame(var1 = repeat(["A", "B", "C"], inner = 3, outer =3), var2 = repeat(["D", "E", "F"], inner = 9, outer = 1), yvals = rand(Normal(0,1), 27))
 tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
