@@ -1,14 +1,14 @@
 # Fdb version 3
-["biber main"] 1672085786 "main.bcf" "main.bbl" "main" 1672085840
+["biber main"] 1672165479 "main.bcf" "main.bbl" "main" 1672167647
   "datasets.bib" 1672081955 203 5f11a1380b0c0e5e366286cad5bc9900 ""
-  "main.bcf" 1672085840 112289 c00f396cd899fd25fffad2184f4b9911 "pdflatex"
-  "total_biblio.bib" 1672084766 436812 6894d4c5c5aa2355ebb3245d9de35647 ""
+  "main.bcf" 1672167647 115912 30eafa7516ed4aa6f1fa9394d583b493 "pdflatex"
+  "total_biblio.bib" 1672165281 454600 91f62ba14f3e92f5c300e3286b819922 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1672085839 "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" "main.pdf" "main" 1672085840
+["pdflatex"] 1672167645 "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" "main.pdf" "main" 1672167647
   "/etc/texmf/web2c/texmf.cnf" 1617974667 41134 c6edb751c63f98b31f19bd365fe083e9 ""
-  "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" 1672085835 37285 e4f2457d17a5db324215af9aefed2bb4 ""
+  "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" 1672167640 39952 858aa631192f790c2b661a4b7a5437ed ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -84,11 +84,11 @@
   "images/Manhattan_Plot.png" 1672066656 186009 99fd08ef6cc27934213c7ff0ce615459 ""
   "images/induction_plot.png" 1672070679 23008 1751f722f39d33a491596f49dd72ce5e ""
   "images/si_mn_regression.png" 1672085687 9190 b3236ac96e5a3d96c5b3958649c90dd5 ""
-  "main.aux" 1672085840 13489 4d4dbb6682ad6261fa456cc94e2ae9d3 "pdflatex"
-  "main.bbl" 1672085787 146528 8e16e73e345903078afbeaac9400442d "biber main"
-  "main.run.xml" 1672085840 2345 1b91673339794a70722b16bf41c36f4a "pdflatex"
-  "main.tex" 1672085835 37285 e4f2457d17a5db324215af9aefed2bb4 ""
-  "main.toc" 1672085840 2301 a393f46b412107636bdc5b59394cea53 "pdflatex"
+  "main.aux" 1672167647 19546 89934d31530f121f4836abc4cb3ae676 "pdflatex"
+  "main.bbl" 1672165481 229433 582c16ae8480f230e94b275becf71c48 "biber main"
+  "main.run.xml" 1672167647 2345 1b91673339794a70722b16bf41c36f4a "pdflatex"
+  "main.tex" 1672167640 39952 858aa631192f790c2b661a4b7a5437ed ""
+  "main.toc" 1672167647 2468 d4286fc970f69afd2a16ce04ce7dbdc1 "pdflatex"
   "title.tex" 1671908401 683 8ebd9698565d4bc8750e3179dbb4a361 ""
   (generated)
   "main.aux"

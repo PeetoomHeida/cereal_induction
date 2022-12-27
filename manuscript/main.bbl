@@ -19,6 +19,119 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{agrawal_plant_2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ea6c1bb0bec98adc6b3456986165c000}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Anurag\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9a4f94eeeb2879ab1e2e5fd13e57eff}{%
+           family={Fishbein},
+           familyi={F\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0eb17b61c277db2f2ef30141acac3d28}
+      \strng{fullhash}{0eb17b61c277db2f2ef30141acac3d28}
+      \strng{bibnamehash}{0eb17b61c277db2f2ef30141acac3d28}
+      \strng{authorbibnamehash}{0eb17b61c277db2f2ef30141acac3d28}
+      \strng{authornamehash}{0eb17b61c277db2f2ef30141acac3d28}
+      \strng{authorfullhash}{0eb17b61c277db2f2ef30141acac3d28}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Given that a plant's defensive strategy against herbivory is never likely to be a single trait, we develop the concept of plant defense syndromes, where association with specific ecological interactions can result in convergence on suites of covarying defensive traits. Defense syndromes can be studied within communities of diverse plant species as well as within clades of closely related species. In either case, theory predicts that plant defense traits can consistently covary across species, due to shared evolutionary ancestry or due to adaptive convergence. We examined potential defense syndromes in 24 species of milkweeds (Asclepias spp.) in a field experiment. Employing phylogenetically independent contrasts, we found few correlations between seven defensive traits, no bivariate trade-offs, and notable positive correlations between trichome density and latex production, and between C:N ratio and leaf toughness. We then used a hierarchical cluster analysis to produce a phenogram of defense trait similarity among the 24 species. This analysis revealed three distinct clusters of species. The defense syndromes of these species clusters are associated with either low nutritional quality or a balance of higher nutritional quality coupled with physical or chemical defenses. The phenogram based on defense traits was not congruent, however, with a molecular phylogeny of the group, suggesting convergence on defense syndromes. Finally, we examined the performance of monarch butterfly caterpillars on the 24 milkweed species in the field; monarch growth and survival did not differ on plants in the three syndromes, although multiple regression revealed that leaf trichomes and toughness significantly reduced caterpillar growth. The discovery of convergent plant defense syndromes can be used as a framework to ask questions about how abiotic environments, communities of herbivores, and biogeography are associated with particular defense strategies of plants.}
+      \field{issn}{1939-9170}
+      \field{issue}{sp7}
+      \field{journaltitle}{Ecology}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1890/0012-9658\%282006\%2987\%5B132\%3APDS\%5D2.0.{CO}\%3B2}
+      \field{title}{Plant Defense Syndromes}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{87}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{S132\bibrangedash S149}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1890/0012-9658(2006)87[132:PDS]2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/J59Q2RNP/Agrawal and Fishbein - 2006 - Plant Defense Syndromes.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/K99EE8N3/0012-9658(2006)87[132PDS]2.0.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1890/0012-9658%282006%2987%5B132%3APDS%5D2.0.CO%3B2
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1890/0012-9658%282006%2987%5B132%3APDS%5D2.0.CO%3B2
+      \endverb
+      \keyw{Asclepias,cardenolides,chemical ecology,cluster analysis,coevolution,Danaus plexippus,herbivory,latex,milkweed,monarch butterfly,phylogenetically independent contrasts,phytochemistry,plant–insect interactions}
+    \endentry
+    \entry{awika_major_2011}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2fb860f5e3b855cae31878c66bb99845}{%
+           family={Awika},
+           familyi={A\bibinitperiod},
+           given={Joseph\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{2fb860f5e3b855cae31878c66bb99845}
+      \strng{fullhash}{2fb860f5e3b855cae31878c66bb99845}
+      \strng{bibnamehash}{2fb860f5e3b855cae31878c66bb99845}
+      \strng{authorbibnamehash}{2fb860f5e3b855cae31878c66bb99845}
+      \strng{authornamehash}{2fb860f5e3b855cae31878c66bb99845}
+      \strng{authorfullhash}{2fb860f5e3b855cae31878c66bb99845}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cereal grains have been the principal component of human diet for thousands of years and have played a major role in shaping human civilization. Around the world, rice, wheat, and maize, and to a lesser extent, sorghum and millets, are important staples critical to daily survival of billions of people. More than 50\% of world daily caloric intake is derived directly from cereal grain consumption. Most of the grain used for human food is milled to remove the bran (pericarp) and germ, primarily to meet sensory expectations of consumers. The milling process strips the grains of important nutrients beneficial to health, including dietary fiber, phenolics, vitamins and minerals. Thus, even though ample evidence exists on the health benefits of whole grain consumption, challenges remain to developing food products that contain significant quantities of whole grain components and meet consumer expectations . This book presents some of the latest research endeavors that aim to improve our understanding of how the chemistry of various grain components can be manipulated to improve contribution of cereals to human health. Most of the topics are based on the Cereal Grains Symposium, at the 2011 American Chemical Society held in Anaheim, {CA}, March 27-31.}
+      \field{booktitle}{Advances in Cereal Science: Implications to Food Processing and Health Promotion}
+      \field{day}{1}
+      \field{isbn}{978-0-8412-2636-4}
+      \field{month}{1}
+      \field{note}{Section: 1}
+      \field{number}{1089}
+      \field{series}{{ACS} Symposium Series}
+      \field{title}{Major Cereal Grains Production and Use around the World}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{1089}
+      \field{volumes}{0}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1021/bk-2011-1089.ch001
+      \endverb
+      \verb{file}
+      \verb ACS Full Text Snapshot:/home/isaac/Zotero/storage/CBJDQYBF/bk-2011-1089.html:text/html;Full Text PDF:/home/isaac/Zotero/storage/CPRBJJJA/Awika - 2011 - Major Cereal Grains Production and Use around the .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/bk-2011-1089.ch001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/bk-2011-1089.ch001
+      \endverb
+    \endentry
     \entry{chen_crop_2015}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=b26538dfbd50f43df01d2e7617e484b6}{%
@@ -74,7 +187,7 @@
       \verb 10.1146/annurev-ento-010814-020601
       \endverb
       \verb{file}
-      \verb Chen et al. - 2015 - Crop Domestication and Its Impact on Naturally Sel.pdf:/home/isaac/Zotero/storage/ZVLNZBEV/Chen et al. - 2015 - Crop Domestication and Its Impact on Naturally Sel.pdf:application/pdf
+      \verb Chen et al. - 2015 - Crop Domestication and Its Impact on Naturally Sel.pdf:/home/isaac/Zotero/storage/ZVLNZBEV/Chen et al. - 2015 - Crop Domestication and Its Impact on Naturally Sel.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/V4XFIZGI/20153035351.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://www.annualreviews.org/doi/10.1146/annurev-ento-010814-020601
@@ -158,7 +271,66 @@
       \verb{url}
       \verb https://doi.org/10.1080/09064710.2021.1984564
       \endverb
-      \keyw{Drought-tolerance,genomic selection,grain yield,phenotypic selection,protein content,silicon uptake,silicon-use efficiency,wheat}
+      \keyw{wheat,grain yield,Drought-tolerance,genomic selection,phenotypic selection,protein content,silicon uptake,silicon-use efficiency}
+    \endentry
+    \entry{cooke_is_2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=595f2cea3c731e85faaa3f6c6033a606}{%
+           family={Cooke},
+           familyi={C\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f70d2734e1d8b0d078baa0f31bb72895}{%
+           family={Leishman},
+           familyi={L\bibinitperiod},
+           given={Michelle\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \strng{fullhash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \strng{bibnamehash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \strng{authorbibnamehash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \strng{authornamehash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \strng{authorfullhash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although silicon occurs in all plants, it is an element that is largely overlooked by many plant ecologists and most plant-related research on silicon comes from agronomy, archaeology, palaeontology and biogeochemistry. Plant silicon has many functions, acting biochemically as silicic acid and physically as amorphous silica. It contributes to cell and plant strength and enables plants to respond adaptively to environmental stresses. Consequently, plant silicon can increase plant fitness in many fundamental aspects of ecology, including plant–herbivore interactions, light interception, pathogen resistance and alleviation of abiotic stresses. Here, we provide an ecological perspective to research outcomes from diverse disciplines, showing that silicon is an important element in plant ecology that is worthy of greater attention.}
+      \field{day}{1}
+      \field{issn}{1360-1385}
+      \field{journaltitle}{Trends in Plant Science}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Trends in Plant Science}
+      \field{title}{Is plant ecology more siliceous than we realise?}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{volume}{16}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 68}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.tplants.2010.10.003
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/isaac/Zotero/storage/52789S6R/Cooke and Leishman - 2011 - Is plant ecology more siliceous than we realise.pdf:application/pdf;ScienceDirect Snapshot:/home/isaac/Zotero/storage/I6WYNTYN/S136013851000213X.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S136013851000213X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S136013851000213X
+      \endverb
     \endentry
     \entry{cooke_consistent_2016}{article}{}
       \name{author}{2}{}{%
@@ -181,6 +353,7 @@
       \strng{authorbibnamehash}{dc0e0fa30182e02e87f9d329f6bab0cb}
       \strng{authornamehash}{dc0e0fa30182e02e87f9d329f6bab0cb}
       \strng{authorfullhash}{dc0e0fa30182e02e87f9d329f6bab0cb}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -216,7 +389,7 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12713
       \endverb
-      \keyw{agriculture,heavy metal toxicity,oxidative stress,silica,silicon fertilizer,stress alleviation}
+      \keyw{silica,agriculture,heavy metal toxicity,oxidative stress,silicon fertilizer,stress alleviation}
     \endentry
     \entry{coskun_controversies_2019}{article}{}
       \name{author}{8}{}{%
@@ -309,7 +482,87 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/nph.15343
       \endverb
-      \keyw{abiotic stress,apoplast,biotic stress,membrane transport,plant nutrition,silicon (Si)}
+      \keyw{silicon (Si),abiotic stress,apoplast,biotic stress,membrane transport,plant nutrition}
+    \endentry
+    \entry{dai_genetic_2005}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=1365a878f08faca9317b929be5541a1f}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Wei-Min},
+           giveni={W\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21de35457e9d40b376cddd5978e1987d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ke-Qin},
+           giveni={K\bibinithyphendelim Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=901f31bbaec23531ea4ff08ac6ff83cf}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Bin-Wu},
+           giveni={B\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e1a1841cc7f4819514e4d2b285aecee}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Kang-Le},
+           giveni={K\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a476cff32c9b86d466a9b13117c65563}{%
+           family={Zhuang},
+           familyi={Z\bibinitperiod},
+           given={Jie-Yun},
+           giveni={J\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a84b45e8114f7f67c50ae4e6a058cde}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Run},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f49a38a89cf9959d2adc0658d7bf8e90}
+      \strng{fullhash}{1da753ff39dd5279c23ef2d8411d95d2}
+      \strng{bibnamehash}{1da753ff39dd5279c23ef2d8411d95d2}
+      \strng{authorbibnamehash}{1da753ff39dd5279c23ef2d8411d95d2}
+      \strng{authornamehash}{f49a38a89cf9959d2adc0658d7bf8e90}
+      \strng{authorfullhash}{1da753ff39dd5279c23ef2d8411d95d2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantitative trait loci ({QTLs}) analysis for Si content in rice (Oryza sativa L.) was performed to study the inheritance of Si content in rice. A recombinant inbred line ({RIL}) population of 244 lines derived from the indica rice cross ‘Zhenshan 97B’ ({ZS}97B)/‘Milyang 46’ ({MY}46) were grown in 2003 with two replications. Silicon content in the hull ({HUS}), flag leaf ({FLS}), and stem ({STS}) were measured. On the basis of a linkage map consisting of 207 {DNA} marker loci, a total of 10 {QTLs} showing significant additive effects and 14 digenic interactions having significant additive-by-additive ({AA}) epistatic effects were detected. The number of {QTLs} and {AA} interactions for individual traits were four and four for {HUS}, four and four for {FLS}, and two and six for {STS}, respectively. General contributions to the phenotype variance due to additive effects and {AA} effects were 29.3 and 18.6\% for {HUS}, 14.8 and 13.6\% for {FLS}, and 8.6 and 28.6\% for {STS}, respectively. This indicates that gene actions at both the one- and two-locus levels play an important role to genetically control Si content in rice. In addition, it was shown that the detection of {QTLs} at the one-locus level, as well as magnitude and direction of the additive effect, might be influenced greatly by digenic interactions involving loci linked to the given {QTL}. By comparing these results with other reports, genetic association between {QTLs} for Si content and {QTLs} for yield component traits and lodging-tolerance related traits were evident.}
+      \field{issn}{1435-0653}
+      \field{journaltitle}{Crop Science}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.2135/cropsci2004.0505}
+      \field{number}{4}
+      \field{title}{Genetic Dissection of Silicon Content in Different Organs of Rice}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{45}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1345\bibrangedash 1352}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.2135/cropsci2004.0505
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/XQ75TSYX/Dai et al. - 2005 - Genetic Dissection of Silicon Content in Different.pdf:application/pdf;Full Text PDF:/home/isaac/Zotero/storage/PK3XLRI5/Dai et al. - 2005 - Genetic Dissection of Silicon Content in Different.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/WPGZCTQP/cropsci2004.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.2135/cropsci2004.0505
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.2135/cropsci2004.0505
+      \endverb
     \endentry
     \entry{dorairaj_influence_2017}{article}{}
       \name{author}{4}{}{%
@@ -376,16 +629,66 @@
       \verb{url}
       \verb https://doi.org/10.1080/01904167.2016.1264420
       \endverb
-      \keyw{growth,lodging,{MR}219,resistance,Silicon,yield}
+      \keyw{Silicon,growth,yield,lodging,{MR}219,resistance}
+    \endentry
+    \entry{epstein_anomaly_1994}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90e9d38f1186264e30875080a8c3b37b}{%
+           family={Epstein},
+           familyi={E\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90e9d38f1186264e30875080a8c3b37b}
+      \strng{fullhash}{90e9d38f1186264e30875080a8c3b37b}
+      \strng{bibnamehash}{90e9d38f1186264e30875080a8c3b37b}
+      \strng{authorbibnamehash}{90e9d38f1186264e30875080a8c3b37b}
+      \strng{authornamehash}{90e9d38f1186264e30875080a8c3b37b}
+      \strng{authorfullhash}{90e9d38f1186264e30875080a8c3b37b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Silicon is the second most abundant element in soils, the mineral substrate for most of the world's plant life. The soil water, or the "soil solution," contains silicon, mainly as silicic acid, H4SiO4, at 0.1-0.6 {mM}--concentrations on the order of those of potassium, calcium, and other major plant nutrients, and well in excess of those of phosphate. Silicon is readily absorbed so that terrestrial plants contain it in appreciable concentrations, ranging from a fraction of 1\% of the dry matter to several percent, and in some plants to 10\% or even higher. In spite of this prominence of silicon as a mineral constituent of plants, it is not counted among the elements defined as "essential," or nutrients, for any terrestrial higher plants except members of the Equisitaceae. For that reason it is not included in the formulation of any of the commonly used nutrient solutions. The plant physiologist's solution-cultured plants are thus anomalous, containing only what silicon is derived as a contaminant of their environment. Ample evidence is presented that silicon, when readily available to plants, plays a large role in their growth, mineral nutrition, mechanical strength, and resistance to fungal diseases, herbivory, and adverse chemical conditions of the medium. Plants grown in conventional nutrient solutions are thus to an extent experimental artifacts. Omission of silicon from solution cultures may lead to distorted results in experiments on inorganic plant nutrition, growth and development, and responses to environmental stress.}
+      \field{day}{4}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{1}
+      \field{note}{Publisher: Proceedings of the National Academy of Sciences}
+      \field{number}{1}
+      \field{title}{The anomaly of silicon in plant biology.}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{91}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{11\bibrangedash 17}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1073/pnas.91.1.11
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/ZGNJ267T/Epstein - 1994 - The anomaly of silicon in plant biology..pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.91.1.11
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.91.1.11
+      \endverb
     \endentry
     \entry{epstein_silicon_1999}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=caf772172c32ec688ce44d810a7f9612}{%
+        {{un=2,uniquepart=given,hash=caf772172c32ec688ce44d810a7f9612}{%
            family={Epstein},
            familyi={E\bibinitperiod},
            given={Emanuel},
            giveni={E\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \strng{namehash}{caf772172c32ec688ce44d810a7f9612}
       \strng{fullhash}{caf772172c32ec688ce44d810a7f9612}
@@ -559,6 +862,640 @@
       \verb https://doi.org/10.1016/j.femsle.2005.06.034
       \endverb
     \endentry
+    \entry{fraysse_surface_2009}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e50a1ae24e93f63182c2a13f27312ef1}{%
+           family={Fraysse},
+           familyi={F\bibinitperiod},
+           given={Fabrice},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acc2e34990def7b960d17f98ae16dedf}{%
+           family={Pokrovsky},
+           familyi={P\bibinitperiod},
+           given={Oleg\bibnamedelima S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d4f02e109720335532a7b57affa1f65}{%
+           family={Schott},
+           familyi={S\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90be67a8167dcf665ea1f80bbf52a385}{%
+           family={Meunier},
+           familyi={M\bibinitperiod},
+           given={Jean-Dominique},
+           giveni={J\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f49bede4663b53d5d672ce59b62a2b7d}
+      \strng{fullhash}{a8f0387705050a796060175479f7be6b}
+      \strng{bibnamehash}{a8f0387705050a796060175479f7be6b}
+      \strng{authorbibnamehash}{a8f0387705050a796060175479f7be6b}
+      \strng{authornamehash}{f49bede4663b53d5d672ce59b62a2b7d}
+      \strng{authorfullhash}{a8f0387705050a796060175479f7be6b}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In order to better understand the reactivity of plant phytoliths in soil solutions, we determined the solubility, surface properties (electrophoretic mobilities and surface charge) and dissolution kinetics of phytoliths extracted from fresh biomass of representative plant species (larch tree and elm, horsetail, fern, and four grasses) containing significant amount of biogenic silica. The solubility product of larch, horsetail, elm and fern phytoliths is close to that of amorphous silica and soil bamboo phytoliths. Electrophoretic measurements yield isoelectric point {pHIEP}=0.9, 1.1, 2.0 and 2.2 for four grasses, elm, larch and horsetail phytoliths respectively, which is very close to that of quartz or amorphous silica. Surface acid–base titrations allowed generation of a 2-{pK} surface complexation model ({SCM}) for larch, elm and horsetail phytoliths. Phytoliths dissolution rates, measured in mixed-flow reactors at far from equilibrium conditions at 1≤{pH}≤8, were found to be very similar among the species, and close to those of soil bamboo phytoliths. Mechanistic treatment of all plant phytoliths dissolution rates provided three-parameters equation sufficient to describe phytoliths reactivity in aqueous solutions:R(mol/cm2/s)=6⋅10−16⋅{aH}++5.0⋅10−18+3.5⋅10−13⋅{aOH}−0.33 Alternatively, the dissolution rate dependence on {pH} can be modeled within the concept of surface coordination theory assuming the rate proportional to concentration of {>}{SiOH}2+, {>}{SiOH}0 and {>}{SiO}− species. In the range of Al concentration from 20 to 5000 ppm in the phytoliths, we have not observed any correlation between their Al content and solubility, surface acid–base properties and dissolution kinetics. It follows from the results of this study that phytoliths dissolution rates exhibit a minimum at {pH} ∼3. Mass-normalized dissolution rates are similar among all four types of plant species studied and these rates are an order of magnitude higher than those of typical soil clay minerals. The minimal half life time of larch and horsetail phytoliths in the interstitial soil solution ranges from 10–12 years at {pH}=2–3 to {<}1 year at {pH} above 6, comparable with mean residence time of phytoliths in soil from natural observations.}
+      \field{day}{30}
+      \field{issn}{0009-2541}
+      \field{journaltitle}{Chemical Geology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{3}
+      \field{shortjournal}{Chemical Geology}
+      \field{title}{Surface chemistry and reactivity of plant phytoliths in aqueous solutions}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{258}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{197\bibrangedash 206}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.chemgeo.2008.10.003
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/isaac/Zotero/storage/IUR5FCBR/Fraysse et al. - 2009 - Surface chemistry and reactivity of plant phytolit.pdf:application/pdf;ScienceDirect Snapshot:/home/isaac/Zotero/storage/IV385PU8/S0009254108004634.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0009254108004634
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0009254108004634
+      \endverb
+      \keyw{Dissolution,Grass,Kinetics,Phytolith,Silicon fluxes,Solubility,Surface,Tree}
+    \endentry
+    \entry{gaurav_population_2021}{article}{}
+      \name{author}{78}{}{%
+        {{un=0,uniquepart=base,hash=834caf8838974dace7e5660ac4752e70}{%
+           family={Gaurav},
+           familyi={G\bibinitperiod},
+           given={Kumar},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9af8f40f9c9d4a037e3506efaf5519fd}{%
+           family={Arora},
+           familyi={A\bibinitperiod},
+           given={Sanu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c67c78b584cbe3647411783feb915b1e}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0508844c1ea656aa79374adc2b800178}{%
+           family={Sánchez-Martín},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30b149075dcd7e7ee3cd41cbb84c6e7e}{%
+           family={Horsnell},
+           familyi={H\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1998b93a62293920c024b6e840b50702}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Liangliang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04b9cc4355ad5e0d2a87c478030fad3b}{%
+           family={Brar},
+           familyi={B\bibinitperiod},
+           given={Gurcharn\bibnamedelima S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e6402c54b2efdb23b35d19b373037ad}{%
+           family={Widrig},
+           familyi={W\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be043f103d8f08c4b112f8298e1fceef}{%
+           family={John\bibnamedelima Raupp},
+           familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0c5886c6c5db60c949829aa7c7f8e72}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Narinder},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63728cf26f96027a12da4a56acbd1835}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Shuangye},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5181b424463aed7111fcf7b3e0dba6b4}{%
+           family={Kale},
+           familyi={K\bibinitperiod},
+           given={Sandip\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f848bed2653b6383fd101944480aaca7}{%
+           family={Chinoy},
+           familyi={C\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d39ee26c2c0f990c0d92b6daf97b5010}{%
+           family={Nicholson},
+           familyi={N\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90660355c6faa0d40610dc538d483045}{%
+           family={Quiroz-Chávez},
+           familyi={Q\bibinithyphendelim C\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0ba0ef5b7259defd3893f2c6149fb0a}{%
+           family={Simmonds},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e155cae55f442bbd9a3fad6e9ae9e81}{%
+           family={Hayta},
+           familyi={H\bibinitperiod},
+           given={Sadiye},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01d793ef6e02dd62ec0f08da7df0d39}{%
+           family={Smedley},
+           familyi={S\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12524fd23fa231c13a0e0ff4cfe2a98c}{%
+           family={Harwood},
+           familyi={H\bibinitperiod},
+           given={Wendy},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5db69237f9aa4ef331d02066524f5ec9}{%
+           family={Pearce},
+           familyi={P\bibinitperiod},
+           given={Suzannah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d914915b9636943df69405ed649bc1ae}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8d9e2600562563f954942243fc20f24}{%
+           family={Kangara},
+           familyi={K\bibinitperiod},
+           given={Ngonidzashe},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8f6ef4051e0482c6fe1d81e18c1717a}{%
+           family={Gardener},
+           familyi={G\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba0634da565ca2be92257c62a7c1fae7}{%
+           family={Forner-Martínez},
+           familyi={F\bibinithyphendelim M\bibinitperiod},
+           given={Macarena},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2256ce593c7a60eec17bbd5dd0871d2d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiaqian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=402b29b4626ce6cffd0839c99bcface9}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Guotai},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d9e3849b280d4273d1ec962ddab1504}{%
+           family={Boden},
+           familyi={B\bibinitperiod},
+           given={Scott\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=395360022409a168326ef14adba9e6a2}{%
+           family={Pascucci},
+           familyi={P\bibinitperiod},
+           given={Attilio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10d764f71e3dbc8a62a68ef9757f7bbe}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Sreya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d851fe916fc78f775b5a44cd7423bf6d}{%
+           family={Hafeez},
+           familyi={H\bibinitperiod},
+           given={Amber\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=880a58d1c9ecb4facb941e069a3c9beb}{%
+           family={O’Hara},
+           familyi={O\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e9adabbb8b23b99787d83803e9a5afa}{%
+           family={Waites},
+           familyi={W\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8ad79e1a0e82db685db992b0f113cda}{%
+           family={Cheema},
+           familyi={C\bibinitperiod},
+           given={Jitender},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d0d16403a1773171dd07e49f3de5aed}{%
+           family={Steuernagel},
+           familyi={S\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a831aa409f709e971e4da7c81fda1c3}{%
+           family={Patpour},
+           familyi={P\bibinitperiod},
+           given={Mehran},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d459963e29e1129dfe2b8c5f71a4aff}{%
+           family={Justesen},
+           familyi={J\bibinitperiod},
+           given={Annemarie\bibnamedelima Fejer},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5f8b0d6e29db76d164dfb2587e7863c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Shuyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b172f9762057f7c8b8ff719341a3227}{%
+           family={Rudd},
+           familyi={R\bibinitperiod},
+           given={Jackie\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04bac9253bf71dfa1275a2dd9ddcd613}{%
+           family={Avni},
+           familyi={A\bibinitperiod},
+           given={Raz},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b2a1973e851a8137a8b8d3b1138f0ac}{%
+           family={Sharon},
+           familyi={S\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8457a0ce89e62f3efa1cf8472ab2bc37}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=effc566213ed555e5d28bbf00c7c6a1b}{%
+           family={Kirana},
+           familyi={K\bibinitperiod},
+           given={Rizky\bibnamedelima Pasthika},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aab529386297dae256b61ea359d6e31c}{%
+           family={Buerstmayr},
+           familyi={B\bibinitperiod},
+           given={Hermann},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a5d8ed510ec16851cff9f9a7ac714e6}{%
+           family={Mehrabi},
+           familyi={M\bibinitperiod},
+           given={Ali\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5537bf53485e76dceaa68f1285293f1}{%
+           family={Nasyrova},
+           familyi={N\bibinitperiod},
+           given={Firuza\bibnamedelima Y.},
+           giveni={F\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71e441183953145b29984ff21145407d}{%
+           family={Chayut},
+           familyi={C\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=befbc00162e30e13c2b0d07ab1dd3b63}{%
+           family={Matny},
+           familyi={M\bibinitperiod},
+           given={Oadi},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81c6ef5bdbd4677df56a877f6380ead6}{%
+           family={Steffenson},
+           familyi={S\bibinitperiod},
+           given={Brian\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0634f22de6222b9104f85ff71f18157c}{%
+           family={Sandhu},
+           familyi={S\bibinitperiod},
+           given={Nitika},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15c9be7edbfcb4bfc78e892f98663407}{%
+           family={Chhuneja},
+           familyi={C\bibinitperiod},
+           given={Parveen},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=880bf78b1fb8e11419424b5e1d297b78}{%
+           family={Lagudah},
+           familyi={L\bibinitperiod},
+           given={Evans},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a51aeab21772fae0df13a2e6ae61bb0e}{%
+           family={Elkot},
+           familyi={E\bibinitperiod},
+           given={Ahmed\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25c27167f08c384e24dcef51080a1293}{%
+           family={Tyrrell},
+           familyi={T\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e874c0e7a0a3c90bb30f559f5979859}{%
+           family={Bian},
+           familyi={B\bibinitperiod},
+           given={Xingdong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c53fc3e9f08943cef9d520e16115294d}{%
+           family={Davey},
+           familyi={D\bibinitperiod},
+           given={Robert\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fd7e7089ee5253c834f153f5c9704fa}{%
+           family={Simonsen},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d29d4e5e58df7248651ee00cf6dce320}{%
+           family={Schauser},
+           familyi={S\bibinitperiod},
+           given={Leif},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d8e2a296443ba209b173fe124f9858a}{%
+           family={Tiwari},
+           familyi={T\bibinitperiod},
+           given={Vijay\bibnamedelima K.},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b21732fb58abc606b43d2c158b5c4106}{%
+           family={Randy\bibnamedelima Kutcher},
+           familyi={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89b97db722fb0ebc623c2a6592ac2bdc}{%
+           family={Hucl},
+           familyi={H\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ca58ef8dd6e2de1ba3a9015e7e26309}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Aili},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fded1a526232dffd40ca6bf2932f7a43}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Deng-Cai},
+           giveni={D\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=483a8b053debfe95a25ddb7021c90d41}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd1795bd5dc9cd3bb6658709e45797b6}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d767071c2d661ae773a803639eae692}{%
+           family={Brown-Guedira},
+           familyi={B\bibinithyphendelim G\bibinitperiod},
+           given={Gina},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbced4ef3643cd0677d4b2f4b053460d}{%
+           family={Faris},
+           familyi={F\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df84490631df5236bdc5d2f460a76309}{%
+           family={Dvorak},
+           familyi={D\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31c42f2443791f1f921dfade9fb77252}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Ming-Cheng},
+           giveni={M\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd4acd40eef4c2600109ab8b68042406}{%
+           family={Krasileva},
+           familyi={K\bibinitperiod},
+           given={Ksenia},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3b48f03aa9fc116f94008e473fa08e7}{%
+           family={Lux},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c41a918184d1e472e61b6f55fdf84a1b}{%
+           family={Artmeier},
+           familyi={A\bibinitperiod},
+           given={Susanne},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39f0fc87ea5d51ed5eb1f4cd6716ae55}{%
+           family={Mayer},
+           familyi={M\bibinitperiod},
+           given={Klaus\bibnamedelimb F.\bibnamedelimi X.},
+           giveni={K\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61000bcdb17e3dfb35a35849367113fb}{%
+           family={Uauy},
+           familyi={U\bibinitperiod},
+           given={Cristobal},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33b6f22d8e098e1b4bb2e0f7b598247c}{%
+           family={Mascher},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cf9556715cfa302fd3b686e5eb331fb}{%
+           family={Bentley},
+           familyi={B\bibinitperiod},
+           given={Alison\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5e7ebb1f519740de7ab03ca34cd42ec}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Beat},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e55b70a044722e9c5d2a45f736ef95b8}{%
+           family={Poland},
+           familyi={P\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=197a8b54f6ac2db5588d12aa6bedddd1}{%
+           family={Wulff},
+           familyi={W\bibinitperiod},
+           given={Brande\bibnamedelimb B.\bibnamedelimi H.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3433d0657c818cfa4dd735cefa02bea5}
+      \strng{fullhash}{8e9012d83ab577d44940498daab590fb}
+      \strng{bibnamehash}{8e9012d83ab577d44940498daab590fb}
+      \strng{authorbibnamehash}{8e9012d83ab577d44940498daab590fb}
+      \strng{authornamehash}{3433d0657c818cfa4dd735cefa02bea5}
+      \strng{authorfullhash}{8e9012d83ab577d44940498daab590fb}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Aegilops tauschii, the diploid wild progenitor of the D subgenome of bread wheat, is a reservoir of genetic diversity for improving bread wheat performance and environmental resilience. Here we sequenced 242 Ae. tauschii accessions and compared them to the wheat D subgenome to characterize genomic diversity. We found that a rare lineage of Ae. tauschii geographically restricted to present-day Georgia contributed to the wheat D subgenome in the independent hybridizations that gave rise to modern bread wheat. Through k-mer-based association mapping, we identified discrete genomic regions with candidate genes for disease and pest resistance and demonstrated their functional transfer into wheat by transgenesis and wide crossing, including the generation of a library of hexaploids incorporating diverse Ae. tauschii genomes. Exploiting the genomic diversity of the Ae. tauschii ancestral diploid genome permits rapid trait discovery and functional genetic validation in a hexaploid background amenable to breeding.}
+      \field{day}{1}
+      \field{issn}{1546-1696}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{note}{Bandiera\_abtest: a Cc\_license\_type: cc\_by Cg\_type: Nature Research Journals Primary\_atype: Research Publisher: Nature Publishing Group Subject\_term: Genome informatics;Genome-wide association studies;Plant breeding;Plant domestication;Plant immunity Subject\_term\_id: genome-informatics;genome-wide-association-studies;plant-breeding;plant-domestication;plant-immunity}
+      \field{shortjournal}{Nat Biotechnol}
+      \field{title}{Population genomic analysis of Aegilops tauschii identifies targets for bread wheat improvement}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/s41587-021-01058-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/CY7TSLDX/Gaurav et al. - 2022 - Population genomic analysis of Aegilops tauschii i.pdf:application/pdf;Full Text PDF:/home/isaac/Zotero/storage/Y7UHBL32/Gaurav et al. - 2021 - Population genomic analysis of Aegilops tauschii i.pdf:application/pdf;Snapshot:/home/isaac/Zotero/storage/LE5HRZG4/s41587-021-01058-4.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41587-021-01058-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41587-021-01058-4
+      \endverb
+      \keyw{Genome informatics,Genome-wide association studies,Plant breeding,Plant domestication,Plant immunity}
+    \endentry
+    \entry{gelman_inference_1992}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49a367b6280de8a239f8bbdd573f996f}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ace621ada30e7015366685782e55c297}
+      \strng{fullhash}{ace621ada30e7015366685782e55c297}
+      \strng{bibnamehash}{ace621ada30e7015366685782e55c297}
+      \strng{authorbibnamehash}{ace621ada30e7015366685782e55c297}
+      \strng{authornamehash}{ace621ada30e7015366685782e55c297}
+      \strng{authorfullhash}{ace621ada30e7015366685782e55c297}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Gibbs sampler, the algorithm of Metropolis and similar iterative simulation methods are potentially very helpful for summarizing multivariate distributions. Used naively, however, iterative simulation can give misleading answers. Our methods are simple and generally applicable to the output of any iterative simulation; they are designed for researchers primarily interested in the science underlying the data and models they are analyzing, rather than for researchers interested in the probability theory underlying the iterative simulations themselves. Our recommended strategy is to use several independent sequences, with starting points sampled from an overdispersed distribution. At each step of the iterative simulation, we obtain, for each univariate estimand of interest, a distributional estimate and an estimate of how much sharper the distributional estimate might become if the simulations were continued indefinitely. Because our focus is on applied inference for Bayesian posterior distributions in real problems, which often tend toward normality after transformations and marginalization, we derive our results as normal-theory approximations to exact Bayesian inference, conditional on the observed simulations. The methods are illustrated on a random-effects mixture model applied to experimental measurements of reaction times of normal and schizophrenic patients.}
+      \field{issn}{0883-4237}
+      \field{journaltitle}{Statistical Science}
+      \field{note}{Publisher: Institute of Mathematical Statistics}
+      \field{number}{4}
+      \field{title}{Inference from Iterative Simulation Using Multiple Sequences}
+      \field{urlday}{23}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{7}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{457\bibrangedash 472}
+      \range{pages}{16}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2246093
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2246093
+      \endverb
+    \endentry
     \entry{hafeez_creation_2021}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=d851fe916fc78f775b5a44cd7423bf6d}{%
@@ -640,7 +1577,7 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S1674205221001751
       \endverb
-      \keyw{association genetics,disease resistance,durable resistance,gene stewardship,genes,wheat}
+      \keyw{wheat,association genetics,disease resistance,durable resistance,gene stewardship,genes}
     \endentry
     \entry{hartley_ecology_2016}{article}{}
       \name{author}{2}{}{%
@@ -697,7 +1634,7 @@
       \verb{url}
       \verb https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12706
       \endverb
-      \keyw{defence induction,herbivory,insect,landscape scale,mammal,physical defences,plant–herbivore interactions,silica}
+      \keyw{herbivory,plant–herbivore interactions,insect,silica,defence induction,landscape scale,mammal,physical defences}
     \endentry
     \entry{haynes_contemporary_2014}{article}{}
       \name{author}{1}{}{%
@@ -748,7 +1685,66 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jpln.201400202
       \endverb
-      \keyw{biogenic Si,fertilizer Si,phytoliths,silicon,soil desilication,soil Si pools}
+      \keyw{phytoliths,silicon,biogenic Si,fertilizer Si,soil desilication,soil Si pools}
+    \endentry
+    \entry{hoffman_no-u-turn_2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=937991c72400f4d0e0252027c8c03f67}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ebc3339ca457482898a36327bc5f7ca8}
+      \strng{fullhash}{ebc3339ca457482898a36327bc5f7ca8}
+      \strng{bibnamehash}{ebc3339ca457482898a36327bc5f7ca8}
+      \strng{authorbibnamehash}{ebc3339ca457482898a36327bc5f7ca8}
+      \strng{authornamehash}{ebc3339ca457482898a36327bc5f7ca8}
+      \strng{authorfullhash}{ebc3339ca457482898a36327bc5f7ca8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Hamiltonian Monte Carlo ({HMC}) is a Markov chain Monte Carlo ({MCMC}) algorithm that avoids the random walk behavior and sensitivity to correlated parameters that plague many {MCMC} methods by taking a series of steps informed by first-order gradient information. These features allow it to converge to high-dimensional target distributions much more quickly than simpler methods such as random walk Metropolis or Gibbs sampling. However, {HMC}'s performance is highly sensitive to two user-specified parameters: a step size \{{\textbackslash}epsilon\} and a desired number of steps L. In particular, if L is too small then the algorithm exhibits undesirable random walk behavior, while if L is too large the algorithm wastes computation. We introduce the No-U-Turn Sampler ({NUTS}), an extension to {HMC} that eliminates the need to set a number of steps L. {NUTS} uses a recursive algorithm to build a set of likely candidate points that spans a wide swath of the target distribution, stopping automatically when it starts to double back and retrace its steps. Empirically, {NUTS} perform at least as efficiently as and sometimes more efficiently than a well tuned standard {HMC} method, without requiring user intervention or costly tuning runs. We also derive a method for adapting the step size parameter \{{\textbackslash}epsilon\} on the fly based on primal-dual averaging. {NUTS} can thus be used with no hand-tuning at all. {NUTS} is also suitable for applications such as {BUGS}-style automatic inference engines that require efficient "turnkey" sampling algorithms.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{month}{4}
+      \field{shorttitle}{The No-U-Turn Sampler}
+      \field{title}{The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo}
+      \field{urlday}{23}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{15}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1593\bibrangedash 1623}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.48550/arXiv.1111.4246
+      \endverb
+      \verb{eprint}
+      \verb 1111.4246 [cs, stat]
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:/home/isaac/Zotero/storage/K9CNX43X/Hoffman and Gelman - 2011 - The No-U-Turn Sampler Adaptively Setting Path Len.pdf:application/pdf;arXiv.org Snapshot:/home/isaac/Zotero/storage/SCZ6QTSB/1111.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1111.4246
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1111.4246
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Computation}
     \endentry
     \entry{johnson_silicon_2021}{article}{}
       \name{author}{3}{}{%
@@ -861,8 +1857,8 @@
       \field{langid}{english}
       \field{month}{1}
       \field{title}{Silica In Soils, Plants, and Animals}
-      \field{urlday}{26}
-      \field{urlmonth}{12}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
       \field{urlyear}{2022}
       \field{volume}{19}
       \field{year}{1967}
@@ -874,7 +1870,7 @@
       \verb 10.1016/S0065-2113(08)60734-8
       \endverb
       \verb{file}
-      \verb ScienceDirect Snapshot:/home/isaac/Zotero/storage/NPQAZ3D2/S0065211308607348.html:text/html
+      \verb ScienceDirect Full Text PDF:/home/isaac/Zotero/storage/F4DU78QC/Jones and Handreck - 1967 - Silica In Soils, Plants, and Animals.pdf:application/pdf;ScienceDirect Snapshot:/home/isaac/Zotero/storage/AZ2FBJ5R/S0065211308607348.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0065211308607348
@@ -882,6 +1878,252 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0065211308607348
       \endverb
+    \endentry
+    \entry{karban_induced_1989}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d4827c716253763deb628418ab3ae1d2}{%
+           family={Karban},
+           familyi={K\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05537a6f31e2eaa9310cda602c2d919c}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Judith\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79835158dc981a523bbc2fca4bbc6107}
+      \strng{fullhash}{79835158dc981a523bbc2fca4bbc6107}
+      \strng{bibnamehash}{79835158dc981a523bbc2fca4bbc6107}
+      \strng{authorbibnamehash}{79835158dc981a523bbc2fca4bbc6107}
+      \strng{authornamehash}{79835158dc981a523bbc2fca4bbc6107}
+      \strng{authorfullhash}{79835158dc981a523bbc2fca4bbc6107}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0066-4162}
+      \field{journaltitle}{Annual Review of Ecology and Systematics}
+      \field{note}{Publisher: Annual Reviews}
+      \field{title}{Induced Plant Responses to Herbivory}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{20}
+      \field{year}{1989}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{331\bibrangedash 348}
+      \range{pages}{18}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/home/isaac/Zotero/storage/Y923TWH8/Karban and Myers - 1989 - Induced Plant Responses to Herbivory.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2097095
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2097095
+      \endverb
+    \endentry
+    \entry{katz_silicon_2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2a4bc3197b6dd3118e7319b8cb7cd7fb}{%
+           family={Katz},
+           familyi={K\bibinitperiod},
+           given={Ofir},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a4bc3197b6dd3118e7319b8cb7cd7fb}
+      \strng{fullhash}{2a4bc3197b6dd3118e7319b8cb7cd7fb}
+      \strng{bibnamehash}{2a4bc3197b6dd3118e7319b8cb7cd7fb}
+      \strng{authorbibnamehash}{2a4bc3197b6dd3118e7319b8cb7cd7fb}
+      \strng{authornamehash}{2a4bc3197b6dd3118e7319b8cb7cd7fb}
+      \strng{authorfullhash}{2a4bc3197b6dd3118e7319b8cb7cd7fb}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Plant silicon (Si) content is a trait that has gained increasing attention in recent years, and is now often suggested to be a plant functional trait. This paper reviews the evidence that supports the inclusion of plant Si content within the plant functional traits framework. Plant Si contents can vary greatly among plant taxa and environments, reflecting multiplicity of roles and functions in plant biology. Plant Si uptake and accumulation also affects plant community and ecosystem properties, and thus ecological functioning and response to environmental change. Further investment in studying plant Si content as a plant functional trait and its roles in ecological processes will improve our ability to predict and mitigate the consequences of climate change.}
+      \field{day}{1}
+      \field{issn}{0367-2530}
+      \field{journaltitle}{Flora}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{series}{Functional Traits Explaining Plant Responses to Past and Future Climate Changes}
+      \field{shortjournal}{Flora}
+      \field{shorttitle}{Silicon content is a plant functional trait}
+      \field{title}{Silicon content is a plant functional trait: implications in a changing world}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{254}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{88\bibrangedash 94}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.flora.2018.08.007
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/isaac/Zotero/storage/7HY8CRUR/Katz - 2019 - Silicon content is a plant functional trait impli.pdf:application/pdf;ScienceDirect Snapshot:/home/isaac/Zotero/storage/6VXBNVNC/S036725301830495X.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S036725301830495X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S036725301830495X
+      \endverb
+      \keyw{Biogeochemistry,Grassland origin,Herbivory,Phytolith,Si accumulation,Si uptake,Stress adaptation}
+    \endentry
+    \entry{lambers_leaf_2015}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a8d63af1c0a0366c416046ffa5c7f937}{%
+           family={Lambers},
+           familyi={L\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf7017938b85b270e40c52d76d12f800}{%
+           family={Hayes},
+           familyi={H\bibinitperiod},
+           given={Patrick\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75f5a33eeb4946ff342f26d1a159338e}{%
+           family={Laliberté},
+           familyi={L\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ffb3a9a655c3332b824dc057a037c91}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Rafael\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f957ae23f42fd3b72450959f6932b5a0}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Benjamin\bibnamedelima L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6de6da5924f47405e61383cf2af5d44f}
+      \strng{fullhash}{acc5d90e469f87eebb09a7836575779e}
+      \strng{bibnamehash}{acc5d90e469f87eebb09a7836575779e}
+      \strng{authorbibnamehash}{acc5d90e469f87eebb09a7836575779e}
+      \strng{authornamehash}{6de6da5924f47405e61383cf2af5d44f}
+      \strng{authorfullhash}{acc5d90e469f87eebb09a7836575779e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Plants that deploy a phosphorus (P)-mobilising strategy based on the release of carboxylates tend to have high leaf manganese concentrations ([Mn]). This occurs because the carboxylates mobilise not only soil inorganic and organic P, but also a range of micronutrients, including Mn. Concentrations of most other micronutrients increase to a small extent, but Mn accumulates to significant levels, even when plants grow in soil with low concentrations of exchangeable Mn availability. Here, we propose that leaf [Mn] can be used to select for genotypes that are more efficient at acquiring P when soil P availability is low. Likewise, leaf [Mn] can be used to screen for belowground functional traits related to nutrient-acquisition strategies among species in low-P habitats.}
+      \field{day}{1}
+      \field{issn}{1360-1385}
+      \field{journaltitle}{Trends in Plant Science}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Trends in Plant Science}
+      \field{title}{Leaf manganese accumulation and phosphorus-acquisition efficiency}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{20}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{83\bibrangedash 90}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.tplants.2014.10.007
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/isaac/Zotero/storage/LCVJBI99/Lambers et al. - 2015 - Leaf manganese accumulation and phosphorus-acquisi.pdf:application/pdf;ScienceDirect Snapshot:/home/isaac/Zotero/storage/6ZXTY5NP/S1360138514002714.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1360138514002714
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1360138514002714
+      \endverb
+      \keyw{carboxylates,exudation,manganese,phosphorus,phosphorus-acquisition efficiency}
+    \endentry
+    \entry{ma_functions_2003}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82a3a0e9a43fde0989430652beeca871}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jian\bibnamedelima Feng},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=39f22a40490e8d7b9ffe047611b68601}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Werner\bibnamedelimb E.\bibnamedelimi G.},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{82a3a0e9a43fde0989430652beeca871}
+      \strng{fullhash}{82a3a0e9a43fde0989430652beeca871}
+      \strng{bibnamehash}{82a3a0e9a43fde0989430652beeca871}
+      \strng{authorbibnamehash}{82a3a0e9a43fde0989430652beeca871}
+      \strng{authornamehash}{82a3a0e9a43fde0989430652beeca871}
+      \strng{authorfullhash}{82a3a0e9a43fde0989430652beeca871}
+      \strng{editorbibnamehash}{39f22a40490e8d7b9ffe047611b68601}
+      \strng{editornamehash}{39f22a40490e8d7b9ffe047611b68601}
+      \strng{editorfullhash}{39f22a40490e8d7b9ffe047611b68601}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Silicon (Si) is the second most abundant element, either on the basis of weight or number of atoms, in the earth’s crust. Because of its strong affinity with oxygen, in nature Si always exists as silica (Si dioxide) or silicates which are combined with various metals. Si dioxide comprises about 60\% of the earth’s crust. In soil, Si dioxide accounts for more than 50\% and Si concentration in soil solution is between 3.5 and 40 mg Si L-1 in the form of silicic acid (Marscner 1995). Therefore, all plants rooting in soil contain Si in their tissues.However, because of its universal existence, earlier researchers paid little attention to the impact of Si on plant growth. Sacks (1862) first asked the following question in his article on Si nutrition “… whether silicic acid is an indispensable substance for those plants that contain silica,whether it takes part in nutritional processes, and what is the relationship that exists between silicic acid and the life of the plant.” However, Sachs concluded that Si was insignificant for the nutritional process of maize when he found that water-cultured maize which contained 0.3\% Si did not show any abnormality in growth compared to maize containing 9\% Si. Since then, a number of studies have been carried out on the effect of Si on plant grwoth.However, until now Si has not been put in the list of essential elements for higher plants.According to the criteria proposed by Arnon and Stout (1939) for essential elements, a given plant must be unable to complete its life cycle in the absence of the element.}
+      \field{booktitle}{Silicon Biomineralization: Biology — Biochemistry — Molecular Biology — Biotechnology}
+      \field{isbn}{978-3-642-55486-5}
+      \field{langid}{english}
+      \field{series}{Progress in Molecular and Subcellular Biology}
+      \field{title}{Functions of Silicon in Higher Plants}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{127\bibrangedash 147}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/978-3-642-55486-5_5
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/YSH38UNI/Ma - 2003 - Functions of Silicon in Higher Plants.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-55486-5_5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-55486-5_5
+      \endverb
+      \keyw{Leaf Blade,Powdery Mildew,Rice Blast,Silica Body,Silicic Acid}
     \endentry
     \entry{massey_are_2008}{article}{}
       \name{author}{4}{}{%
@@ -1216,7 +2458,7 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/pbi.13689
       \endverb
-      \keyw{cell wall,Fourier-transform infrared spectroscopy,lodging resistance,nuclear magnetic resonance imaging,{QTL} mapping,scanning electron microscopy}
+      \keyw{scanning electron microscopy,cell wall,Fourier-transform infrared spectroscopy,lodging resistance,nuclear magnetic resonance imaging,{QTL} mapping}
     \endentry
     \entry{nawaz_phytolith_2019}{article}{}
       \name{author}{10}{}{%
@@ -1323,7 +2565,7 @@
       \verb{url}
       \verb https://www.mdpi.com/2223-7747/8/8/249
       \endverb
-      \keyw{biomineralization,biosilicification,Lsi,palaeoenvironment reconstruction,phytoliths,silicon,siliplant1 (Sip1) protein}
+      \keyw{phytoliths,silicon,biomineralization,biosilicification,Lsi,palaeoenvironment reconstruction,siliplant1 (Sip1) protein}
     \endentry
     \entry{piperno_phytoliths_2006}{book}{}
       \name{author}{1}{}{%
@@ -1424,6 +2666,189 @@
       \verb https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-8137.2012.04179.x
       \endverb
       \keyw{elemental analysis,herbage,phosphorus (P),portable X-ray fluorescence spectrometry (P-{XRF}),silicon (Si)}
+    \endentry
+    \entry{reynolds_silicon_2016}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=267d78f8e3776845564b8d43c1105b38}{%
+           family={Reynolds},
+           familyi={R\bibinitperiod},
+           given={Olivia\bibnamedelima L.},
+           giveni={O\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fce0579e536d05bf1715aece2c56a87}{%
+           family={Padula},
+           familyi={P\bibinitperiod},
+           given={Matthew\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b29c80ecc533b4b593754bb3097db47e}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Rensen},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9eaa526fbe7bc35725dad513bdfab17e}{%
+           family={Gurr},
+           familyi={G\bibinitperiod},
+           given={Geoff\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d734c86310d9174f84bd8fbfed5dc9d6}
+      \strng{fullhash}{f97d546fbea7e10574bf678d3c49bc15}
+      \strng{bibnamehash}{f97d546fbea7e10574bf678d3c49bc15}
+      \strng{authorbibnamehash}{f97d546fbea7e10574bf678d3c49bc15}
+      \strng{authornamehash}{d734c86310d9174f84bd8fbfed5dc9d6}
+      \strng{authorfullhash}{f97d546fbea7e10574bf678d3c49bc15}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Silicon has generally not been considered essential for plant growth, although it is well recognized that many plants, particularly Poaceae, have substantial plant tissue concentrations of this element. Recently, however, the International Plant Nutrition Institute [{IPNI}] (2015), Georgia, {USA} has listed it as a “beneficial substance”. This reflects that numerous studies have now established that silicon may alleviate both biotic and abiotic stress. This paper explores the existing knowledge and recent advances in elucidating the role of silicon in plant defense against biotic stress, particularly against arthropod pests in agriculture and attraction of beneficial insects. Silicon confers resistance to herbivores via two described mechanisms: physical and biochemical/molecular. Until recently, studies have mainly centered on two trophic levels; the herbivore and plant. However, several studies now describe tri-trophic effects involving silicon that operate by attracting predators or parasitoids to plants under herbivore attack. Indeed, it has been demonstrated that silicon-treated, arthropod-attacked plants display increased attractiveness to natural enemies, an effect that was reflected in elevated biological control in the field. The reported relationships between soluble silicon and the jasmonic acid ({JA}) defense pathway, and {JA} and herbivore-induced plant volatiles ({HIPVs}) suggest that soluble silicon may enhance the production of {HIPVs}. Further, it is feasible that silicon uptake may affect protein expression (or modify proteins structurally) so that they can produce additional, or modify, the {HIPV} profile of plants. Ultimately, understanding silicon under plant ecological, physiological, biochemical, and molecular contexts will assist in fully elucidating the mechanisms behind silicon and plant response to biotic stress at both the bi- and tri-trophic levels.}
+      \field{issn}{1664-462X}
+      \field{journaltitle}{Frontiers in Plant Science}
+      \field{shorttitle}{Silicon}
+      \field{title}{Silicon: Potential to Promote Direct and Indirect Effects on Plant Defense Against Arthropod Pests in Agriculture}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{7}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/TJA87GH2/Reynolds et al. - 2016 - Silicon Potential to Promote Direct and Indirect .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/articles/10.3389/fpls.2016.00744
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/articles/10.3389/fpls.2016.00744
+      \endverb
+    \endentry
+    \entry{rudel_agricultural_2009}{article}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=bc36740a646db6ec10db2d8710ea1177}{%
+           family={Rudel},
+           familyi={R\bibinitperiod},
+           given={Thomas\bibnamedelima K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a0b1af029a3ee6d5b5ef5a3710564fd}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d5d0ea34c92e98930815e43141e5a66}{%
+           family={Uriarte},
+           familyi={U\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9aef9170254694919e80df3a67f18ad}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={B.\bibnamedelimi L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=def9f20111eb78a284a5d8f58a995881}{%
+           family={{DeFries}},
+           familyi={D\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e25ed021c78307c68216c5dfe4f83f3a}{%
+           family={Lawrence},
+           familyi={L\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3e04936fd897dba46facc33f3e424f7}{%
+           family={Geoghegan},
+           familyi={G\bibinitperiod},
+           given={Jacqueline},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=755584dd7cb15e45b77d65e8dc967743}{%
+           family={Hecht},
+           familyi={H\bibinitperiod},
+           given={Susanna},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=691c89e87cdb8da46a92146f0620f5fa}{%
+           family={Ickowitz},
+           familyi={I\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34d9ebc92047cd67691ef6bdfe60648e}{%
+           family={Lambin},
+           familyi={L\bibinitperiod},
+           given={Eric\bibnamedelima F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbfffb0cff3537dc68ce914d14f714b6}{%
+           family={Birkenholtz},
+           familyi={B\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=532bc65556b31c5ae5763a9e774d4091}{%
+           family={Baptista},
+           familyi={B\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36b4048382938f62d6a758425720d211}{%
+           family={Grau},
+           familyi={G\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9bb7e3f8f442e0d2afe89308143f0957}
+      \strng{fullhash}{fade32c7e716754e2d846d6a61b6c723}
+      \strng{bibnamehash}{fade32c7e716754e2d846d6a61b6c723}
+      \strng{authorbibnamehash}{fade32c7e716754e2d846d6a61b6c723}
+      \strng{authornamehash}{9bb7e3f8f442e0d2afe89308143f0957}
+      \strng{authorfullhash}{fade32c7e716754e2d846d6a61b6c723}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Does the intensification of agriculture reduce cultivated areas and, in so doing, spare some lands by concentrating production on other lands? Such sparing is important for many reasons, among them the enhanced abilities of released lands to sequester carbon and provide other environmental services. Difficulties measuring the extent of spared land make it impossible to investigate fully the hypothesized causal chain from agricultural intensification to declines in cultivated areas and then to increases in spared land. We analyze the historical circumstances in which rising yields have been accompanied by declines in cultivated areas, thereby leading to land-sparing. We use national-level United Nations Food and Agricultural Organization data on trends in cropland from 1970–2005, with particular emphasis on the 1990–2005 period, for 10 major crop types. Cropland has increased more slowly than population during this period, but paired increases in yields and declines in cropland occurred infrequently, both globally and nationally. Agricultural intensification was not generally accompanied by decline or stasis in cropland area at a national scale during this time period, except in countries with grain imports and conservation set-aside programs. Future projections of cropland abandonment and ensuing environmental services cannot be assumed without explicit policy intervention.}
+      \field{day}{8}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{12}
+      \field{note}{Publisher: Proceedings of the National Academy of Sciences}
+      \field{number}{49}
+      \field{title}{Agricultural intensification and changes in cultivated areas, 1970–2005}
+      \field{urlday}{27}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{volume}{106}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{20675\bibrangedash 20680}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.0812540106
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/isaac/Zotero/storage/RNR3IQ7B/Rudel et al. - 2009 - Agricultural intensification and changes in cultiv.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.0812540106
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.0812540106
+      \endverb
     \endentry
     \entry{schmelz_quantitative_2003}{article}{}
       \name{author}{4}{}{%
@@ -1570,7 +2995,7 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12935
       \endverb
-      \keyw{cereals,crop protection,growth-defence trade-offs,herbivory,landraces,modern cultivars,phenolics,silica,wild ancestors}
+      \keyw{herbivory,phenolics,silica,cereals,crop protection,growth-defence trade-offs,landraces,modern cultivars,wild ancestors}
     \endentry
     \entry{smith_domestication_2019}{article}{}
       \name{author}{13}{}{%
@@ -1766,7 +3191,7 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0169534702024837
       \endverb
-      \keyw{allocation,cost,ecological cost,herbivory,induction,plant biology,plant defence,resistance,tradeoffs}
+      \keyw{herbivory,plant defence,tradeoffs,resistance,allocation,cost,ecological cost,induction,plant biology}
     \endentry
     \entry{stromberg_functions_2016}{article}{}
       \name{author}{3}{}{%
@@ -1830,7 +3255,7 @@
       \verb{url}
       \verb https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12692
       \endverb
-      \keyw{adaptation,evolution,herbivore defence,phytoliths,plant silica,structural support}
+      \keyw{phytoliths,evolution,adaptation,herbivore defence,plant silica,structural support}
     \endentry
     \entry{takahashi_possibility_1990}{article}{}
       \name{author}{3}{}{%
@@ -2043,7 +3468,7 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S136013852100176X
       \endverb
-      \keyw{manganese,mycorrhiza,nutrient-acquisition strategies,phosphorus limitation,rhizosphere processes,root exudates}
+      \keyw{mycorrhiza,root exudates,manganese,nutrient-acquisition strategies,phosphorus limitation,rhizosphere processes}
     \endentry
     \entry{de_tombeur_silicon_2021}{article}{}
       \name{author}{3}{ul=2}{%
@@ -2112,7 +3537,79 @@
       \verb{url}
       \verb https://doi.org/10.1007/s11104-021-05076-8
       \endverb
-      \keyw{Biochar,Cover crops,Facilitation,Integrated crop-livestock systems,Intercropping,Large herbivores,Nutrient-acquisition strategies,Recycling crop residues,Sustainable agroecosystems}
+      \keyw{Intercropping,Facilitation,Biochar,Cover crops,Integrated crop-livestock systems,Large herbivores,Nutrient-acquisition strategies,Recycling crop residues,Sustainable agroecosystems}
+    \endentry
+    \entry{waterman_simulated_2019}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=5c3e517bfe33a883a18947e6bb8d4b6c}{%
+           family={Waterman},
+           familyi={W\bibinitperiod},
+           given={Jamie\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8ca3762a6654627b5c38bcd49456cb7}{%
+           family={Cazzonelli},
+           familyi={C\bibinitperiod},
+           given={Christopher\bibnamedelima I.},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c84fe06640a128f5f55234e483a10179}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb5f10a5ce4fe4a443f1c92369519e36}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Scott\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4132172a225883c6f6b1111314be4dd9}
+      \strng{fullhash}{99069f94e0ca8b6a3e15c92c048a22c6}
+      \strng{bibnamehash}{99069f94e0ca8b6a3e15c92c048a22c6}
+      \strng{authorbibnamehash}{99069f94e0ca8b6a3e15c92c048a22c6}
+      \strng{authornamehash}{4132172a225883c6f6b1111314be4dd9}
+      \strng{authorfullhash}{99069f94e0ca8b6a3e15c92c048a22c6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Plants are subjected to a multitude of stimuli during insect herbivory, resulting in a complex and cumulative defence response. Breaking down the components of herbivory into specific stimuli and identifying the mechanisms of defence associated with them has thus far been challenging. Advances in our understanding of responses to inconspicuous stimuli, such as those induced by microbial symbionts in herbivore secretions and mechanical stimulation caused by insects, have illuminated the intricacies of herbivory. Here, we provide a synthesis of the interacting impacts of herbivory on plants and the consequential complexities associated with uncoupling defence responses. We propose that simulated herbivory should be used to complement true herbivory to decipher the mechanisms of insect herbivore-induced plant defence responses.}
+      \field{day}{1}
+      \field{issn}{0169-5347}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{Trends in Ecology \& Evolution}
+      \field{shorttitle}{Simulated Herbivory}
+      \field{title}{Simulated Herbivory: The Key to Disentangling Plant Defence Responses}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{volume}{34}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{447\bibrangedash 458}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.tree.2019.01.008
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/isaac/Zotero/storage/5F5YVSRC/2019 - Simulated Herbivory The Key to Disentangling Plan.pdf:application/pdf;Accepted Version:/home/isaac/Zotero/storage/XBH2W8QR/Waterman et al. - 2019 - Simulated Herbivory The Key to Disentangling Plan.pdf:application/pdf;ScienceDirect Snapshot:/home/isaac/Zotero/storage/99GJMDFU/S0169534719300230.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169534719300230
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169534719300230
+      \endverb
+      \keyw{elicitors,insect herbivores,mechanical stimulation,microbial associations,plant defence,simulated herbivory}
     \endentry
     \entry{waterman_short-term_2021-1}{article}{}
       \name{author}{5}{ul=2}{%
@@ -2187,7 +3684,7 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3438
       \endverb
-      \keyw{Helicoverpa armigera,herbivory,plant defense,silica cells,silicon}
+      \keyw{herbivory,silicon,plant defense,Helicoverpa armigera,silica cells}
     \endentry
     \entry{waterman_short-term_2021}{article}{}
       \name{author}{6}{ul=2}{%
@@ -2269,7 +3766,7 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.13702
       \endverb
-      \keyw{herbivory,jasmonic acid,phenolics,phytohormones,plant defence,silicon,simulated herbivory}
+      \keyw{herbivory,jasmonic acid,plant defence,simulated herbivory,phenolics,silicon,phytohormones}
     \endentry
     \entry{whitehead_domestication_2017}{article}{}
       \name{author}{3}{}{%
@@ -2333,7 +3830,7 @@
       \verb{url}
       \verb https://royalsocietypublishing.org/doi/full/10.1098/rstb.2016.0034
       \endverb
-      \keyw{agronomic selection,crop yield,herbivore resistance,plant defence theory,resource allocation,secondary metabolites}
+      \keyw{secondary metabolites,crop yield,agronomic selection,herbivore resistance,plant defence theory,resource allocation}
     \endentry
     \entry{yamaji_transporter_2008}{article}{}
       \name{author}{3}{ul=2}{%

@@ -1,31 +1,34 @@
 \contentsline {section}{\numberline {1}Abstract}{2}{}%
-\contentsline {section}{\numberline {2}Introduction}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Ag good, climate change bad, silicon helps}{4}{}%
-\contentsline {subsection}{\numberline {2.2}Silicon in nature}{4}{}%
-\contentsline {subsection}{\numberline {2.3}Silicon in soils and roots}{5}{}%
-\contentsline {subsection}{\numberline {2.4}Silicon transporters}{6}{}%
-\contentsline {subsection}{\numberline {2.5}Silicon in leaves}{6}{}%
-\contentsline {subsection}{\numberline {2.6}Looking back and looking forward}{7}{}%
-\contentsline {section}{\numberline {3}Chapter 1: Identifying rapid silicon accumulation in cereal crops}{8}{}%
-\contentsline {subsection}{\numberline {3.1}Methods}{10}{}%
-\contentsline {subsubsection}{\numberline {3.1.1}Plant Growth and Treatments}{10}{}%
-\contentsline {subsubsection}{\numberline {3.1.2}Sample Harvest and Preparation}{11}{}%
-\contentsline {subsubsection}{\numberline {3.1.3}Silicon analysis}{11}{}%
-\contentsline {subsubsection}{\numberline {3.1.4}Statistical Analysis}{11}{}%
-\contentsline {subsection}{\numberline {3.2}Results}{12}{}%
-\contentsline {subsection}{\numberline {3.3}Discussion}{12}{}%
-\contentsline {subsection}{\numberline {3.4}Acknowledgements}{12}{}%
-\contentsline {subsection}{\numberline {3.5}Data Availability}{12}{}%
-\contentsline {subsection}{\numberline {3.6}Figures and Tables}{12}{}%
-\contentsline {section}{\numberline {4}Chapter 2: Genetic drivers of silicon accumulation in a wild ancestor of wheat}{14}{}%
-\contentsline {subsection}{\numberline {4.1}Introduction}{14}{}%
-\contentsline {subsection}{\numberline {4.2}Methods}{16}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}Plant Growing Conditions}{16}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}Plant Harvest and Sample Preparation}{17}{}%
-\contentsline {subsubsection}{\numberline {4.2.3}Sample Analysis}{17}{}%
-\contentsline {subsection}{\numberline {4.3}Results}{17}{}%
-\contentsline {subsection}{\numberline {4.4}Discussion}{18}{}%
-\contentsline {subsection}{\numberline {4.5}Acknowledgements}{18}{}%
-\contentsline {subsection}{\numberline {4.6}Data Availability}{18}{}%
-\contentsline {subsection}{\numberline {4.7}Tables and Figures}{18}{}%
-\contentsline {section}{\numberline {5}References}{20}{}%
+\contentsline {section}{\numberline {2}Lay Summary}{3}{}%
+\contentsline {section}{\numberline {3}Preface}{3}{}%
+\contentsline {section}{\numberline {4}Introduction}{4}{}%
+\contentsline {subsection}{\numberline {4.1}A case for silicon in agriculture}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Silicon in nature}{4}{}%
+\contentsline {subsection}{\numberline {4.3}Silicon in soils and roots}{5}{}%
+\contentsline {subsection}{\numberline {4.4}Silicon transporters}{6}{}%
+\contentsline {subsection}{\numberline {4.5}Silicon in leaves}{7}{}%
+\contentsline {subsection}{\numberline {4.6}Looking back and looking forward}{7}{}%
+\contentsline {section}{\numberline {5}Chapter 1: Identifying rapid silicon accumulation in cereal crops}{8}{}%
+\contentsline {subsection}{\numberline {5.1}Introduction}{8}{}%
+\contentsline {subsection}{\numberline {5.2}Methods}{11}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}Plant Growth and Treatments}{11}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}Sample Harvest and Preparation}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}Silicon analysis}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}Statistical Analysis}{12}{}%
+\contentsline {subsection}{\numberline {5.3}Results}{13}{}%
+\contentsline {subsection}{\numberline {5.4}Discussion}{13}{}%
+\contentsline {subsection}{\numberline {5.5}Acknowledgements}{13}{}%
+\contentsline {subsection}{\numberline {5.6}Data Availability}{13}{}%
+\contentsline {subsection}{\numberline {5.7}Figures and Tables}{13}{}%
+\contentsline {section}{\numberline {6}Chapter 2: Genetic drivers of silicon accumulation in a wild ancestor of wheat}{15}{}%
+\contentsline {subsection}{\numberline {6.1}Introduction}{15}{}%
+\contentsline {subsection}{\numberline {6.2}Methods}{17}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Plant Growing Conditions}{17}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Plant Harvest and Sample Preparation}{18}{}%
+\contentsline {subsubsection}{\numberline {6.2.3}Sample Analysis}{18}{}%
+\contentsline {subsection}{\numberline {6.3}Results}{19}{}%
+\contentsline {subsection}{\numberline {6.4}Discussion}{19}{}%
+\contentsline {subsection}{\numberline {6.5}Acknowledgements}{19}{}%
+\contentsline {subsection}{\numberline {6.6}Data Availability}{19}{}%
+\contentsline {subsection}{\numberline {6.7}Tables and Figures}{19}{}%
+\contentsline {section}{\numberline {7}References}{21}{}%
