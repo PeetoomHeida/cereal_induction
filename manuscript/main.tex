@@ -7,6 +7,8 @@
 \usepackage{graphicx}
 \usepackage{setspace}
 \usepackage{url}
+\usepackage{lineno}
+\linenumbers
 \graphicspath{./images/}
 \geometry{
         letterpaper,
@@ -90,11 +92,11 @@ This study is a thematic replication of Waterman et al.’s \citedate{waterman_s
 
 \subsection{Methods}
 
-\subsubsection{Plant Growth and Treatments}
+\subsubsection{Plant growth and experimental treatments}
 
 To test the prevalence of rapid silicon accumulation in canadian cereal crops, I selected three cultivars for each of oats, bread wheat, triticale, and barley. Cultivars were selected on the basis of minimizing shared pedigree, and no cultivars shared more than one common ancestor within the last two crossing generations. At the start of the experiment, I germinated seeds in germination trays filled with moist sand. After four days, I transplanted germinated seedlings into 10cm pots filled with SunGro potting mix amended with [amount] of silicic acid. Though potting mix and fresh water contain some amount of plant available silicon, the silicic acid was added to ensure that there would be no silicon limitation to the plants. I randomized the location of each pot within the growing space. The pots were bottom watered on flood tables with nutrient solution. I assigned each plant to one of three herbivory treatments: control, simulated herbivory, or true herbivory. Simulated herbivory was achieved by application of 1 mM MeJA solution to the entire above-ground portion of the plant (Waterman et al. 2021b), while true herbivory was provided by crickets housed in water-pik tubes. Prior to introduction to the the plants, I acclimated crickets by feeding them on the same species used in this trial. Immediately preceding cricket application, I placed them in their tubes and starved them for 24 hours, as this increased the likelihood of the insects initiating feeding rapidly upon exposure to the test plants. 
 
-\subsubsection{Sample Harvest and Preparation}
+\subsubsection{Sample harvest and preparation}
 
 24 hours after treatment application, I harvested leaf material by clipping all undamaged (i.e. no cricket exposure) leaves. Leaf tissue was flash frozen in liquid nitrogen, freeze dried, and stored in a -80ºC freezer. To prepare the leaf powder for XRF analysis, I transferred the dried frozen leaf tissue to 2 mL microcentrifuge tube. I then flash froze the tubes in liquid nitrogen and ground the leaf tissue in a tissuelyser bead mill for 30 seconds at 60 Hz.
 
@@ -102,7 +104,7 @@ To test the prevalence of rapid silicon accumulation in canadian cereal crops, I
 
 To measure the silicon content of the leaf tissue, I followed a modified version of the bench-top XRF method (\cite{reidinger_rapid_2012}). I pressed leaf powder in a hydraulic press at 11 tons of pressure, using a 13mm die to create a pellet. I then placed the pellet in the XRF hood, and used a 30 second scan time to quantify silicon. The pellet die and the analyzer were wiped clean after each use to minimize contamination between samples.
 
-\subsubsection{Statistical Analysis}
+\subsubsection{Statistical analysis}
 
 To answer all three of our questions, I used a bayesian hierarchical model. [Insert text about how great these models are]. I specified a hierarchical model using the following model:
 
@@ -164,17 +166,23 @@ The use of x-ray fluorescence (XRF) to quantify plant silicon has greatly reduce
 
 \subsection{Methods}
 
-\subsubsection{Plant Growing Conditions}
+\subsubsection{Plant growing conditions}
 
 For this experiment, I used a the L2 panel of Aegilops tauschii from (\cite{gaurav_population_2021}) grown at three different sites. Two of the sites were outdoors on the University of British Columbia campus, with planting occurring in the fall, while the third site was a glasshouse, where I vernalized seedlings in growth chambers prior to transplanting into the glasshouse environment. For full site details see Supplementary Table S1. Using 151 accessions, I started trays of seedlings in glasshouse or growth chamber environments. At approximately eight weeks after germination, seedlings were transplanted to their field sites. For each environment, I started four replicates of each accession. I planted the plants in a randomized block design, to minimize the effects of soil heterogeneity on our phenotype measurements. Each outdoor block was a 16 m\textsuperscript{2} square, with plants arranged $\sim$35 cm apart. Shortly after transplanting to the field sites, I applied water-soluble fertilizer to improve transplant survival, as well as slow-release fertilizer pellets. Field transplantation took place on the 15th of October 2022 and the 16th of December 2022. For the glasshouse environment, I started seedlings in growth chambers in January 2022. After 12 weeks, I moved the seedlings to vernalization chambers (4ºC, 8:16h light:dark) for eight weeks. I then transplanted these plants into 10cm square pots filled with SunGro potting mix and amended with [amount] of silicic acid (Tixosil 68B, Solvay). Pots were arranged using the same randomized block design, adapted to fit on two flood tables. To ensure a comparable life stage accross environments at time of harvest, these plants grew for three months (mid June – mid September 2022), until they had mature flower heads. 
 
-\subsubsection{Plant Harvest and Sample Preparation}
+\subsubsection{Plant harvest and sample preparation}
 
 When the plants had reached maturity, I harvested the entire above-ground portion of each plant. For the outdoor sites, harvest occurred between the 1st and 5th of July 2022, while I harvested the glasshouse plants between the 19th and 21st of September 2022. I placed harvested material in labelled paper bags, and dried it in drying ovens at 60ºC for 48 hours. To harvest leaf material for analysis, I selected stems with flower heads, and removed the three leaves closest to the flowers. Since portions of the plant body have different silicon contents (\cite{dai_genetic_2005}), I chose a consistent set of leaves to minimize introduced variation. I picked leaves until approximately 200mg of dry leaf was collected. I then washed leaves in distilled water to remove any soil residues which might introduce silicon, and re-dried the samples at 60ºC for 48 hours. Dried, clean leaves were then packed into 2 ml microcentrifuge tubes with zircon grinding pellets, flash frozen by immersion in liquid nitrogen, and ground in a tissuelyser ball mill for 30 seconds at 60 Hz. The resulting leaf powder was stored sealed until XRF analysis. 
 
-\subsubsection{Sample Analysis}
+\subsubsection{Sample analysis}
 
 To analyse the silicon and manganese content of the accessions, I followed the XRF procedure presented in Reidinger et al. (\citedate{reidinger_rapid_2012}). In short, I pressed leaf powder into 13mm diameter pellets at 11 tonnes of pressure and analysed the resulting pellets in an Olympus Vanta p-XRF device mounted in a bench stand. I used a read time of 30s to ensure accurate measurements. To minimize cross-contamination between samples, I wiped clean the pellet press and XRF device after each sample.
+
+\subsubsection{Statistical analysis}
+
+To perfrom the GWAS analysis, I followed the methodology and code published in Gaurav et al. \citedate{gaurav_population_2021}. For brevity, this methodology only describes the steps we took using the data generated from Gaurav et al. \citedate{gaurav_population_2021}. For full details on how they generated the sequence data and prepared the final data sets refer to their manuscript. Prior to the linear regression to assess genetic associations, we first tested our phenotypic data for block effects within sites. For each site, we tested a linear model to see if measured leaf silicon content was significantly associated with block. We tested the model $y \sim Block + Accession$. When we validated that block had a negligible effect ($p>0.1$), we reparameterized leaf silicon measurements at the site level. We converted the raw \%Si to be expressed as the number of standard deviations the sample deviated from the site mean of \%Si. I did this to eliminate a possible confounding effect of inter-site differences that might reduce the power of the GWAS linear regression. 
+
+As per Gaurav et al. \citedate{gaurav_population_2021}, to reduce the computational intensity of my analysis, I prefiltered the total $k$-mer matrix to remove $k$-mers with a low chance of being informative [word choice?]. 
 
 \subsection{Results}
 

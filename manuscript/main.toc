@@ -11,10 +11,10 @@
 \contentsline {section}{\numberline {5}Chapter 1: Identifying rapid silicon accumulation in cereal crops}{8}{}%
 \contentsline {subsection}{\numberline {5.1}Introduction}{8}{}%
 \contentsline {subsection}{\numberline {5.2}Methods}{11}{}%
-\contentsline {subsubsection}{\numberline {5.2.1}Plant Growth and Treatments}{11}{}%
-\contentsline {subsubsection}{\numberline {5.2.2}Sample Harvest and Preparation}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}Plant growth and experimental treatments}{11}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}Sample harvest and preparation}{12}{}%
 \contentsline {subsubsection}{\numberline {5.2.3}Silicon analysis}{12}{}%
-\contentsline {subsubsection}{\numberline {5.2.4}Statistical Analysis}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}Statistical analysis}{12}{}%
 \contentsline {subsection}{\numberline {5.3}Results}{13}{}%
 \contentsline {subsection}{\numberline {5.4}Discussion}{13}{}%
 \contentsline {subsection}{\numberline {5.5}Acknowledgements}{13}{}%
@@ -23,12 +23,13 @@
 \contentsline {section}{\numberline {6}Chapter 2: Genetic drivers of silicon accumulation in a wild ancestor of wheat}{15}{}%
 \contentsline {subsection}{\numberline {6.1}Introduction}{15}{}%
 \contentsline {subsection}{\numberline {6.2}Methods}{17}{}%
-\contentsline {subsubsection}{\numberline {6.2.1}Plant Growing Conditions}{17}{}%
-\contentsline {subsubsection}{\numberline {6.2.2}Plant Harvest and Sample Preparation}{18}{}%
-\contentsline {subsubsection}{\numberline {6.2.3}Sample Analysis}{18}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Plant growing conditions}{17}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Plant harvest and sample preparation}{18}{}%
+\contentsline {subsubsection}{\numberline {6.2.3}Sample analysis}{18}{}%
+\contentsline {subsubsection}{\numberline {6.2.4}Statistical analysis}{19}{}%
 \contentsline {subsection}{\numberline {6.3}Results}{19}{}%
-\contentsline {subsection}{\numberline {6.4}Discussion}{19}{}%
-\contentsline {subsection}{\numberline {6.5}Acknowledgements}{19}{}%
-\contentsline {subsection}{\numberline {6.6}Data Availability}{19}{}%
-\contentsline {subsection}{\numberline {6.7}Tables and Figures}{19}{}%
-\contentsline {section}{\numberline {7}References}{21}{}%
+\contentsline {subsection}{\numberline {6.4}Discussion}{20}{}%
+\contentsline {subsection}{\numberline {6.5}Acknowledgements}{20}{}%
+\contentsline {subsection}{\numberline {6.6}Data Availability}{20}{}%
+\contentsline {subsection}{\numberline {6.7}Tables and Figures}{20}{}%
+\contentsline {section}{\numberline {7}References}{22}{}%
