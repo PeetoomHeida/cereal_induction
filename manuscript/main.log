@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.1.17)  27 JAN 2023 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.1.17)  27 JAN 2023 14:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -448,19 +448,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/induction_plot.png, id=52, 602.25pt x 401.5pt>
+ [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
+<images/induction_plot.png, id=59, 602.25pt x 401.5pt>
 File: images/induction_plot.png Graphic file (type png)
 <use images/induction_plot.png>
 Package pdftex.def Info: images/induction_plot.png  used on input line 149.
 (pdftex.def)             Requested size: 469.75539pt x 313.18098pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13] [14 <./images/induction_plot.png>] [15
+ [14 <./images/induction_plot.png>] [15
 
 ] [16] [17] [18] [19]
 <images/Manhattan_Plot.png, id=79, 263.0628pt x 102.3825pt>
@@ -586,7 +580,7 @@ Here is how much of TeX's memory you used:
  475 hyphenation exceptions out of 8191
  60i,8n,68p,2731b,2933s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (32 pages, 471459 bytes).
+Output written on main.pdf (32 pages, 471723 bytes).
 PDF statistics:
  173 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams

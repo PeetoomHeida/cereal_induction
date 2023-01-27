@@ -1,14 +1,14 @@
 # Fdb version 3
-["biber main"] 1672875914 "main.bcf" "main.bbl" "main" 1674859014
+["biber main"] 1672875914 "main.bcf" "main.bbl" "main" 1674859868
   "datasets.bib" 1672081955 203 5f11a1380b0c0e5e366286cad5bc9900 ""
-  "main.bcf" 1674859014 116110 e288159d6c28068c73faf9650b921289 "pdflatex"
+  "main.bcf" 1674859868 116110 e288159d6c28068c73faf9650b921289 "pdflatex"
   "total_biblio.bib" 1672165281 454600 91f62ba14f3e92f5c300e3286b819922 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1674859013 "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" "main.pdf" "main" 1674859014
+["pdflatex"] 1674859867 "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" "main.pdf" "main" 1674859868
   "/etc/texmf/web2c/texmf.cnf" 1617974667 41134 c6edb751c63f98b31f19bd365fe083e9 ""
-  "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" 1674859009 42227 ab8b28504e3a40b25ebc8503462b1478 ""
+  "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" 1674859863 42458 a36e5f6da7882c872b33a144699e4aea ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -87,11 +87,11 @@
   "images/Manhattan_Plot.png" 1672066656 186009 99fd08ef6cc27934213c7ff0ce615459 ""
   "images/induction_plot.png" 1672070679 23008 1751f722f39d33a491596f49dd72ce5e ""
   "images/si_mn_regression.png" 1672085687 9190 b3236ac96e5a3d96c5b3958649c90dd5 ""
-  "main.aux" 1674859014 19944 f1cb3109ecf31e2c4e1d2e5be82caf84 "pdflatex"
+  "main.aux" 1674859868 19944 c75f4547a262753053f5265a4644daa0 "pdflatex"
   "main.bbl" 1672875916 229433 582c16ae8480f230e94b275becf71c48 "biber main"
-  "main.run.xml" 1674859014 2345 1b91673339794a70722b16bf41c36f4a "pdflatex"
-  "main.tex" 1674859009 42227 ab8b28504e3a40b25ebc8503462b1478 ""
-  "main.toc" 1674859014 2559 4cf24d60ea4c4707bc5ddc00cfaf2dd9 "pdflatex"
+  "main.run.xml" 1674859868 2345 1b91673339794a70722b16bf41c36f4a "pdflatex"
+  "main.tex" 1674859863 42458 a36e5f6da7882c872b33a144699e4aea ""
+  "main.toc" 1674859868 2559 6659df07b40a4743c8e8347d718f3989 "pdflatex"
   "title.tex" 1671908401 683 8ebd9698565d4bc8750e3179dbb4a361 ""
   (generated)
   "main.aux"

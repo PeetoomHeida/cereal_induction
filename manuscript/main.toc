@@ -16,10 +16,10 @@
 \contentsline {subsubsection}{\numberline {5.2.3}Silicon analysis}{12}{}%
 \contentsline {subsubsection}{\numberline {5.2.4}Statistical analysis}{13}{}%
 \contentsline {subsection}{\numberline {5.3}Results}{13}{}%
-\contentsline {subsection}{\numberline {5.4}Discussion}{13}{}%
-\contentsline {subsection}{\numberline {5.5}Acknowledgements}{13}{}%
-\contentsline {subsection}{\numberline {5.6}Data Availability}{13}{}%
-\contentsline {subsection}{\numberline {5.7}Figures and Tables}{13}{}%
+\contentsline {subsection}{\numberline {5.4}Discussion}{14}{}%
+\contentsline {subsection}{\numberline {5.5}Acknowledgements}{14}{}%
+\contentsline {subsection}{\numberline {5.6}Data Availability}{14}{}%
+\contentsline {subsection}{\numberline {5.7}Figures and Tables}{14}{}%
 \contentsline {section}{\numberline {6}Chapter 2: Genetic drivers of silicon accumulation in a wild ancestor of wheat}{15}{}%
 \contentsline {subsection}{\numberline {6.1}Introduction}{15}{}%
 \contentsline {subsection}{\numberline {6.2}Methods}{17}{}%
