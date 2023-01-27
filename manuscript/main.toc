@@ -4,17 +4,17 @@
 \contentsline {section}{\numberline {4}Introduction}{4}{}%
 \contentsline {subsection}{\numberline {4.1}A case for silicon in agriculture}{4}{}%
 \contentsline {subsection}{\numberline {4.2}Silicon in nature}{4}{}%
-\contentsline {subsection}{\numberline {4.3}Silicon in soils and roots}{5}{}%
+\contentsline {subsection}{\numberline {4.3}Silicon in soils and roots}{6}{}%
 \contentsline {subsection}{\numberline {4.4}Silicon transporters}{6}{}%
 \contentsline {subsection}{\numberline {4.5}Silicon in leaves}{7}{}%
-\contentsline {subsection}{\numberline {4.6}Looking back and looking forward}{7}{}%
-\contentsline {section}{\numberline {5}Chapter 1: Identifying rapid silicon accumulation in cereal crops}{8}{}%
-\contentsline {subsection}{\numberline {5.1}Introduction}{8}{}%
+\contentsline {subsection}{\numberline {4.6}Looking back and looking forward}{8}{}%
+\contentsline {section}{\numberline {5}Chapter 1: Identifying rapid silicon accumulation in cereal crops}{9}{}%
+\contentsline {subsection}{\numberline {5.1}Introduction}{9}{}%
 \contentsline {subsection}{\numberline {5.2}Methods}{11}{}%
 \contentsline {subsubsection}{\numberline {5.2.1}Plant growth and experimental treatments}{11}{}%
 \contentsline {subsubsection}{\numberline {5.2.2}Sample harvest and preparation}{12}{}%
 \contentsline {subsubsection}{\numberline {5.2.3}Silicon analysis}{12}{}%
-\contentsline {subsubsection}{\numberline {5.2.4}Statistical analysis}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}Statistical analysis}{13}{}%
 \contentsline {subsection}{\numberline {5.3}Results}{13}{}%
 \contentsline {subsection}{\numberline {5.4}Discussion}{13}{}%
 \contentsline {subsection}{\numberline {5.5}Acknowledgements}{13}{}%
