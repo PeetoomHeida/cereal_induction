@@ -143,7 +143,8 @@ chains = sample(my_model, NUTS(0.6), MCMCThreads(), 1_000, num_chains)
 summarystats(chains) |> DataFrame |> println
 plt = plot(chains)
 
-fit(MixedModel, @formula(Si_ppm ~ Induction * Species + (1|Genotype)), analysis_data)
+centered_data = rescalecols(df=analysis_data, collist=[:Si_ppm], centers = scale_vals)
+lm1 = fit(MixedModel, @formula(Si_ppm ~ Induction * Species + (1|Genotype)), centered_data)
 
 fm = @formula(Si_ppm ~ Induction + Species + (1|Genotype))
 model = turing_model(fm, analysis_data)
