@@ -40,10 +40,10 @@ end
 ### Prep data for model use
 include("turing_model.jl")
 analysis_data = CSV.read("data/fake_data/fake_data.csv", DataFrame)
-ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], interaction=false)
+analysis_data_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], interaction=false)
 #To incorporate Control & Barley into the intercept
 begin
-    ad_spread = ad_spread[:, Not([:treat1_Control, :treat2_Barley])]
+    analysis_data_spread = analysis_data_spread[:, Not([:treat1_Control, :treat2_Barley])]
 end
 
 #To center the data run this
@@ -111,5 +111,47 @@ plotting_data = CSV.read("data/fake_data/fake_data.csv", DataFrame)
 mp = @df plotting_data groupedboxplot(:Induction, :response, group = :Species)
 plot!(mp, xlabel = "Induction Treatment", ylabel = "Silicon Content (%)")
 png(mp, "induction_plot")
+test_df = DataFrame(var1 = repeat(["A", "B", "C"], inner = 3, outer =3), var2 = repeat(["D", "E", "F"], inner = 9, outer = 1), yvals = rand(Normal(0,1), 27))
+tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
+
+
+####
+
+# Running a the above models on my real data
+
+####
+
+analysis_data = CSV.read("data/real_data/cleaned_si_df.csv", DataFrame)
+ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], interaction=false)
+begin
+    ad_spread = ad_spread[:, Not([:treat2_Control, :treat1_Barley])]
+end
+
+#To center the data run this
+begin
+    cols_list = names(ad_spread)
+    scale_vals = DataFrame()
+    ads_centered = rescalecols(df=ad_spread, collist=[:Si_ppm], centers = scale_vals)
+end
+adsc_idx = stringcoltoint(df=ad_spread, stringcol=:Genotype, intcol=:idx)
+y_vals = Float64.(adsc_idx.Si_ppm)
+preds = Matrix(adsc_idx[:, 8:13])
+idx = Int.(adsc_idx.idx)
+my_model = randomintercept_regression(y_vals, preds, idx)
+num_chains = 4
+chains = sample(my_model, NUTS(0.6), MCMCThreads(), 1_000, num_chains)
+summarystats(chains) |> DataFrame |> println
+plt = plot(chains)
+
+fit(MixedModel, @formula(Si_ppm ~ Induction * Species + (1|Genotype)), analysis_data)
+
+fm = @formula(Si_ppm ~ Induction + Species + (1|Genotype))
+model = turing_model(fm, analysis_data)
+glmchains = sample(model, NUTS(), MCMCThreads(), 1_000, num_chains)
+summarystats(glmchains) |> DataFrame |> println
+
+mp = @df analysis_data groupedboxplot(:Induction, :Si_ppm, group = :Species)
+plot!(mp, xlabel = "Induction Treatment", ylabel = "Silicon Content (%)")
+png(mp, "images/induction_plot")
 test_df = DataFrame(var1 = repeat(["A", "B", "C"], inner = 3, outer =3), var2 = repeat(["D", "E", "F"], inner = 9, outer = 1), yvals = rand(Normal(0,1), 27))
 tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
