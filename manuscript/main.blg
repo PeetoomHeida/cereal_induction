@@ -1,20 +1,5 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[47] biber:342> INFO - === Wed Jan  4, 2023, 15:45:15
-[58] Biber.pm:418> INFO - Reading 'main.bcf'
-[108] Biber.pm:972> INFO - Found 51 citekeys in bib section 0
-[116] Biber.pm:4383> INFO - Processing section 0
-[124] Biber.pm:4574> INFO - Looking for bibtex file 'total_biblio.bib' for section 0
-[154] bibtex.pm:1713> INFO - LaTeX decoding ...
-[528] bibtex.pm:1518> INFO - Found BibTeX data source 'total_biblio.bib'
-[850] Biber.pm:4574> INFO - Looking for bibtex file 'datasets.bib' for section 0
-[851] bibtex.pm:1713> INFO - LaTeX decoding ...
-[852] bibtex.pm:1518> INFO - Found BibTeX data source 'datasets.bib'
-[921] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[921] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[921] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[921] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[974] bbl.pm:655> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1072] bbl.pm:758> INFO - Output to main.bbl
-[1072] Biber.pm:130> WARN - Entry 'faostat' (datasets.bib): Invalid format '26-12-2022' of date field 'urldate' - ignoring
-[1072] Biber.pm:132> INFO - WARNINGS: 1
+[47] biber:342> INFO - === Tue Feb 21, 2023, 10:28:30
+[57] Utils.pm:409> ERROR - main.bcf is malformed, last biblatex run probably failed. Deleted main.bbl
+[57] Biber.pm:135> INFO - ERRORS: 1
