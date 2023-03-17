@@ -13,13 +13,17 @@ scan time by a factor of two resulted in only a 7% reduction in StDev of the mea
 
 herbivory_data = CSV.read("data/real_data/induction_data.csv", DataFrame)
 xrf_data = CSV.read("data/real_data/xrf_data.csv", DataFrame)
+biomass_data = CSV.read("data/real_data/biomass_no106.csv", DataFrame)
 xrf_colnames = names(xrf_data)
 xrf_si_slice = xrf_data[:, ["Si Concentration", "Sample ID"]] #select only the Si and ID columns
 rename!(xrf_si_slice, "Si Concentration" => "Si_ppm", "Sample ID" => "uniqueID") #rename so you don't have to deal with spaces
-combined_data = leftjoin(herbivory_data, xrf_si_slice, on = :uniqueID) #left join to move Si into the main dataframe
-filtered_combined_data = filter(row -> (ismissing(row.Damage_rank) || row.Damage_rank != "N") && !ismissing(row.Si_ppm), combined_data )
+combined_data_1 = leftjoin(herbivory_data, xrf_si_slice, on = :uniqueID) #left join to move Si into the main dataframe
+combined_data_2 = leftjoin(combined_data_1, biomass_data, on = :uniqueID)
 
-CSV.write("data/real_data/cleaned_si_df.csv", filtered_combined_data)
+#filtered_combined_data = filter(row -> (ismissing(row.Damage_rank) || row.Damage_rank != "N") && !ismissing(row.Si_ppm), combined_data )
+
+#CSV.write("data/real_data/cleaned_si_df.csv", filtered_combined_data)
+CSV.write("data/real_data/biomass_si_data.csv", combined_data_2)
 
 
 
