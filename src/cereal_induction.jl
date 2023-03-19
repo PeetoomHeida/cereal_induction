@@ -115,15 +115,32 @@ test_df = DataFrame(var1 = repeat(["A", "B", "C"], inner = 3, outer =3), var2 = 
 tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
 
 
-####
+#############
 
 # Running the above models on my real data
 
-####
+#############
 
 include("linear_models.jl")
 include("turing_model.jl")
 analysis_data = CSV.read("data/real_data/biomass_si_data.csv", DataFrame)
+
+#############
+
+# Some summary stats on the data
+
+#############
+analysis_data_noinduction = filter(row -> row.Induction == "Control", analysis_data)
+analysis_data_noinduction.Si_ppm = analysis_data_noinduction.Si_ppm./10000
+gdat_geno = groupby(analysis_data_noinduction, :Genotype)
+summ_stats_geno = combine(gdat_geno, :Si_ppm => mean, :Si_ppm => std, nrow)
+summ_stats_geno.Si_ppm_se = summ_stats_geno.Si_ppm_std ./ sqrt.(summ_stats_geno.nrow)
+CSV.write("./data/real_data/summary_statistics_genotype.csv", summ_stats_geno)
+
+gdat_spp = groupby(analysis_data_noinduction, :Species)
+summ_stats_spp = combine(gdat_spp, :Si_ppm => mean, :Si_ppm => std, nrow)
+summ_stats_spp.Si_ppm_se = summ_stats_spp.Si_ppm_std ./ sqrt.(summ_stats_spp.nrow)
+CSV.write("./data/real_data/summary_statistics_species.csv", summ_stats_spp)
 
 si_mass_model = biomass_si_regression(df=analysis_data, interaction = false)
 biomass_si_scatter = plot(analysis_data.mass_g, analysis_data.Si_ppm/10000, group = analysis_data.Species, seriestype=:scatter, smooth=true)
