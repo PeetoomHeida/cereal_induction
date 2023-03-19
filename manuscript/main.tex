@@ -1,7 +1,9 @@
 \documentclass[12pt, letterpaper, ]{article}
 \usepackage[style=authoryear, maxnames=2, maxbibnames=99]{biblatex}
-\addbibresource{total_biblio.bib}
-\addbibresource{datasets.bib}
+\addbibresource{merged_biblio2.bib}
+\addbibresource{internet_stuff.bib}
+%\addbibresource{induction.bib}
+%\addbibresource{gwas_silicon.bib}
 \usepackage{caption}
 \usepackage{geometry}
 \usepackage{graphicx}
@@ -103,20 +105,23 @@ To test the prevalence of rapid silicon accumulation in canadian cereal crops, I
 
 \subsubsection{Sample harvest and preparation}
 
-18 hours after treatment application, I harvested leaf material by clipping all undamaged (i.e. no cricket exposure) leaves. I harvested three fully expanded upper leaves the plants, and split the plants in half (COME BACK HERE!!) I flash froze leaf tissue in liquid nitrogen, freeze dried the tissue, and stored it in a -80ºC freezer. To prepare the leaf powder for XRF analysis, I transferred the dried frozen leaf tissue to 2 mL microcentrifuge tube. I cryoground the leaf tissue at -80ºC in a tissuelyser bead mill for 30 seconds at 60 Hz.
+18 hours after treatment application, I harvested leaf material by clipping all undamaged (i.e. no cricket exposure) leaves. I harvested three fully expanded upper leaves the plants, and split the plants in half along the midvein of the leaf. I placed one half of the tissue into a microcentrifugre tube, flash froze it in liquid nitrogen, and subsequently freeze dried it. I plaed the other half of the tissue into a coin envelope, oven dried it for 4 days at 60\deg C, transferred it to a 2ml microcentrifuge tube with three 3.2mm diameter steel beads, and ground it into a fine powder using a tisselyser (60 seconds at 30 Hz). After freeze drying, the samples for phenolic processing were ground under the same conditions.
 
 \subsubsection{Silicon analysis}
 
-To measure the silicon content of the leaf tissue, I followed a modified version of the bench-top XRF method (\cite{reidinger_rapid_2012}). I pressed leaf powder in a hydraulic press at 11 tons of pressure, using a 13mm die to create a pellet. I then placed the pellet in the XRF hood, and used a 30 second scan time to quantify silicon. After each use, I wiped the pellet die and the analyzer clean to minimize contamination between samples.
+To measure the silicon content of the leaf tissue, I followed a modified version of the bench-top XRF method (\cite{reidinger_rapid_2012}). I pressed leaf powder in a hydraulic press at 11 tons of pressure, using a 13mm die to create a pellet. I then placed the pellet in an Olymus Vanta pXRF mounted in a benchtop stand, and used a 45 second scan time to quantify silicon. After each use, I cleaned the pellet die and XRF analyzer to minimize contamination between samples.
 
 \subsubsection{Statistical analysis}
 
-To answer test all three of our hypotheses, I used a bayesian hierarchical model. [Insert text about how great these models are]. I specified a hierarchical model using the following model:
+To answer test all three of our hypotheses, I used linear mixed effects models implemented in (\cite{douglas_bates_2023_7529836}) in Julia 1.8.5 (\cite{bezanson2017julia}). Prior to running our full model, I first tested for an effect of biomass of silicon content, as in other defensive pathways plant size shows corelations with defense levels (\cite{carmona_plant_2011}). We found a negative correlation between plant size and silicon content (\beta = -0.067 \pm 0.017, p < 0.001), and thus included plant size as a covariate in our final model. Thus, we tested the effects of our species and induction treatments on measured leaf silicon using the following model formula:
 
-\[y_i \sim Normal(\hat{y}_i, \sigma)\]
-\[\hat{y_i} = \alpha + \alpha_{[i]cultivar} + \beta_{[j]induction} + \beta_{[k]species} + \beta_{[jk]species \times induction}\]
+\[Si ~ Species * Induction + Biomass + (1|Genotype)\]
+%[Insert text about how great these models are]. I specified a hierarchical model using the following model:
 
-I ran the model using \verb|Turing.jl| in Julia [version number] [cite]. Using 4 chains and 1000 sample iterations, I sampled the posterior distribution using a No U-turn Sampler with 1000 warm up iterations and a target acceptance rate of 0.65 (\cite{hoffman_no-u-turn_2014}). I tested our model structure on simulated data, to ensure it returned accurate parameter estimates. I used the Gelman-Rubin statistic (\( \hat{R} \)) (\cite{gelman_inference_1992}) and effective sample size to diagnose the convergence of our chains. I verified model fits using posterior predictive checks in \verb|ArviZ.jl| [cite] 
+%\[y_i \sim Normal(\hat{y}_i, \sigma)\]
+%\[\hat{y_i} = \alpha + \alpha_{[i]cultivar} + \beta_{[j]induction} + \beta_{[k]species} + \beta_{[jk]species \times induction}\]
+
+%I ran the model using \verb|Turing.jl| in Julia [version number] [cite]. Using 4 chains and 1000 sample iterations, I sampled the posterior distribution using a No U-turn Sampler with 1000 warm up iterations and a target acceptance rate of 0.65 (\cite{hoffman_no-u-turn_2014}). I tested our model structure on simulated data, to ensure it returned accurate parameter estimates. I used the Gelman-Rubin statistic (\( \hat{R} \)) (\cite{gelman_inference_1992}) and effective sample size to diagnose the convergence of our chains. I verified model fits using posterior predictive checks in \verb|ArviZ.jl| [cite] 
 
 \subsection{Results}
 

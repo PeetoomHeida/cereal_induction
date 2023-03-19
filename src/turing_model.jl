@@ -30,27 +30,27 @@ using Plots, StatsPlots;
 # σᵦ ~ Exponential(1)
 
 function spreadvars(;df::DataFrame, treat_types::Vector{Symbol}, interaction::Bool) 
-  _df = df
+  copy_df = copy(df, copycols = true)
   #spread data to wide format
   length(treat_types) > 2 ? println("Fxn can only handle two treatment types") :
   if interaction == true
-    for tr1 in unique(_df[:, treat_types[1]])
-      _df[:, "treat1_$tr1"] = ifelse.(_df[:, treat_types[1]] .== tr1, 1, 0)
-      for tr2 in unique(_df[:, treat_types[2]])
-        _df[:, "treat2_$tr2"] = ifelse.(_df[:,treat_types[2]] .== tr2, 1,0)
+    for tr1 in unique(copy_df[:, treat_types[1]])
+      copy_df[:, "treat1_$tr1"] = ifelse.(copy_df[:, treat_types[1]] .== tr1, 1, 0)
+      for tr2 in unique(copy_df[:, treat_types[2]])
+        copy_df[:, "treat2_$tr2"] = ifelse.(copy_df[:,treat_types[2]] .== tr2, 1,0)
         #Create columns for interactions
-        _df[:, "$(tr1)x$(tr2)"] = ifelse.((_df[:,treat_types[1]] .== tr1 .&& _df[:,treat_types[2]] .== tr2), 1,0 )
+        copy_df[:, "$(tr1)x$(tr2)"] = ifelse.((copy_df[:,treat_types[1]] .== tr1 .&& copy_df[:,treat_types[2]] .== tr2), 1,0 )
       end
     end
   else 
-    for tr1 in unique(_df[:, treat_types[1]])
-      _df[:, "treat1_$tr1"] = ifelse.(_df[:, treat_types[1]] .== tr1, 1, 0)
-      for tr2 in unique(_df[:, treat_types[2]])
-        _df[:, "treat2_$tr2"] = ifelse.(_df[:,treat_types[2]] .== tr2, 1,0)
+    for tr1 in unique(copy_df[:, treat_types[1]])
+      copy_df[:, "treat1_$tr1"] = ifelse.(copy_df[:, treat_types[1]] .== tr1, 1, 0)
+      for tr2 in unique(copy_df[:, treat_types[2]])
+        copy_df[:, "treat2_$tr2"] = ifelse.(copy_df[:,treat_types[2]] .== tr2, 1,0)
       end
     end
   end
-  return _df
+  return copy_df
 end
 
 function rescalecols(;df::DataFrame, collist::Vector{Symbol}, centers::DataFrame)
@@ -96,6 +96,6 @@ end
   τ ~ truncated(Cauchy(0, 10); lower=0) #group level SDs
   αⱼ ~ filldist(Normal(0, τ), n_gr) # group level intercepts
   #likelihood
-  ŷ = α .+ X * β .+ αⱼ[idx] 
-  y ~ MvNormal(ŷ, σ^2 * I)
+  y_hat = α .+ X * β .+ αⱼ[idx] 
+  y ~ MvNormal(y_hat, σ^2 * I)
 end

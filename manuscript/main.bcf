@@ -2342,8 +2342,8 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">total_biblio.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex" glob="false">datasets.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">merged_biblio2.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">internet_stuff.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">fraysse_surface_2009</bcf:citekey>
@@ -2410,17 +2410,123 @@
     <bcf:citekey order="53">simpson_still_2017</bcf:citekey>
     <bcf:citekey order="54">waterman_short-term_2021</bcf:citekey>
     <bcf:citekey order="55">reidinger_rapid_2012</bcf:citekey>
-    <bcf:citekey order="56">hoffman_no-u-turn_2014</bcf:citekey>
-    <bcf:citekey order="57">gelman_inference_1992</bcf:citekey>
-    <bcf:citekey order="58">reynolds_silicon_2016</bcf:citekey>
-    <bcf:citekey order="58">christian_breeding_2022</bcf:citekey>
-    <bcf:citekey order="59">faostat</bcf:citekey>
-    <bcf:citekey order="59">rudel_agricultural_2009</bcf:citekey>
-    <bcf:citekey order="59">awika_major_2011</bcf:citekey>
-    <bcf:citekey order="60">reynolds_silicon_2016</bcf:citekey>
-    <bcf:citekey order="61">ma_functions_2003</bcf:citekey>
-    <bcf:citekey order="62">fauteux_silicon_2005</bcf:citekey>
-    <bcf:citekey order="62">katz_silicon_2019</bcf:citekey>
-    <bcf:citekey order="63">cooke_consistent_2016</bcf:citekey>
-    <bcf:citekey order="64">coskun_controversies_2019</bcf:citekey>
-    <bcf:citekey order="65">
+    <bcf:citekey order="56">douglas_bates_2023_7529836</bcf:citekey>
+    <bcf:citekey order="57">bezanson2017julia</bcf:citekey>
+    <bcf:citekey order="58">carmona_plant_2011</bcf:citekey>
+    <bcf:citekey order="59">reynolds_silicon_2016</bcf:citekey>
+    <bcf:citekey order="59">christian_breeding_2022</bcf:citekey>
+    <bcf:citekey order="60">faostat</bcf:citekey>
+    <bcf:citekey order="60">rudel_agricultural_2009</bcf:citekey>
+    <bcf:citekey order="60">awika_major_2011</bcf:citekey>
+    <bcf:citekey order="61">reynolds_silicon_2016</bcf:citekey>
+    <bcf:citekey order="62">ma_functions_2003</bcf:citekey>
+    <bcf:citekey order="63">fauteux_silicon_2005</bcf:citekey>
+    <bcf:citekey order="63">katz_silicon_2019</bcf:citekey>
+    <bcf:citekey order="64">cooke_consistent_2016</bcf:citekey>
+    <bcf:citekey order="65">coskun_controversies_2019</bcf:citekey>
+    <bcf:citekey order="66">coskun_controversies_2019</bcf:citekey>
+    <bcf:citekey order="67">reynolds_silicon_2016</bcf:citekey>
+    <bcf:citekey order="68">epstein_anomaly_1994</bcf:citekey>
+    <bcf:citekey order="69">de_tombeur_silicon_2021-1</bcf:citekey>
+    <bcf:citekey order="70">de_tombeur_silicon_2021-1</bcf:citekey>
+    <bcf:citekey order="71">lambers_leaf_2015</bcf:citekey>
+    <bcf:citekey order="72">reidinger_rapid_2012</bcf:citekey>
+    <bcf:citekey order="73">gaurav_population_2021</bcf:citekey>
+    <bcf:citekey order="74">dai_genetic_2005</bcf:citekey>
+    <bcf:citekey order="75">reidinger_rapid_2012</bcf:citekey>
+    <bcf:citekey order="76">gaurav_population_2021</bcf:citekey>
+    <bcf:citekey order="77">gaurav_population_2021</bcf:citekey>
+    <bcf:citekey order="78">gaurav_population_2021</bcf:citekey>
+    <bcf:citekey order="79">fraysse_surface_2009</bcf:citekey>
+    <bcf:citekey order="80">de_tombeur_plants_2020</bcf:citekey>
+    <bcf:citekey order="81">piperno_phytoliths_2006</bcf:citekey>
+    <bcf:citekey order="82">coskun_controversies_2019</bcf:citekey>
+    <bcf:citekey order="83">fauteux_silicon_2005</bcf:citekey>
+    <bcf:citekey order="84">massey_herbivore_2007</bcf:citekey>
+    <bcf:citekey order="85">stromberg_functions_2016</bcf:citekey>
+    <bcf:citekey order="86">waterman_short-term_2021-1</bcf:citekey>
+    <bcf:citekey order="87">johnson_silicon_2021</bcf:citekey>
+    <bcf:citekey order="88">cooke_consistent_2016</bcf:citekey>
+    <bcf:citekey order="89">haynes_contemporary_2014</bcf:citekey>
+    <bcf:citekey order="90">de_tombeur_silicon_2021-1</bcf:citekey>
+    <bcf:citekey order="91">de_tombeur_silicon_2021</bcf:citekey>
+    <bcf:citekey order="92">yamaji_orchestration_2015</bcf:citekey>
+    <bcf:citekey order="93">reynolds_silicon_2016</bcf:citekey>
+    <bcf:citekey order="94">farooq_silicon_2015</bcf:citekey>
+    <bcf:citekey order="95">yamaji_transporter_2008</bcf:citekey>
+    <bcf:citekey order="96">christian_breeding_2022</bcf:citekey>
+    <bcf:citekey order="97">waterman_short-term_2021</bcf:citekey>
+    <bcf:citekey order="98">dorairaj_influence_2017</bcf:citekey>
+    <bcf:citekey order="99">muszynska_mechanistic_2021</bcf:citekey>
+    <bcf:citekey order="100">simpson_still_2017</bcf:citekey>
+    <bcf:citekey order="101">nawaz_phytolith_2019</bcf:citekey>
+    <bcf:citekey order="102">jones_silica_1967</bcf:citekey>
+    <bcf:citekey order="103">takahashi_possibility_1990</bcf:citekey>
+    <bcf:citekey order="104">epstein_silicon_1999</bcf:citekey>
+    <bcf:citekey order="105">faostat</bcf:citekey>
+    <bcf:citekey order="106">meena_case_2014</bcf:citekey>
+    <bcf:citekey order="107">agrawal_plant_2006</bcf:citekey>
+    <bcf:citekey order="108">karban_induced_1989</bcf:citekey>
+    <bcf:citekey order="109">schmelz_quantitative_2003</bcf:citekey>
+    <bcf:citekey order="110">waterman_simulated_2019</bcf:citekey>
+    <bcf:citekey order="111">cooke_is_2011</bcf:citekey>
+    <bcf:citekey order="112">massey_are_2008</bcf:citekey>
+    <bcf:citekey order="113">hartley_ecology_2016</bcf:citekey>
+    <bcf:citekey order="114">strauss_direct_2002</bcf:citekey>
+    <bcf:citekey order="115">chen_crop_2015</bcf:citekey>
+    <bcf:citekey order="116">hafeez_creation_2021</bcf:citekey>
+    <bcf:citekey order="117">smith_domestication_2019</bcf:citekey>
+    <bcf:citekey order="118">whitehead_domestication_2017</bcf:citekey>
+    <bcf:citekey order="119">reidinger_rapid_2012</bcf:citekey>
+    <bcf:citekey order="120">douglas_bates_2023_7529836</bcf:citekey>
+    <bcf:citekey order="121">bezanson2017julia</bcf:citekey>
+    <bcf:citekey order="122">carmona_plant_2011</bcf:citekey>
+    <bcf:citekey order="123">rudel_agricultural_2009</bcf:citekey>
+    <bcf:citekey order="124">awika_major_2011</bcf:citekey>
+    <bcf:citekey order="125">ma_functions_2003</bcf:citekey>
+    <bcf:citekey order="126">katz_silicon_2019</bcf:citekey>
+    <bcf:citekey order="127">epstein_anomaly_1994</bcf:citekey>
+    <bcf:citekey order="128">lambers_leaf_2015</bcf:citekey>
+    <bcf:citekey order="129">gaurav_population_2021</bcf:citekey>
+    <bcf:citekey order="130">dai_genetic_2005</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="nyt">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nyt/global//global/global"
+                type="entry"
+                sortingtemplatename="nyt"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

@@ -117,42 +117,52 @@ tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
 
 ####
 
-# Running a the above models on my real data
+# Running the above models on my real data
 
 ####
 
-analysis_data = CSV.read("data/real_data/cleaned_si_df.csv", DataFrame)
-ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], interaction=false)
-begin
-    ad_spread = ad_spread[:, Not([:treat2_Control, :treat1_Barley])]
-end
+include("linear_models.jl")
+include("turing_model.jl")
+analysis_data = CSV.read("data/real_data/biomass_si_data.csv", DataFrame)
 
-#To center the data run this
-begin
-    cols_list = names(ad_spread)
-    scale_vals = DataFrame()
-    ads_centered = rescalecols(df=ad_spread, collist=[:Si_ppm], centers = scale_vals)
-end
-adsc_idx = stringcoltoint(df=ad_spread, stringcol=:Genotype, intcol=:idx)
-y_vals = Float64.(adsc_idx.Si_ppm)
-preds = Matrix(adsc_idx[:, 8:13])
-idx = Int.(adsc_idx.idx)
-my_model = randomintercept_regression(y_vals, preds, idx)
-num_chains = 4
-chains = sample(my_model, NUTS(0.6), MCMCThreads(), 1_000, num_chains)
-summarystats(chains) |> DataFrame |> println
-plt = plot(chains)
-
+si_mass_model = biomass_si_regression(df=analysis_data, interaction = false)
+biomass_si_scatter = plot(analysis_data.mass_g, analysis_data.Si_ppm/10000, group = analysis_data.Species, seriestype=:scatter, smooth=true)
+plot!(biomass_si_scatter, xlabel = "Aboveground Biomass", ylabel = "Si content (%)")
+scale_vals = DataFrame()
+ads_centered = rescalecols(df=analysis_data, collist=[:Si_ppm], centers = scale_vals)
+full_model = fullcenteredglm(df=analysis_data)
+my_turing_model, center_vals = HMturingmodel(df = analysis_data, interaction = true)
+insect_model = insectonlymodel(df=analysis_data, interaction=true)
+insect_slice = analysis_data[(analysis_data.Induction .== "Insect"), :]
+plot(insect_slice.isDamaged, insect_slice.Si_ppm, seriestype=:boxplot)
 centered_data = rescalecols(df=analysis_data, collist=[:Si_ppm], centers = scale_vals)
-lm1 = fit(MixedModel, @formula(Si_ppm ~ Induction * Species + (1|Genotype)), centered_data)
+lm1 = fit(MixedModel, @formula(Si_ppm ~ Induction * Species + mass_g + (1|Genotype)), centered_data)
 
 fm = @formula(Si_ppm ~ Induction + Species + (1|Genotype))
 model = turing_model(fm, analysis_data)
 glmchains = sample(model, NUTS(), MCMCThreads(), 1_000, num_chains)
 summarystats(glmchains) |> DataFrame |> println
 
-mp = @df analysis_data groupedboxplot(:Induction, :Si_ppm, group = :Species)
-plot!(mp, xlabel = "Induction Treatment", ylabel = "Silicon Content (%)")
-png(mp, "images/induction_plot")
+#Plot [Si] against biomass, looks like a negative relationship
+biomass_si_regression = lm(@formula(Si_ppm ~ mass_g * Species), analysis_data)
+gboxplot = @df analysis_data groupedboxplot(:Induction, :Si_ppm/10000, group = :Species)
+gboxplot = @df analysis_data groupeddotplot(:Induction, :Si_ppm/10000, group = :Species)
+plot!(analysis_data.Induction, analysis_data.Si_ppm/10000, group = analysis_data.Species, seriestype=:scatter)
+plot!(gboxplot, xlabel = "Induction Treatment", ylabel = "Silicon Content (%)")
+#png(gboxplot, "images/induction_plot")
 test_df = DataFrame(var1 = repeat(["A", "B", "C"], inner = 3, outer =3), var2 = repeat(["D", "E", "F"], inner = 9, outer = 1), yvals = rand(Normal(0,1), 27))
 tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
+
+ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], interaction=true)
+    ad_spread = ad_spread[:, Not([:treat2_Control, :treat1_Barley])]
+    scale_vals = DataFrame()
+    ads_centered = rescalecols(df=ad_spread, collist=[:Si_ppm], centers = scale_vals)
+    adsc_idx = stringcoltoint(df=ads_centered, stringcol=:Genotype, intcol=:idx)
+    y_vals = Float64.(adsc_idx.Si_ppm)
+    preds = Matrix(adsc_idx[:, 8:13])
+    idx = Int.(adsc_idx.idx)
+    my_model = randomintercept_regression(y_vals, preds, idx)
+    num_chains = 4
+    chains = sample(my_model, NUTS(0.6), MCMCThreads(), 1_000, num_chains)
+    summarystats(chains) |> DataFrame |> println
+    plot(chains)
