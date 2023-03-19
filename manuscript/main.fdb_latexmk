@@ -1,12 +1,14 @@
 # Fdb version 3
-["biber main"] 0 "main.bcf" "main.bbl" "main" 0
-  "main.bcf" 0 -1 0 "pdflatex"
+["biber main"] 1679241907 "main.bcf" "main.bbl" "main" 1679241912
+  "internet_stuff.bib" 1679241306 2540 e58a4adb1ee1231b1e656b1e946f966f ""
+  "main.bcf" 1679241912 116303 b0ca16ea969bea3c3f2ce3363da42822 "pdflatex"
+  "merged_biblio2.bib" 1679241561 728239 e62377fc06ddbb39c949bfa87d877638 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1679241309 "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" "main.pdf" "main" 1679241309
+["pdflatex"] 1679241911 "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" "main.pdf" "main" 1679241912
   "/etc/texmf/web2c/texmf.cnf" 1617974667 41134 c6edb751c63f98b31f19bd365fe083e9 ""
-  "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" 1679240840 45257 9e79df0b80d1e3eae5ca9eea41dea8ce ""
+  "/home/isaac/Coding/stats/cereal_induction/manuscript/main.tex" 1679241906 45259 a11e2a2b35bfea4cd845c6121d9347e9 ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -24,6 +26,7 @@
   "/usr/share/texmf/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texmf/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texmf/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
+  "/usr/share/texmf/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
@@ -32,6 +35,7 @@
   "/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmss8.pfb" 1248133631 24420 52dbb8e8aa0069a1b987309557f8d303 ""
   "/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
+  "/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1248133631 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb" 1215737283 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/share/texmf/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
@@ -80,11 +84,12 @@
   "images/Manhattan_Plot.png" 1672066656 186009 99fd08ef6cc27934213c7ff0ce615459 ""
   "images/induction_plot.png" 1672070679 23008 1751f722f39d33a491596f49dd72ce5e ""
   "images/si_mn_regression.png" 1672085687 9190 b3236ac96e5a3d96c5b3958649c90dd5 ""
-  "main.aux" 1679241309 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "main.bbl" 0 -1 0 "biber main"
-  "main.run.xml" 0 -1 0 "pdflatex"
-  "main.tex" 1679240840 45257 9e79df0b80d1e3eae5ca9eea41dea8ce ""
-  "main.toc" 0 -1 0 "pdflatex"
+  "internet_stuff.bib" 1679241306 2540 e58a4adb1ee1231b1e656b1e946f966f ""
+  "main.aux" 1679241912 20238 4abef0719b14b4508d6b5b7cd50cfeff "pdflatex"
+  "main.bbl" 1679241909 234858 ed33e5e9e95b154c83bfb4351385b3a0 "biber main"
+  "main.run.xml" 1679241912 2353 ca1cf7ff737157a4cca467931cb47c94 "pdflatex"
+  "main.tex" 1679241906 45259 a11e2a2b35bfea4cd845c6121d9347e9 ""
+  "main.toc" 1679241912 2559 85689f499a91296ea0ae4a42d880c4a2 "pdflatex"
   "title.tex" 1671908401 683 8ebd9698565d4bc8750e3179dbb4a361 ""
   (generated)
   "main.aux"

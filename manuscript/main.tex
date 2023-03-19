@@ -105,7 +105,7 @@ To test the prevalence of rapid silicon accumulation in canadian cereal crops, I
 
 \subsubsection{Sample harvest and preparation}
 
-18 hours after treatment application, I harvested leaf material by clipping all undamaged (i.e. no cricket exposure) leaves. I harvested three fully expanded upper leaves the plants, and split the plants in half along the midvein of the leaf. I placed one half of the tissue into a microcentrifugre tube, flash froze it in liquid nitrogen, and subsequently freeze dried it. I plaed the other half of the tissue into a coin envelope, oven dried it for 4 days at 60\deg C, transferred it to a 2ml microcentrifuge tube with three 3.2mm diameter steel beads, and ground it into a fine powder using a tisselyser (60 seconds at 30 Hz). After freeze drying, the samples for phenolic processing were ground under the same conditions.
+18 hours after treatment application, I harvested leaf material by clipping all undamaged (i.e. no cricket exposure) leaves. I harvested three fully expanded upper leaves the plants, and split the plants in half along the midvein of the leaf. I placed one half of the tissue into a microcentrifugre tube, flash froze it in liquid nitrogen, and subsequently freeze dried it. I plaed the other half of the tissue into a coin envelope, oven dried it for 4 days at 60$\deg$ C, transferred it to a 2ml microcentrifuge tube with three 3.2mm diameter steel beads, and ground it into a fine powder using a tisselyser (60 seconds at 30 Hz). After freeze drying, the samples for phenolic processing were ground under the same conditions.
 
 \subsubsection{Silicon analysis}
 
@@ -113,7 +113,7 @@ To measure the silicon content of the leaf tissue, I followed a modified version
 
 \subsubsection{Statistical analysis}
 
-To answer test all three of our hypotheses, I used linear mixed effects models implemented in (\cite{douglas_bates_2023_7529836}) in Julia 1.8.5 (\cite{bezanson2017julia}). Prior to running our full model, I first tested for an effect of biomass of silicon content, as in other defensive pathways plant size shows corelations with defense levels (\cite{carmona_plant_2011}). We found a negative correlation between plant size and silicon content (\beta = -0.067 \pm 0.017, p < 0.001), and thus included plant size as a covariate in our final model. Thus, we tested the effects of our species and induction treatments on measured leaf silicon using the following model formula:
+To answer test all three of our hypotheses, I used linear mixed effects models implemented in (\cite{douglas_bates_2023_7529836}) in Julia 1.8.5 (\cite{bezanson2017julia}). Prior to running our full model, I first tested for an effect of biomass of silicon content, as in other defensive pathways plant size shows corelations with defense levels \cite{carmona_plant_2011}. We found a negative correlation between plant size and silicon content ($\beta = -0.067 \pm 0.017, p < 0.001$), and thus included plant size as a covariate in our final model. Thus, we tested the effects of our species and induction treatments on measured leaf silicon using the following model formula:
 
 \[Si ~ Species * Induction + Biomass + (1|Genotype)\]
 %[Insert text about how great these models are]. I specified a hierarchical model using the following model:
