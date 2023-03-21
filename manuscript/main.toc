@@ -15,21 +15,22 @@
 \contentsline {subsubsection}{\numberline {5.2.2}Sample harvest and preparation}{12}{}%
 \contentsline {subsubsection}{\numberline {5.2.3}Silicon analysis}{12}{}%
 \contentsline {subsubsection}{\numberline {5.2.4}Statistical analysis}{13}{}%
+\contentsline {subsubsection}{\numberline {5.2.5}Software used}{13}{}%
 \contentsline {subsection}{\numberline {5.3}Results}{13}{}%
-\contentsline {subsection}{\numberline {5.4}Discussion}{13}{}%
-\contentsline {subsection}{\numberline {5.5}Acknowledgements}{13}{}%
-\contentsline {subsection}{\numberline {5.6}Data Availability}{13}{}%
-\contentsline {subsection}{\numberline {5.7}Figures and Tables}{13}{}%
-\contentsline {section}{\numberline {6}Chapter 2: Genetic drivers of silicon accumulation in a wild ancestor of wheat}{15}{}%
-\contentsline {subsection}{\numberline {6.1}Introduction}{15}{}%
-\contentsline {subsection}{\numberline {6.2}Methods}{17}{}%
-\contentsline {subsubsection}{\numberline {6.2.1}Plant growing conditions}{17}{}%
-\contentsline {subsubsection}{\numberline {6.2.2}Plant harvest and sample preparation}{18}{}%
-\contentsline {subsubsection}{\numberline {6.2.3}Sample analysis}{18}{}%
-\contentsline {subsubsection}{\numberline {6.2.4}Statistical analysis}{19}{}%
-\contentsline {subsection}{\numberline {6.3}Results}{19}{}%
-\contentsline {subsection}{\numberline {6.4}Discussion}{20}{}%
-\contentsline {subsection}{\numberline {6.5}Acknowledgements}{20}{}%
-\contentsline {subsection}{\numberline {6.6}Data Availability}{20}{}%
-\contentsline {subsection}{\numberline {6.7}Tables and Figures}{20}{}%
-\contentsline {section}{\numberline {7}References}{22}{}%
+\contentsline {subsection}{\numberline {5.4}Discussion}{14}{}%
+\contentsline {subsection}{\numberline {5.5}Acknowledgements}{15}{}%
+\contentsline {subsection}{\numberline {5.6}Data Availability}{15}{}%
+\contentsline {subsection}{\numberline {5.7}Figures and Tables}{15}{}%
+\contentsline {section}{\numberline {6}Chapter 2: Genetic drivers of silicon accumulation in a wild ancestor of wheat}{17}{}%
+\contentsline {subsection}{\numberline {6.1}Introduction}{17}{}%
+\contentsline {subsection}{\numberline {6.2}Methods}{19}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Plant growing conditions}{19}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Plant harvest and sample preparation}{20}{}%
+\contentsline {subsubsection}{\numberline {6.2.3}Sample analysis}{20}{}%
+\contentsline {subsubsection}{\numberline {6.2.4}Statistical analysis}{21}{}%
+\contentsline {subsection}{\numberline {6.3}Results}{21}{}%
+\contentsline {subsection}{\numberline {6.4}Discussion}{22}{}%
+\contentsline {subsection}{\numberline {6.5}Acknowledgements}{22}{}%
+\contentsline {subsection}{\numberline {6.6}Data Availability}{22}{}%
+\contentsline {subsection}{\numberline {6.7}Tables and Figures}{22}{}%
+\contentsline {section}{\numberline {7}References}{24}{}%

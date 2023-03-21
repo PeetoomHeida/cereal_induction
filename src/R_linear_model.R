@@ -5,10 +5,18 @@ library(lmerTest)
 library(tidyverse)
 library(emmeans)
 si_data <- as.data.frame(read.csv("data/real_data/biomass_si_data.csv"))
-my_mod <- lmer(Si_ppm ~ Induction * Species + (1|Genotype), si_data)
+si_filtered  <- si_data[si_data$isDamaged != "Undamaged",]
+my_mod <- lmer(Si_ppm ~ Induction * Species +mass_g + (1|Genotype), si_filtered)
 summary(my_mod)
 anova(my_mod)
 emmeans(my_mod, list(pairwise ~ Species), adjust = "tukey", type = "response")
 emmeans(my_mod, list(pairwise ~ Induction * Species), adjust = "tukey", type = "response")
-ggplot(si_data, aes(x = Induction, y = Si_ppm)) +
-geom_col()
+emmeans(my_mod, list(pairwise ~ Induction), adjust = "tukey", type = "response")
+ggplot(si_filtered, aes(x = Induction, y = Si_ppm)) +
+geom_col() +
+theme_classic(base_size = 22)
+
+insect_data <- si_data[si_data$Induction == "Insect",]
+insect_data$isDamaged <- as.factor(insect_data$isDamaged)
+insect_data$Si_percent <- insect_data$Si_ppm/10000
+logit_mod <- glmer(isDamaged ~ Si_percent + Species + (1|Genotype), insect_data, family = "binomial")

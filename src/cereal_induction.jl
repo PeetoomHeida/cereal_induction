@@ -137,14 +137,25 @@ summ_stats_geno = combine(gdat_geno, :Si_ppm => mean, :Si_ppm => std, nrow)
 summ_stats_geno.Si_ppm_se = summ_stats_geno.Si_ppm_std ./ sqrt.(summ_stats_geno.nrow)
 CSV.write("./data/real_data/summary_statistics_genotype.csv", summ_stats_geno)
 
+begin
+    spp_boxplots = @df analysis_data_noinduction groupedboxplot(:Species, :Si_ppm, group = :Genotype)
+    plot!(spp_boxplots, ylabel = "Leaf Si content (%)", xlabel = "Species")
+    plot!(size = (800,600)) #width, height
+    png(spp_boxplots, "images/spp_si_content")
+end
+
 gdat_spp = groupby(analysis_data_noinduction, :Species)
 summ_stats_spp = combine(gdat_spp, :Si_ppm => mean, :Si_ppm => std, nrow)
 summ_stats_spp.Si_ppm_se = summ_stats_spp.Si_ppm_std ./ sqrt.(summ_stats_spp.nrow)
 CSV.write("./data/real_data/summary_statistics_species.csv", summ_stats_spp)
 
 si_mass_model = biomass_si_regression(df=analysis_data, interaction = false)
-biomass_si_scatter = plot(analysis_data.mass_g, analysis_data.Si_ppm/10000, group = analysis_data.Species, seriestype=:scatter, smooth=true)
-plot!(biomass_si_scatter, xlabel = "Aboveground Biomass", ylabel = "Si content (%)")
+begin
+    biomass_si_scatter = plot(analysis_data.mass_g, analysis_data.Si_ppm/10000, group = analysis_data.Species, seriestype=:scatter, smooth=true)
+    plot!(biomass_si_scatter, xlabel = "Aboveground Biomass (g)", ylabel = "Leaf Si content (%)")
+    plot!(size = (800,600))
+    png(biomass_si_scatter, "images/biomass_regression")
+end
 scale_vals = DataFrame()
 ads_centered = rescalecols(df=analysis_data, collist=[:Si_ppm], centers = scale_vals)
 full_model = fullcenteredglm(df=analysis_data)

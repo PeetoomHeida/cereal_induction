@@ -133,7 +133,7 @@
       \endverb
     \endentry
     \entry{douglas_bates_2023_7529836}{software}{}
-      \name{author}{19}{}{%
+      \name{author}{19}{ul=2}{%
         {{un=0,uniquepart=base,hash=291c4bc67cf41a2019405a2328a9b75e}{%
            family={Bates},
            familyi={B\bibinitperiod},
@@ -252,11 +252,11 @@
       \list{publisher}{1}{%
         {Zenodo}%
       }
-      \strng{namehash}{d09b320744f09c093eb8b0d7f6bbdda0}
+      \strng{namehash}{a83811db312858dd9ea2e4c382b20851}
       \strng{fullhash}{4720edd70f3e0bb9db11ccc0f74cfa1f}
       \strng{bibnamehash}{4720edd70f3e0bb9db11ccc0f74cfa1f}
       \strng{authorbibnamehash}{4720edd70f3e0bb9db11ccc0f74cfa1f}
-      \strng{authornamehash}{d09b320744f09c093eb8b0d7f6bbdda0}
+      \strng{authornamehash}{a83811db312858dd9ea2e4c382b20851}
       \strng{authorfullhash}{4720edd70f3e0bb9db11ccc0f74cfa1f}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
@@ -276,6 +276,56 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.5281/zenodo.7529836
+      \endverb
+    \endentry
+    \entry{lme4_bates_2015}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=291c4bc67cf41a2019405a2328a9b75e}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cd1e56848b277b4f48a6e0b817ba5ab}{%
+           family={Mächler},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6b13be971f13ee03cc83cded41b6d7e}{%
+           family={Bolker},
+           familyi={B\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3face7d9e1128ebfefc56b5f54f28451}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bea41bd2cc2a5ce3bdc239c327a0944c}
+      \strng{fullhash}{e1419b3c7f22b8a469bd183c172e98b4}
+      \strng{bibnamehash}{e1419b3c7f22b8a469bd183c172e98b4}
+      \strng{authorbibnamehash}{e1419b3c7f22b8a469bd183c172e98b4}
+      \strng{authornamehash}{bea41bd2cc2a5ce3bdc239c327a0944c}
+      \strng{authorfullhash}{e1419b3c7f22b8a469bd183c172e98b4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{number}{1}
+      \field{title}{Fitting Linear Mixed-Effects Models Using {lme4}}
+      \field{volume}{67}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 48}
+      \range{pages}{48}
+      \verb{doi}
+      \verb 10.18637/jss.v067.i01
       \endverb
     \endentry
     \entry{bezanson2017julia}{article}{}
@@ -332,6 +382,44 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1137/141000671
+      \endverb
+    \endentry
+    \entry{tom_breloff_2023_7736124}{software}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4dbdc3c1d961dc1f3e6b53c942707a8c}{%
+           family={Breloff},
+           familyi={B\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{4dbdc3c1d961dc1f3e6b53c942707a8c}
+      \strng{fullhash}{4dbdc3c1d961dc1f3e6b53c942707a8c}
+      \strng{bibnamehash}{4dbdc3c1d961dc1f3e6b53c942707a8c}
+      \strng{authorbibnamehash}{4dbdc3c1d961dc1f3e6b53c942707a8c}
+      \strng{authornamehash}{4dbdc3c1d961dc1f3e6b53c942707a8c}
+      \strng{authorfullhash}{4dbdc3c1d961dc1f3e6b53c942707a8c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Plots.jl}
+      \field{version}{v1.38.8}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.5281/zenodo.7736124
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.7736124
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.7736124
       \endverb
     \endentry
     \entry{carmona_plant_2011}{article}{}
@@ -2036,6 +2124,200 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0065211308607348
       \endverb
     \endentry
+    \entry{bogumil_kaminski_2023_7632427}{software}{}
+      \name{author}{30}{}{%
+        {{un=0,uniquepart=base,hash=a14f03f43b21a678bf3252a26361a727}{%
+           family={Kamiński},
+           familyi={K\bibinitperiod},
+           given={Bogumił},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f5506c9565f9a3f99fcfa3a309f3acf}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={John\bibnamedelima Myles},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4947969ce23c177797e76bb6254d0cc}{%
+           family={Bouchet-Valat},
+           familyi={B\bibinithyphendelim V\bibinitperiod},
+           given={Milan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af2514cd7dd4a52ed7418fc4c55fa1f5}{%
+           family={powerdistribution},
+           familyi={p\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=22d2f0292ffad051b648126a44e634a8}{%
+           family={Garborg},
+           familyi={G\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18273daf814b150f692c0415f20a664c}{%
+           family={Quinn},
+           familyi={Q\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7fc0edf04cce351dda404579ede3d0d1}{%
+           family={Kornblith},
+           familyi={K\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=002d50f8429af3bf585eb9d42fc1dc67}{%
+           family={cjprybol},
+           familyi={c\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9ad751bf39a1813edb95bf3ab399edb5}{%
+           family={Stukalov},
+           familyi={S\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=291c4bc67cf41a2019405a2328a9b75e}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ce750cf988d253110e09844b28e2b2d}{%
+           family={Short},
+           familyi={S\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb580aff69fea7a5edd7e924beedbd7c}{%
+           family={DuBois},
+           familyi={D\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1340485fc4f8d678375f9d4b188f0249}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Harlan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=570337c4b1914843ef8deb7ced6b2d34}{%
+           family={Squire},
+           familyi={S\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d339bc329b24335b04fbebae1fe3aced}{%
+           family={Arslan},
+           familyi={A\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031c48b46cdb4d2d9db93e0137bd224e}{%
+           family={pdeffebach},
+           familyi={p\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=3959cd35c56f75f9ca3183129ece6096}{%
+           family={Anthoff},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d460cbb0a094fca1da8db8ded2b18dec}{%
+           family={Kleinschmidt},
+           familyi={K\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=296a1b2a3ae08f01b612fce9021788d1}{%
+           family={Noack},
+           familyi={N\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de802ff42d9c902868c57a332dbac5e0}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Viral\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9dc9837210698e0c253e3339d52c014d}{%
+           family={Mellnik},
+           familyi={M\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1153af45c5c0ca9eb1abf22b67b3187e}{%
+           family={Arakaki},
+           familyi={A\bibinitperiod},
+           given={Takafumi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d67ffc2f9fd21b8ceba49d80bed8a354}{%
+           family={Mohapatra},
+           familyi={M\bibinitperiod},
+           given={Tanmay},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fa95b1427af77b3d769ae9cb853382f}{%
+           family={Peter},
+           familyi={P\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=bca7c93f55e669f71c4ff95e68ac9538}{%
+           family={Karpinski},
+           familyi={K\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4033e88b680ba7279a268e75f80b1d3}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Dahua},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f107ad172c35ef9d2bfee6f29a955b1}{%
+           family={Chagas},
+           familyi={C\bibinitperiod},
+           given={Ronan\bibnamedelimb Arraes\bibnamedelima Jardim},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bcb8764cce67d82058cbb0fb0aba92b}{%
+           family={timema},
+           familyi={t\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=5df873a9dbc4f5219f50c9688b4fc614}{%
+           family={ExpandingMan},
+           familyi={E\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=e1df19e866215aff643305792b616cc2}{%
+           family={Oswald},
+           familyi={O\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{0c70be694a6ff4757dc3bfd897cfbdfc}
+      \strng{fullhash}{f34ab4b1a73be3f758ec8687f29a9e6e}
+      \strng{bibnamehash}{f34ab4b1a73be3f758ec8687f29a9e6e}
+      \strng{authorbibnamehash}{f34ab4b1a73be3f758ec8687f29a9e6e}
+      \strng{authornamehash}{0c70be694a6ff4757dc3bfd897cfbdfc}
+      \strng{authorfullhash}{f34ab4b1a73be3f758ec8687f29a9e6e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{JuliaData/DataFrames.jl: v1.5.0}
+      \field{version}{v1.5.0}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.5281/zenodo.7632427
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.7632427
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.7632427
+      \endverb
+    \endentry
     \entry{karban_induced_1989}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d4827c716253763deb628418ab3ae1d2}{%
@@ -2216,6 +2498,37 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1360138514002714
       \endverb
       \keyw{carboxylates,exudation,manganese,phosphorus,phosphorus-acquisition efficiency}
+    \endentry
+    \entry{lenth_2023_emmeans}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=302236484f92fa184e2c42b3a41830af}{%
+           family={Lenth},
+           familyi={L\bibinitperiod},
+           given={Russell\bibnamedelima V.},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{302236484f92fa184e2c42b3a41830af}
+      \strng{fullhash}{302236484f92fa184e2c42b3a41830af}
+      \strng{bibnamehash}{302236484f92fa184e2c42b3a41830af}
+      \strng{authorbibnamehash}{302236484f92fa184e2c42b3a41830af}
+      \strng{authornamehash}{302236484f92fa184e2c42b3a41830af}
+      \strng{authorfullhash}{302236484f92fa184e2c42b3a41830af}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 1.8.5}
+      \field{title}{emmeans: Estimated Marginal Means, aka Least-Squares Means}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=emmeans
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=emmeans
+      \endverb
     \endentry
     \entry{ma_functions_2003}{incollection}{}
       \name{author}{1}{}{%
@@ -2760,6 +3073,39 @@
       \field{year}{2006}
       \field{dateera}{ce}
       \keyw{Social Science / Archaeology}
+    \endentry
+    \entry{r_core_team_2022}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dcdebb6b35bff7c0568bf8c50ef8626d}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{bibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorbibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authornamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.R-project.org/
+      \endverb
     \endentry
     \entry{reidinger_rapid_2012}{article}{}
       \name{author}{3}{}{%
