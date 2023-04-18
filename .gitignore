@@ -1,0 +1,8 @@
+#TeX adjacent files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.toc
+*.log
