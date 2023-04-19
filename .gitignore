@@ -6,3 +6,6 @@
 *.run.xml
 *.toc
 *.log
+*.bbl
+*.fls
+*.fdb_latexmk
