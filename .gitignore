@@ -9,3 +9,7 @@
 *.bbl
 *.fls
 *.fdb_latexmk
+manuscript/*.aux
+manuscript/main.aux
+.gitignore
+manuscript/main.synctex.gz
