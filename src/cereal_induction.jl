@@ -114,7 +114,7 @@ png(mp, "induction_plot")
 test_df = DataFrame(var1 = repeat(["A", "B", "C"], inner = 3, outer =3), var2 = repeat(["D", "E", "F"], inner = 9, outer = 1), yvals = rand(Normal(0,1), 27))
 tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
 
-
+more_data = CSV.read("data/")
 #############
 
 # Running the above models on my real data
@@ -156,6 +156,8 @@ begin
     plot!(size = (800,600))
     png(biomass_si_scatter, "images/biomass_regression")
 end
+
+
 scale_vals = DataFrame()
 ads_centered = rescalecols(df=analysis_data, collist=[:Si_ppm], centers = scale_vals)
 full_model = fullcenteredglm(df=analysis_data)
@@ -194,3 +196,38 @@ ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], inte
     chains = sample(my_model, NUTS(0.6), MCMCThreads(), 1_000, num_chains)
     summarystats(chains) |> DataFrame |> println
     plot(chains)
+
+phenolic_data = CSV.read("data/real_data/si_absorbance_data.csv", DataFrame)
+
+gboxplot_ab = @df phenolic_data groupedboxplot(:Induction, :mcabsorbance, group = :Species)
+
+ph_si_scatter = plot(phenolic_data.Si_ppm/10000, phenolic_data.mcabsorbance, group=phenolic_data.Species, seriestype=:scatter)
+plot!(ph_si_scatter, xlabel = "Leaf Silicon Content (%)", ylabel = "Leaf Phenolic Content")
+plot!(size = (800,600), dpi = 800)
+png(ph_si_scatter, "manuscript/images/phenolic_silicon_regression")
+
+function standarderror(col) 
+    sd = std(col)
+    denom = sqrt(length(col)-1)
+    se = sd/denom
+    return se
+end
+
+
+gph = groupby(phenolic_data, [:Species])
+test = combine(gph, [:mcabsorbance, :Si_ppm] => ((a, s) -> (sppMEANabsorbance = mean(a), sppSEabsorbance = standarderror(a),sppMEANsi = mean(s), sppSEsi = standarderror(s))) => AsTable)
+
+using Measurements
+
+meansphsiscatter = plot(test.sppMEANsi .± test.sppSEsi, test.sppMEANabsorbance .± test.sppSEabsorbance, seriestype = "scatter", groups = test.Species, markersize = 15)
+plot!(meansphsiscatter, xlabel = "Leaf Silicon Content (%)", ylabel = "Leaf Phenolic Content")
+plot!(size = (800,600), dpi = 800)
+#png(ph_si_scatter, "manuscript/images/phenolic_silicon_regression")
+
+gph_ind = groupby(phenolic_data, [:Induction])
+test_ind = combine(gph_ind, [:mcabsorbance, :Si_ppm] => ((a, s) -> (sppMEANabsorbance = mean(a), sppSEabsorbance = standarderror(a),sppMEANsi = mean(s), sppSEsi = standarderror(s))) => AsTable)
+
+meansphsiscatter_induction = plot(test_ind.sppMEANsi .± test_ind.sppSEsi, test_ind.sppMEANabsorbance .± test_ind.sppSEabsorbance, seriestype = "scatter", groups = test_ind.Induction, markersize = 15)
+plot!(meansphsiscatter_induction, xlabel = "Leaf Silicon Content (%)", ylabel = "Leaf Phenolic Content")
+plot!(size = (800,600), dpi = 800)
+#png(ph_si_scatter, "manuscript/images/phenolic_silicon_regression")
