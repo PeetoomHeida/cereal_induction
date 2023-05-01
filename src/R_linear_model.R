@@ -10,18 +10,38 @@ library(tidyverse)
 library(emmeans)
 library(car)
 library(Hmisc)
-si_data <- as.data.frame(read.csv("data/real_data/si_absorbance_data.csv"))
+library(lmerTest)
+si_data <- as.data.frame(read.csv("data/real_data/biomass_si_data.csv"))
 si_filtered  <- si_data[si_data$isDamaged != "Undamaged",]
-si_mod <- lme4::lmer(Si_ppm/10000 ~ Induction * Species +mass_g + (1|Genotype), si_filtered)
+si_filtered$Genotype <- as.factor(si_filtered$Genotype)
+si_filtered$Induction <- as.factor(si_filtered$Induction)
+si_filtered$Species <- as.factor(si_filtered$Species)
+si_mod <- lmerTest::lmer(log(Si_ppm) ~ Induction * Species + mass_g + (1|Species/Genotype), si_filtered)
+summary(aov(Si_ppm/10000 ~ Induction * Species + mass_g, si_filtered))
 summary(si_mod)
-anova(si_mod)
-Anova(si_mod, type ="III", test.statistic = "F")
+lmerTest::anova(si_mod)
+Anova(si_mod, type =2, test.statistic = "F")
+si_mod0 <- lmer(log(Si_ppm) ~  mass_g + (1|Species/Genotype), si_filtered)
+si_mod1 <- lmer(log(Si_ppm) ~ Induction + mass_g + (1|Species/Genotype), si_filtered)
+si_mod2 <- lmer(log(Si_ppm) ~ Species + mass_g + (1|Species/Genotype), si_filtered)
+si_mod3 <- lmer(log(Si_ppm) ~ Induction + Species + mass_g + (1|Species/Genotype), si_filtered)
+si_mod4 <- lmer(log(Si_ppm) ~ Induction * Species + mass_g + (1|Species/Genotype), si_filtered)
+si_mod5 <- lmer(log(Si_ppm) ~ Induction:Species + mass_g + (1|Species/Genotype), si_filtered)
+fit.formula <- log(Si_ppm) ~ Induction+Species + mass_g
+X <- model.matrix(fit.formula, si_filtered)
+pb01 <- PBmodcomp(si_mod1, si_mod0, nsim = 10000, cl = 4)
+pb02 <- PBmodcomp(si_mod2, si_mod0, nsim = 10000, cl = 4)
+pb03 <- PBmodcomp(si_mod3, si_mod0, nsim = 10000, cl = 4)
+pb34 <- PBmodcomp(si_mod4, si_mod3, nsim = 10000, cl = 4)
+pbinonly <- PBmodcomp(si_mod5, si_mod2, nsim= 1000, cl = 4)
+
+
 emgrid1  <- emmeans(si_mod, list(pairwise ~ Species), adjust = "tukey", type = "response")
 emgrid2 <- emmeans(si_mod,  ~ Induction * Species, adjust = "mvt", type = "response")
 my_emm <- pairs(emmeans(si_mod, ~ Induction * Species))
 foo <- pwpm(my_emm, by = NULL, adjust = "bonferroni")
 xtable::xtable(foo)
-emmeans(si_mod, list(pairwise ~ Induction), adjust = "tukey", type = "response")
+emmeans(si_mod, list(pairwise ~ Species|Induction), adjust = "tukey", type = "response")
 ggplot(si_filtered, aes(x = Induction, y = Si_ppm)) +
 geom_col() +
 theme_classic(base_size = 22)
@@ -42,12 +62,40 @@ typeof(pigsint.emm)
 xtable::xtable(pigsint.emm, type = "response")
 
 
+si_mod0 <- lmer(log(Si_ppm) ~  mass_g + (1|Species/Genotype), si_filtered)
+si_mod1 <- lmer(log(Si_ppm) ~ Induction + mass_g + (1|Species/Genotype), si_filtered)
+si_mod2 <- lmer(log(Si_ppm) ~ Species + mass_g + (1|Species/Genotype), si_filtered)
+si_mod3 <- lmer(log(Si_ppm) ~ Induction + Species + mass_g + (1|Species/Genotype), si_filtered)
+si_mod4 <- lmer(log(Si_ppm) ~ Induction * Species + mass_g + (1|Species/Genotype), si_filtered)
+si_mod5 <- lmer(log(Si_ppm) ~ Induction:Species + mass_g + (1|Species/Genotype), si_filtered)
+fit.formula <- log(Si_ppm) ~ Induction+Species + mass_g
+X <- model.matrix(fit.formula, si_filtered)
+pb01 <- PBmodcomp(si_mod1, si_mod0, nsim = 10000, cl = 4)
+pb02 <- PBmodcomp(si_mod2, si_mod0, nsim = 10000, cl = 4)
+pb03 <- PBmodcomp(si_mod3, si_mod0, nsim = 10000, cl = 4)
+pb34 <- PBmodcomp(si_mod4, si_mod3, nsim = 10000, cl = 4)
+pbinonly <- PBmodcomp(si_mod5, si_mod2, nsim= 1000, cl = 4)
+
 absorbancedf <- as.data.frame(read.csv("data/real_data/si_absorbance_data.csv"))
 abdf_filtered  <- absorbancedf[absorbancedf$isDamaged != "Undamaged",]
 ab_mod <- lme4::lmer(mcabsorbance ~ Induction * Species + mass_g + (1|Genotype), abdf_filtered)
 summary(ab_mod)
 Anova(ab_mod)
-ggplot(abdf_filtered, aes(x = Species, y = mcabsorbance, group=Induction)) +
-    #geom_col(position = "dodge") +
-    stat_summary(fun.y = "mean", geom = "col", width = .9, fill = "gray69", position = "dodge") +
-    stat_summary(fun.data = mean_cl_normal, geom = "errorbar", position = position_dodge(width = 0.90), fun.args = list(mult = 1.96))
+summary(lm(mcabsorbance ~ mass_g, absorbancedf))
+
+
+
+
+si_mod0 <- lmer(log(mcabsorbance) ~  mass_g + (1|Species/Genotype), abdf_filtered)
+si_mod1 <- lmer(log(mcabsorbance) ~ Induction + mass_g + (1|Species/Genotype), abdf_filtered)
+si_mod2 <- lmer(log(mcabsorbance) ~ Species + mass_g + (1|Species/Genotype), abdf_filtered)
+si_mod3 <- lmer(log(mcabsorbance) ~ Induction + Species + mass_g + (1|Species/Genotype), abdf_filtered)
+si_mod4 <- lmer(log(mcabsorbance) ~ Induction * Species + mass_g + (1|Species/Genotype), abdf_filtered)
+si_mod5 <- lmer(log(mcabsorbance) ~ Induction:Species + mass_g + (1|Species/Genotype), abdf_filtered)
+fit.formula <- log(Si_ppm) ~ Induction+Species + mass_g
+X <- model.matrix(fit.formula, si_filtered)
+pb01 <- PBmodcomp(si_mod1, si_mod0, nsim = 10000, cl = 4)
+pb02 <- PBmodcomp(si_mod2, si_mod0, nsim = 10000, cl = 4)
+pb03 <- PBmodcomp(si_mod3, si_mod0, nsim = 10000, cl = 4)
+pb34 <- PBmodcomp(si_mod4, si_mod3, nsim = 10000, cl = 4)
+pbinonly <- PBmodcomp(si_mod5, si_mod2, nsim= 1000, cl = 4)
