@@ -203,7 +203,7 @@ gboxplot_ab = @df phenolics_filtered groupedboxplot(:Induction, :mcabsorbance, g
 plot!(xlabel = "Treatment Group", ylabel = "Phenolic Content", dpi = 600, size = (800,600))
 png(gboxplot_ab, "manuscript/images/absorbance_boxplots")
 phenolic_data.Si_pc = phenolic_data.Si_ppm./10000
-phenolic_data.treatmentcombo = phenolic_data.Induction .* phenolic_data.Species
+phenolic_data.treatmentcombo = phenolic_data.Induction .* " " .* phenolic_data.Species
 ph_si_scatter = plot(phenolic_data.Si_pc, phenolic_data.mcabsorbance, group=phenolic_data.Species, seriestype=:scatter)
 plot!(ph_si_scatter, xlabel = "Leaf Silicon Content (%)", ylabel = "Leaf Phenolic Content")
 plot!(size = (800,600), dpi = 800)
@@ -236,12 +236,18 @@ plot!(meansphsiscatter_induction, xlabel = "Leaf Silicon Content (%)", ylabel = 
 plot!(size = (800,600), dpi = 800)
 #png(ph_si_scatter, "manuscript/images/phenolic_silicon_regression")
 
-gph_trt = groupby(phenolic_data, [:treatmentcombo])
-test_trt = combine(gph_trt, [:mcabsorbance, :Si_pc] => ((a, s) -> (sppMEANabsorbance = mean(a), sppSEabsorbance = standarderror(a),sppMEANsi = mean(s), sppSEsi = standarderror(s))) => AsTable)
+gph_trt = groupby(phenolics_filtered, [:treatmentcombo])
+test_trt = combine(gph_trt, [:mcabsorbance, :Si_pc, :Species, :Induction] => ((ab, si, sp, in) -> (sppMEANabsorbance = mean(ab), sppSEabsorbance = standarderror(ab),sppMEANsi = mean(si), sppSEsi = standarderror(si), spp = first(sp), ind = first(in))) => AsTable)
 meansphsiscatter_induction = plot(test_trt.sppMEANsi .± test_trt.sppSEsi, 
     test_trt.sppMEANabsorbance .± test_trt.sppSEabsorbance, 
     seriestype = "scatter", 
     groups = test_trt.treatmentcombo, 
     markersize = 15
 )
+
+plot(test_trt.treatmentcombo, test_trt.sppMEANsi .± test_trt.sppSEsi, seriestype = :scatter, group = test_trt.spp, size = (1200,600), dpi = 600, markersize = 10)
+plot!(xlabel = "Species Treatment Combination", ylabel = "Mean Silicon Content (%)")
+
+plot(test_trt.treatmentcombo, test_trt.sppMEANabsorbance .± test_trt.sppSEabsorbance, seriestype = :scatter, group = test_trt.spp, size = (1200,600), dpi = 600, markersize = 10)
+plot!(xlabel = "Species Treatment Combination", ylabel = "Mean Silicon Content (%)")
 

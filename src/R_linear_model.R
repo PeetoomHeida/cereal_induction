@@ -80,15 +80,15 @@ summary(ab_mod)
 Anova(ab_mod)
 summary(lm(mcabsorbance ~ mass_g, absorbancedf))
 absorbance_mod <- lmer(scale(mcabsorbance) ~ scale(Si_ppm) + scale(mass_g) + Species+ Induction + (1|Genotype) ,REML = FALSE, abdf_filtered)
-
-
-
-absi_mod0 <- stan_lmer(log(mcabsorbance) ~  mass_g + (1|Genotype), abdf_filtered, REML = FALSE)
-absi_mod1 <- stan_lmer(log(mcabsorbance) ~ Induction + mass_g + (1|Genotype), abdf_filtered, REML = FALSE)
+control_absorbance_only <- absorbancedf[absorbancedf$Induction == "Control",]
+summary(lmerTest::lmer(scale(log(mcabsorbance)) ~ scale(log(Si_ppm)) + Species + mass_g + (1|Genotype), control_absorbance_only))
+summary(lm(scale(mcabsorbance) ~ scale(Si_ppm), control_absorbance_only))
+absi_mod0 <- lme4::lmer(log(mcabsorbance) ~  mass_g + (1|Genotype), abdf_filtered, REML = FALSE)
+absi_mod1 <- lme4::lmer(log(mcabsorbance) ~ Induction + mass_g + (1|Genotype), abdf_filtered, REML = FALSE)
 absi_mod2 <- lme4::lmer(log(mcabsorbance) ~ Species + mass_g + (1|Genotype), abdf_filtered, REML = FALSE)
 absi_mod3 <- lme4::lmer(log(mcabsorbance) ~ Induction + Species + mass_g + (1|Genotype), abdf_filtered, REML = FALSE)
-absi_mod4 <- stan_lmer(log(mcabsorbance) ~ Induction * Species + mass_g + (1|Genotype), abdf_filtered, REML = FALSE)
-absi_mod5 <- stan_lmer(log(mcabsorbance) ~ Induction:Species + mass_g + (1|Genotype), abdf_filtered, REML = FALSE)
+absi_mod4 <- lme4::lmer(log(mcabsorbance) ~ Induction * Species + mass_g + (1|Genotype), abdf_filtered, REML = FALSE)
+absi_mod5 <- lme4::lmer(log(mcabsorbance) ~ Induction:Species + mass_g + (1|Genotype), abdf_filtered, REML = FALSE)
 fit.formula <- log(Si_ppm) ~ Induction+Species + mass_g
 X <- model.matrix(fit.formula, si_filtered)
 abpb01 <- PBmodcomp(si_mod1, si_mod0, nsim = 10000, cl = 4)
