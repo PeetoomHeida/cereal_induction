@@ -178,8 +178,8 @@ biomass_si_regression = lm(@formula(Si_ppm ~ mass_g * Species), analysis_data)
 gboxplot = @df analysis_data groupedboxplot(:Induction, :Si_ppm/10000, group = :Species)
 gboxplot = @df analysis_data groupeddotplot(:Induction, :Si_ppm/10000, group = :Species)
 plot!(analysis_data.Induction, analysis_data.Si_ppm/10000, group = analysis_data.Species, seriestype=:scatter)
-plot!(gboxplot, xlabel = "Induction Treatment", ylabel = "Silicon Content (%)")
-#png(gboxplot, "images/induction_plot")
+plot!(gboxplot, xlabel = "Induction Treatment", ylabel = "Silicon Content (%)", size = (800,600), dpi = 600)
+png(gboxplot, "manuscript/images/induction_plot")
 test_df = DataFrame(var1 = repeat(["A", "B", "C"], inner = 3, outer =3), var2 = repeat(["D", "E", "F"], inner = 9, outer = 1), yvals = rand(Normal(0,1), 27))
 tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
 
@@ -198,10 +198,13 @@ ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], inte
     plot(chains)
 
 phenolic_data = CSV.read("data/real_data/si_absorbance_data.csv", DataFrame)
-
-gboxplot_ab = @df phenolic_data groupedboxplot(:Induction, :mcabsorbance, group = :Species)
-
-ph_si_scatter = plot(phenolic_data.Si_ppm/10000, phenolic_data.mcabsorbance, group=phenolic_data.Species, seriestype=:scatter)
+phenolics_filtered = filter(row -> ismissing(row.isDamaged) || row.isDamaged  ≠ "Undamaged", phenolic_data)
+gboxplot_ab = @df phenolics_filtered groupedboxplot(:Induction, :mcabsorbance, group = :Species)
+plot!(xlabel = "Treatment Group", ylabel = "Phenolic Content", dpi = 600, size = (800,600))
+png(gboxplot_ab, "manuscript/images/absorbance_boxplots")
+phenolic_data.Si_pc = phenolic_data.Si_ppm./10000
+phenolic_data.treatmentcombo = phenolic_data.Induction .* phenolic_data.Species
+ph_si_scatter = plot(phenolic_data.Si_pc, phenolic_data.mcabsorbance, group=phenolic_data.Species, seriestype=:scatter)
 plot!(ph_si_scatter, xlabel = "Leaf Silicon Content (%)", ylabel = "Leaf Phenolic Content")
 plot!(size = (800,600), dpi = 800)
 png(ph_si_scatter, "manuscript/images/phenolic_silicon_regression")
@@ -213,21 +216,32 @@ function standarderror(col)
     return se
 end
 
+using Measurements
+using Statistics
 
 gph = groupby(phenolic_data, [:Species])
 test = combine(gph, [:mcabsorbance, :Si_ppm] => ((a, s) -> (sppMEANabsorbance = mean(a), sppSEabsorbance = standarderror(a),sppMEANsi = mean(s), sppSEsi = standarderror(s))) => AsTable)
 
-using Measurements
 
-meansphsiscatter = plot(test.sppMEANsi .± test.sppSEsi, test.sppMEANabsorbance .± test.sppSEabsorbance, seriestype = "scatter", groups = test.Species, markersize = 15)
+meansphsiscatter = plot(test.sppMEANsi .± test.sppSEsi, test.sppMEANabsorbance .± test.sppSEabsorbance, seriestype = "scatter", groups = test.Species, markersize = 15, palette = :Dark2_3)
 plot!(meansphsiscatter, xlabel = "Leaf Silicon Content (%)", ylabel = "Leaf Phenolic Content")
 plot!(size = (800,600), dpi = 800)
 #png(ph_si_scatter, "manuscript/images/phenolic_silicon_regression")
 
 gph_ind = groupby(phenolic_data, [:Induction])
-test_ind = combine(gph_ind, [:mcabsorbance, :Si_ppm] => ((a, s) -> (sppMEANabsorbance = mean(a), sppSEabsorbance = standarderror(a),sppMEANsi = mean(s), sppSEsi = standarderror(s))) => AsTable)
+test_ind = combine(gph_ind, [:mcabsorbance, :Si_pc] => ((a, s) -> (sppMEANabsorbance = mean(a), sppSEabsorbance = standarderror(a),sppMEANsi = mean(s), sppSEsi = standarderror(s))) => AsTable)
 
 meansphsiscatter_induction = plot(test_ind.sppMEANsi .± test_ind.sppSEsi, test_ind.sppMEANabsorbance .± test_ind.sppSEabsorbance, seriestype = "scatter", groups = test_ind.Induction, markersize = 15)
 plot!(meansphsiscatter_induction, xlabel = "Leaf Silicon Content (%)", ylabel = "Leaf Phenolic Content")
 plot!(size = (800,600), dpi = 800)
 #png(ph_si_scatter, "manuscript/images/phenolic_silicon_regression")
+
+gph_trt = groupby(phenolic_data, [:treatmentcombo])
+test_trt = combine(gph_trt, [:mcabsorbance, :Si_pc] => ((a, s) -> (sppMEANabsorbance = mean(a), sppSEabsorbance = standarderror(a),sppMEANsi = mean(s), sppSEsi = standarderror(s))) => AsTable)
+meansphsiscatter_induction = plot(test_trt.sppMEANsi .± test_trt.sppSEsi, 
+    test_trt.sppMEANabsorbance .± test_trt.sppSEabsorbance, 
+    seriestype = "scatter", 
+    groups = test_trt.treatmentcombo, 
+    markersize = 15
+)
+
