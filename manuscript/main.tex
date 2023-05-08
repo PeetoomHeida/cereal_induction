@@ -346,8 +346,7 @@ To analyse the silicon and manganese content of the accessions, we followed the 
 
 \subsection{Statistical analysis}
 
-Need to revisit this and figure out exactly what to say.
-
+To visualize the variability of silicon and manganese content within genotypes across environments, we converted elemental content into a rank, averaged ranks across environments, and plotted (Figure \ref{rank_plots}). 
 To look for evidence of root exudation associated with silicon content, we tested a correlation between observed leaf silicon and manganese content. Prior to the analysis, we plotted histograms of silicon and manganese concentrations. We observed right-skew for both elements and applied a log-transformation. To control for intersite-variation we further transformed our measurements from log(concentration) to site-specific standard scores ($\frac{X - \mu}{\sigma}$). We then used the \verb|lmerTest| and \verb|MuMIn| (\cite{kuznetsova_2017_lmerTest,barton_2023_mumin}) package in R 4.2.2 (\cite{r_core_team_2022}) to implement the following model: 
 
 $Manganese \sim Silicon + (1|Genotype)$
@@ -356,7 +355,7 @@ To perform the GWAS analysis, we followed the methodology and code published in 
 
 \section{Results}
 
-Of the approximately 1700 plants planted, [1300] produced enough leaf material for analysis. After pooling, we were left with 359 samples across three environments. Silicon content in \textit{Aegilops tuaschii} ranged from 0.784\% to 11.473\%. There were notable differences in silicon content based on the growing environment. The glasshouse plants averaged 1.450\% $\pm$ 0.032 (SE), while the two outdoor environments averaged 4.935\% $\pm$ 0.108 and 6.471\% $\pm$ 0.132. Silicon and manganese showed significant positive correlation ($\beta = 0.278\pm0.051, z = 5.46, p<0.0001$) (Figure \ref{Fig:mn_si_regression}). Overall, my analysis revealed no regions of the \textit{Aegilops tauschii} genome that have significant associations across environments with silicon content (Figure \ref{Fig:si_peak_plot}). For manganese, we observed numerous peaks in each environment, yet only a few peaks were consistent across environment. My results for manganese content are less clear. (Figure \ref{Fig:mn_peak_plot}). Within the plants, silicon and manganese content were correlated ($R^2$ = [How to get R2 from a lmer Model??], p = 0.0043) (Figure 3). 
+Of the approximately 1700 plants planted, [1300] produced enough leaf material for analysis. After pooling, we were left with 359 samples across three environments. Silicon content in \textit{Aegilops tuaschii} ranged from 0.784\% to 11.473\%. There were notable differences in silicon content based on the growing environment. The glasshouse plants averaged 1.450\% $\pm$ 0.032 (SE), while the two outdoor environments averaged 4.935\% $\pm$ 0.108 and 6.471\% $\pm$ 0.132. Silicon and manganese showed significant positive correlation ($\beta = 0.278\pm0.051, z = 5.46, p<0.0001$) (Figure \ref{Fig:mn_si_regression}). Overall, my analysis revealed no regions of the \textit{Aegilops tauschii} genome that have significant associations across environments with silicon content (Figure \ref{Fig:si_peak_plot}). For manganese, we detected a number of peaks in each environment that exceeded the threshold for significance. However, when comparing accross environments, we found no regions that consistently exceeded the threshold significance. We did however find 11 regions exceeding the significance threshold that were present in both of our growing environments with real soil.  were three that had pronounced peaks relative to the average response (Figure \ref{Fig:mn_peak_plot}). Within the plants, silicon and manganese content were correlated ($R^2_m = 0.05, R^2_c = 0.35 , p < 0.0001$) (Figure 3). 
 
 \section{Discussion}
 
@@ -369,6 +368,13 @@ We observed major differences in silicon content between our growth environments
 \printbibliography
 
 \section{Tables and Figures}
+
+\begin{figure}[h]
+        \includegraphics[scale=0.048]{images/rank_plots.png}
+        \centering
+        \caption{}
+        \label{Fig:mn_si_regression}
+\end{figure}
 
 \begin{figure}[h]
         \includegraphics[scale=0.048]{images/si_mn_regression.png}
