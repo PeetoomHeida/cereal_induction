@@ -15,6 +15,7 @@
 \usepackage{gensymb}
 \usepackage{longtable}
 \usepackage{titlesec}
+\usepackage{subcaption}
 \newcommand{\mycomment}[1]{}
 % Change chapter heading font size to 14pt
 \titleformat{\chapter}{\Large\bfseries}{\thechapter.}{20pt}{\Large}
@@ -366,7 +367,9 @@ To perform the GWAS analysis, we followed the methodology and code published in 
 
 We observed major differences in silicon and manganese content between our growth environments, and did not find consistent correlations between genetic variation and variation in silicon content. Our rank plots revealed that relative content of both silicon and manganese is not stable across environments. This suggests strong genotype by environment interactions, likely reduced our ability to detect genetic contribution to the silicon and manganese phenotype. Interestingly, we detected a number of peaks for leaf managese content, though many of these were only found in a single environment. Though we detected no peaks present in all three growing environments, we detected 11 regions that were significant in both outdoor environments. Compared to the glasshouse environment, the outdoor environments likely exposed the plants to a soil environment in which root exudation yeilds nutrients for uptake. Root exudation of organic acids and chelating agents liberates phosphates and silicates from inorganic pools (\cite{de_tombeur_silicon_2021-1,lambers_plant_2008}). In the glasshouse environment, we grew plants in standard potting mix, which is high in organic matter with a relatively low inorganic component. In this soil context, root exudation is unlikely to yeild appreciable nutrient liberation. The high manganese content found in the glasshouse plants is most likely due to the watering regime they experienced. We watered these plants using municipal tap water. In the Vancouver region, this water is sourced from reservoirs in the surrounding mountains, which themselves are filled from ground runoff. Nearby groundwater wells have issues with high manganese content (\cite{hu_drinking_2020}). A constant supply of soluble manganese in the irrigation the glasshouse plants likely accounts for the elevated manganese content. 
 
-Our observations of a correlation between silicon and manganese content lend support to the idea of root-exudate based silicon aquisition (\cite{de_tombeur_silicon_2021-1}). It is possible that this positive correlation is due to a nutrient effect more generally  
+Our observations of a correlation between silicon and manganese content lend support to the idea of root-exudate based silicon aquisition (\cite{de_tombeur_silicon_2021-1}). It is possible that this positive correlation is due to a nutrient effect more generally, however further regressions show that silicon only shows positive correlations with iron and manganese, both of which are mobilized by root exudation (Supplementary Fig [Number]) (\cite{de_tombeur_silicon_2021-1}). Unfortunately, the two genes we did detect as associated with manganese content are both non-coding RNA, reducing the likelihood that they are involved in root exudation or manganese uptake. Silicon interacts with manganese in the leaf, binding manganese to the cell wall and reducing manganese concentrations in the cell symplast (\cite{rogalla_role_2002}). Root exudation is most important under limited nutrients, and silicon-exudate dynamics have been extensively studied in well-weathered soils (\cite{lambers_plant_2008,de_tombeur_shift_2021,de_tombeur_silicon_2021-1}). In agricultural soils, it is unlikely that plants would be exposed to such nutrient poor conditions, and so the specific dynamics of root exudation and silicon mobilization deserve further investigation. Root exudation also results in increased soil carbon content, and there is interest in implementing cropping and fertilization systems with an explicit focus on improving soil carbon through root exudation (\cite{cornelis_soil_2022}). In this context, understanding how increased root exudation may impact both silicon and metal uptake in plants is crucial, and future studies should pursue similar genetic approaches under limited phosphorus regimes to try and detect genes associated with root exudation activity. 
+
+Depsite our inability to detect QTLs that influence silicon or manganese content, this field of study still holds immense promise. We implemented a study design that we hoped would allow generalizations about the genetic regions we hoped to find. However, the use of multiple environments may have obscured QTLs that we may have otherwise detected in a single environment. The use of the diversity panel allowed for a rapid and low-cost first search for loci asscociated with silicon and manganese content, but may have also limited our power to detect loci. The panel we used was a subset of the larger \textit{Aegilops tauschii} panel, and ours was selected specifically for diversity in disease-resistance genes. Utilizing the full panel of 384 genotypes could improve power of future studies. Alternatively, future researchers could attempt to create a mapping population. By using the silicon and manganese content rankings generated by this study, one could create a cross of a low and high genotype and use a traditional qtl mapping approach with the recombinant population. This approach might allow for more sensitivity in the analysis by reducing the overall genetic variation between genotypes in population, highlighting the genetically driven variation in silicon content.
 \section{Acknowledgements}
 
 \section{Data Availability}
@@ -377,22 +380,22 @@ Our observations of a correlation between silicon and manganese content lend sup
 
 \begin{table}[ht]
         \centering
-        \caption{GWAS peaks for manganese content crossreferenced with the \textit{Aegilops tauschii} Aet v5.0 assembly. }
+        \caption{Genomic regions with significant correlation to leaf manganese content, and the corresponding genes in the \textit{Aegilops tauschii} Aet v5.0 assembly. The assembly was scanned using the NCBI genome viewer tool.}
         \label{tab:peaks_and_genes}
-        \begin{tabular}{|lrrr|}
+        \begin{tabular}{lrrr}
         \hline
-        \textbf{Chromosome} & \textbf{Peak Location}                & \textbf{Range}                             & \textbf{Gene Symbol} \\
+        \textbf{Chromosome} & \textbf{Peak Location} & \textbf{Range} & \textbf{Gene Symbol} \\
         \hline
-        1D         & 201950k-201960k   & No Gene Found                     &                  \\
-        1D         & 402540k-402550k   & 402549667-402554765              & LOC109755172   \\
-        1D         & 402540k-402550k   & 402547029-402549598 & LOC120968250      \\
-        1D         & 418870k-418880k   & No Gene Found                     &                  \\
-        1D         & 418990k-419000k   & No Gene Found                     &                  \\
-        1D         & 419030k-419040k   & No Gene Found                     &                  \\
-        3D         & 575420k-575430k   & 575424894-575428979 & LOC109751197   \\
-        4D         & 85300k-85310k     & No Gene Found                     &                  \\
-        4D         & 85310k-85320k     & No Gene Found                     &                  \\
-        4D         & 85330k-85340k     & No Gene Found                     &                  \\
+        1D         & 201950k-201960k   & No Gene Found          &                 \\
+        1D         & 402540k-402550k   & 402549667-402554765    & LOC109755172    \\
+        1D         & 402540k-402550k   & 402547029-402549598    & LOC120968250    \\
+        1D         & 418870k-418880k   & No Gene Found          &                 \\
+        1D         & 418990k-419000k   & No Gene Found          &                 \\
+        1D         & 419030k-419040k   & No Gene Found          &                 \\
+        3D         & 575420k-575430k   & 575424894-575428979    & LOC109751197    \\
+        4D         & 85300k-85310k     & No Gene Found          &                 \\
+        4D         & 85310k-85320k     & No Gene Found          &                 \\
+        4D         & 85330k-85340k     & No Gene Found          &                 \\
         \hline
         \end{tabular}
 \end{table}
@@ -414,16 +417,44 @@ Our observations of a correlation between silicon and manganese content lend sup
 \end{figure}
 
 \begin{figure}[h]
-        \includegraphics{images/Manhattan_Plot.png}
         \centering
-        \caption{This is an example Manhattan Plot from the GWAS output. The real figure will show associations with silicon content}
+        \begin{subfigure}[b]{\textwidth}
+                \centering
+                \includegraphics[scale=0.3]{images/gwas_plots/svgtopng/tf_si_plot.png}
+                \label{Fig:tf_si_peak}
+        \end{subfigure}
+        \begin{subfigure}[b]{\textwidth}
+                \centering
+                \includegraphics[scale=0.3]{images/gwas_plots/svgtopng/sc_si_plot.png}
+                \label{Fig:sc_si_peak}
+        \end{subfigure}
+        \begin{subfigure}[b]{\textwidth}
+                \centering
+                \includegraphics[scale=0.3]{images/gwas_plots/svgtopng/gh_si_plot.png}
+                \label{Fig:gh_si_peak}
+        \end{subfigure}
+        \caption{Manhattan plots of the results of our GWAS analysis for leaf silicon content in \textit{Aegilops tauschii}. Red dots indicate a negative correlation, while blue dots denote a positive correlation. The top two plots show the results for the outdoor growing environments, and the bottom plot is the glasshouse environment.}
         \label{Fig:si_peak_plot}
 \end{figure}
 
 \begin{figure}[h]
-        \includegraphics{images/Manhattan_Plot.png}
         \centering
-        \caption{This is another Manhattan Plot, this time showing associations with manganese content}
+        \begin{subfigure}[b]{\textwidth}
+                \centering
+                \includegraphics[scale=0.3]{images/gwas_plots/svgtopng/tf_mn_plot.png}
+                \label{Fig:tf_mn_peak}
+        \end{subfigure}
+        \begin{subfigure}[b]{\textwidth}
+                \centering
+                \includegraphics[scale=0.3]{images/gwas_plots/svgtopng/sc_mn_plot.png}
+                \label{Fig:sc_mn_peak}
+        \end{subfigure}
+        \begin{subfigure}[b]{\textwidth}
+                \centering
+                \includegraphics[scale=0.3]{images/gwas_plots/svgtopng/gh_mn_plot.png}
+                \label{Fig:gh_mn_peak}
+        \end{subfigure}
+        \caption{Manhattan plots of the results of our GWAS analysis for leaf manganese content in \textit{Aegilops tauschii}. Red dots indicate a negative correlation, while blue dots denote a positive correlation. The top two plots show the results for the outdoor growing environments, and the bottom plot is the glasshouse environment.}
         \label{Fig:mn_peak_plot}
 \end{figure}
 
