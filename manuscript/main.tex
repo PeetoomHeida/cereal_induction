@@ -16,6 +16,9 @@
 \usepackage{longtable}
 \usepackage{titlesec}
 \usepackage{subcaption}
+\usepackage{pdflscape}
+\usepackage{booktabs}
+\usepackage{array}
 \newcommand{\mycomment}[1]{}
 % Change chapter heading font size to 14pt
 \titleformat{\chapter}{\Large\bfseries}{\thechapter.}{20pt}{\Large}
@@ -324,6 +327,34 @@ We thank Dr. Aaron Beattie, Dr. Mazen Aljarrah, and Dr. Gurcharn Singh Brar for 
         \caption{Scatter plot of the relationship between leaf silicon and leaf phenolic concentration}
         \label{Fig:phe_si_scatter}
 \end{figure}
+\clearpage
+
+\section{Supplementary Info}
+\begin{landscape}
+\begin{table}
+        \centering
+        \caption{Pedigrees of the cultivars used in this study}
+        \begin{tabular}{ll>{\raggedright\arraybackslash}p{3cm}>{\raggedright\arraybackslash}p{3cm}>{\raggedright\arraybackslash}p{5cm}>{\raggedright\arraybackslash}p{4cm}}
+          \toprule
+          Species & Cultivar & Parent 1 & Parent 2 & Parent 1 Pedigree & Parent 2 Pedigree \\
+          \midrule
+          Barley & CDC Austenson & TR358 & 94Ab12271 & Not Available & Not Available \\
+          Barley & AAC Synergy & TR02267 & Newdale & TR253/AC Metcalfe & CDC Stratus//TR236/WM862-6 \\
+          Barley & CDC Copeland & WM861-5 & TR118 & Harrington & \\
+          Oats & AC Morgan & OT526 & OT763 & 17578/Alfred & Fidler/Cascade \\
+          Oats & Camden & SW Betania & Dominik & SW 151-7-95/SW 52-95 & Not Available \\
+          Oats & AC Summit & Ronald & OT299 & W89329/AC Medallion & AC Rebel/Dumont 48 \\
+          Triticale & Bunker & 95P105 & 85L0120006 & Pika-5/Yogui-1 & Spring triticale*n/RL4137 \\
+          Triticale & Tyndal & Nimir-1/Hare-265//Erizo-9 & 88L012 & Nimir-1/Hare-265//Erizo-9 & Pronghorn*n/RL4137 \\
+          Triticale & AB Stampeder & BULL 10/MANATI1//FARA S/CMH84.4414 & POLLMER 2.2.1 $\ast$2//FARA S/CMH84.4414 & BULL 10/MANATI1//FARA S/CMH84.4414 & POLLMER 2.2.1 $\ast$2//FARA S/CMH84.4414 \\
+          Wheat & AAC Brandon & Superb/CDC Osler & ND744 & Superb/CDC Osler & ND2831/Parshall//ND706 \\
+          Wheat & CDC Landmark & Unity & BW864 & McKenzie$\ast$3// BW174$\ast$2/Clark & YAQUI 50-ENANO/3$\ast$KALYANSONA \\
+          Wheat & CDC Superb & BW282 & CDC Go & Not Available & Grandin/SD3055 \\
+          \bottomrule
+        \end{tabular}
+      \end{table}
+      
+      \end{landscape}
 
 \clearpage
 
@@ -438,7 +469,7 @@ Depsite our inability to detect QTLs that influence silicon or manganese content
                 \includegraphics[scale=0.3]{images/gwas_plots/svgtopng/gh_si_plot.png}
                 \label{Fig:gh_si_peak}
         \end{subfigure}
-        \caption{Manhattan plots of the results of our GWAS analysis for leaf silicon content in \textit{Aegilops tauschii}. Red dots indicate a negative correlation, while blue dots denote a positive correlation. The top two plots show the results for the outdoor growing environments, and the bottom plot is the glasshouse environment.}
+        \caption{Manhattan plots of the results of our GWAS analysis for leaf silicon content in \textit{Aegilops tauschii}. Red dots indicate a negative correlation, while blue dots denote a positive correlation. The top two plots show the results for the outdoor growing environments, and the bottom plot is the glasshouse environment. The dotted line represents the bonferroni-corrected significance threshold.}
         \label{Fig:si_peak_plot}
 \end{figure}
 
@@ -459,7 +490,7 @@ Depsite our inability to detect QTLs that influence silicon or manganese content
                 \includegraphics[scale=0.3]{images/gwas_plots/svgtopng/gh_mn_plot.png}
                 \label{Fig:gh_mn_peak}
         \end{subfigure}
-        \caption{Manhattan plots of the results of our GWAS analysis for leaf manganese content in \textit{Aegilops tauschii}. Red dots indicate a negative correlation, while blue dots denote a positive correlation. The top two plots show the results for the outdoor growing environments, and the bottom plot is the glasshouse environment.}
+        \caption{Manhattan plots of the results of our GWAS analysis for leaf manganese content in \textit{Aegilops tauschii}. Red dots indicate a negative correlation, while blue dots denote a positive correlation. The top two plots show the results for the outdoor growing environments, and the bottom plot is the glasshouse environment. The dotted line represents the bonferroni-corrected significance threshold.}
         \label{Fig:mn_peak_plot}
 \end{figure}
 

@@ -1,0 +1,13 @@
+Species,Cultivar,Parent 1,Parent 2,Parent 1 Pedigree,Parent 2 Pedigree
+Barley,CDC Austenson,TR358,94Ab12271,Not Avaiable,Not Available
+Barley,AAC Synergy,TR02267,Newdale,TR253/AC Metcalfe,CDC Stratus//TR236/WM862-6
+Barley,CDC Copeland,WM861-5,TR118,Harrington,
+Oats,AC Morgan,OT526,OT763,17578/Alfred,Fidler/Cascade
+Oats,Camden,SW Betania,Dominik,SW 151-7-95 x SW 52-95,Not Available
+Oats,AC Summit,Ronald,OT299,W89329/AC Medallion,AC Rebel/Dumont 48
+Triticale,Bunker,95P105,85L0120006,Pika-5/Yogui-1,Spring triticale*n/RL4137
+Triticale,Tyndal,Nimir-1/Hare-265//Erizo-9,88L012,Nimir-1/Hare-265//Erizo-9,Pronghorn*n/RL4137
+Triticale,AB Stampeder,BULL 10/MANATI1//FARA S/CMH84.4414,POLLMER 2.2.1 *2//FARA S/CMH84.4414 ,BULL 10/MANATI1//FARA S/CMH84.4414,POLLMER 2.2.1 *2//FARA S/CMH84.4414 
+Wheat,AAC Brandon,Superb/CDC Osler,ND744,Superb/CDC Osler,ND2831/Parshall//ND706
+Wheat,CDC Landmark,Unity,BW864,McKenzie*3//BW174*2/Clark,YAQUI 50-ENANO/3*KALYANSONA
+Wheat,CDC Superb,BW282,CDC Go,Not Avaiable,Grandin/SD3055
