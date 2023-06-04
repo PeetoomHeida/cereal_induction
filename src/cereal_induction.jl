@@ -6,6 +6,10 @@ using MCMCChains
 using GLM
 using MixedModels
 using TuringGLM
+using DataFrames
+using Measurements
+using Statistics
+using ColorSchemes
 
 ### Combine 2019-2021 insured acreages of grain crops
 ### Data sourced from the Canadian Grain Commission https://www.grainscanada.gc.ca/en/grain-research/statistics/varieties-by-acreage/
@@ -130,19 +134,114 @@ analysis_data = CSV.read("data/real_data/biomass_si_data.csv", DataFrame)
 # Some summary stats on the data
 
 #############
+my_names = unique(analysis_data.Genotype)
+official_names = [
+    "CS Camden", 
+    "AC Summit", 
+    "AC Morgan", 
+    "CDC Austenson",
+    "AAC Brandon",
+    "CDC Landmark",
+    "AB Stampeder",
+    "Pronghorn",
+    "CDC Plentiful",
+    "CDC Copeland",
+    "AAC Synergy",
+    "Tyndal" ]
+
+cultivar_dict = Dict(my_names .=> official_names)
+
+transform!(analysis_data, :Genotype => ByRow(x->cultivar_dict[x]) => :OfficialName)
 analysis_data_noinduction = filter(row -> row.Induction == "Control", analysis_data)
 analysis_data_noinduction.Si_ppm = analysis_data_noinduction.Si_ppm./10000
 gdat_geno = groupby(analysis_data_noinduction, :Genotype)
 summ_stats_geno = combine(gdat_geno, :Si_ppm => mean, :Si_ppm => std, nrow)
 summ_stats_geno.Si_ppm_se = summ_stats_geno.Si_ppm_std ./ sqrt.(summ_stats_geno.nrow)
-CSV.write("./data/real_data/summary_statistics_genotype.csv", summ_stats_geno)
+#CSV.write("./data/real_data/summary_statistics_genotype.csv", summ_stats_geno)
 
+gsi_spp = groupby(analysis_data_noinduction, [:OfficialName])
+spp_si_contents_noind = combine(gsi_spp, [:Si_ppm, :Species] => ((si, sp) -> (sppMEANsi = mean(si), sppSEsi = standarderror(si), spp = first(sp))) => AsTable)
+spp_si_contents_noind.GenotypeID = 1:12
+sort!(spp_si_contents_noind, [:spp, :sppMEANsi])
+
+spp_palette = palette([
+    :palegreen, 
+    :lime, 
+    :darkgreen,
+    :skyblue, 
+    :dodgerblue, 
+    :blue, 
+    :pink, 
+    :hotpink, 
+    :deeppink,
+    :orange, 
+    :darkorange2, 
+    :orange4])
+
+color_map = DataFrame(Cultivar = ["austenson", "brandon", "camden", "copeland", "landmark", "morgan", "plentiful", "pronghorn", "stampeder", "summit", "synergy", "tyndal"],
+Order = [11, 4, 1, 10, 3, 6, 9, 8, 12, 5, 2, 7,],
+Color = [
+    :palegreen, 
+    :lime, 
+    :darkgreen,
+    :skyblue, 
+    :dodgerblue, 
+    :blue, 
+    :pink, 
+    :hotpink, 
+    :deeppink,
+    :orange, 
+    :darkorange2, 
+    :orange4])
+
+sort!(color_map, :Order)
+spp_palette = color_map.Color
+plot(spp_si_contents_noind.GenotypeID, 
+spp_si_contents_noind.sppMEANsi .± spp_si_contents_noind.sppSEsi, 
+seriestype = :scatter, 
+group = spp_si_contents_noind.Genotype, 
+size = (1200,600), 
+dpi = 600, 
+markersize = 10,
+grid=false,
+palette = spp_palette
+)
+plot!(xticks = ([2,5,8,11], unique(spp_si_contents_noind.spp)))
+plot!(xlabel = "Cultivar", ylabel = "Mean Silicon Content (%)")
 begin
-    spp_boxplots = @df analysis_data_noinduction groupedboxplot(:Species, :Si_ppm, group = :Genotype)
-    plot!(spp_boxplots, ylabel = "Leaf Si content (%)", xlabel = "Species")
-    plot!(size = (800,600)) #width, height
-    png(spp_boxplots, "images/spp_si_content")
+spp_mean_si_plot = plot(spp_si_contents_noind.OfficialName[1:3], 
+spp_si_contents_noind.sppMEANsi[1:3] .± spp_si_contents_noind.sppSEsi[1:3],
+seriestype = :scatter,
+markersize = 8,
+#legend = spp_si_contents_noind.Genotype
+labels = spp_si_contents_noind.spp[1])
+plot!(spp_si_contents_noind.OfficialName[4:6], 
+spp_si_contents_noind.sppMEANsi[4:6] .± spp_si_contents_noind.sppSEsi[4:6],
+seriestype = :scatter,
+markersize = 8,
+#legend = spp_si_contents_noind.Genotype
+labels = spp_si_contents_noind.spp[4])
+plot!(spp_si_contents_noind.OfficialName[7:9], 
+spp_si_contents_noind.sppMEANsi[7:9] .± spp_si_contents_noind.sppSEsi[7:9],
+seriestype = :scatter,
+markersize = 8,
+#legend = spp_si_contents_noind.Genotype
+labels = spp_si_contents_noind.spp[7])
+plot!(spp_si_contents_noind.OfficialName[10:12], 
+spp_si_contents_noind.sppMEANsi[10:12] .± spp_si_contents_noind.sppSEsi[10:12],
+seriestype = :scatter,
+markersize = 8,
+#legend = spp_si_contents_noind.Genotype
+labels = spp_si_contents_noind.spp[10])
+plot!(xrotation =45)
+plot!(xlabel = "Cultivar (Species)", ylabel = "Silicon Leaf Content (%)")
 end
+plot!(size = (600,600), dpi = 600)
+plot!(xtickfontsize =10)
+plot!(grid=false)
+
+savefig(spp_mean_si_plot, "./manuscript/images/spp_si_content.png")
+
 
 gdat_spp = groupby(analysis_data_noinduction, :Species)
 summ_stats_spp = combine(gdat_spp, :Si_ppm => mean, :Si_ppm => std, nrow)
@@ -199,6 +298,7 @@ ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], inte
 
 phenolic_data = CSV.read("data/real_data/si_absorbance_data.csv", DataFrame)
 phenolics_filtered = filter(row -> ismissing(row.isDamaged) || row.isDamaged  ≠ "Undamaged", phenolic_data)
+
 gboxplot_ab = @df phenolics_filtered groupedboxplot(:Induction, :mcabsorbance, group = :Species)
 plot!(xlabel = "Treatment Group", ylabel = "Phenolic Content", dpi = 600, size = (800,600))
 png(gboxplot_ab, "manuscript/images/absorbance_boxplots")
@@ -216,8 +316,7 @@ function standarderror(col)
     return se
 end
 
-using Measurements
-using Statistics
+
 
 gph = groupby(phenolic_data, [:Species])
 test = combine(gph, [:mcabsorbance, :Si_ppm] => ((a, s) -> (sppMEANabsorbance = mean(a), sppSEabsorbance = standarderror(a),sppMEANsi = mean(s), sppSEsi = standarderror(s))) => AsTable)
@@ -250,4 +349,3 @@ plot!(xlabel = "Species Treatment Combination", ylabel = "Mean Silicon Content (
 
 plot(test_trt.treatmentcombo, test_trt.sppMEANabsorbance .± test_trt.sppSEabsorbance, seriestype = :scatter, group = test_trt.spp, size = (1200,600), dpi = 600, markersize = 10)
 plot!(xlabel = "Species Treatment Combination", ylabel = "Mean Silicon Content (%)")
-
