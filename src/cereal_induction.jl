@@ -1,3 +1,4 @@
+begin
 using CSV
 using MLDataUtils: rescale!
 using Plots
@@ -10,7 +11,16 @@ using DataFrames
 using Measurements
 using Statistics
 using ColorSchemes
+end
 
+
+
+function standarderror(col) 
+    sd = std(col)
+    denom = sqrt(length(col)-1)
+    se = sd/denom
+    return se
+end
 ### Combine 2019-2021 insured acreages of grain crops
 ### Data sourced from the Canadian Grain Commission https://www.grainscanada.gc.ca/en/grain-research/statistics/varieties-by-acreage/
 
@@ -162,7 +172,7 @@ summ_stats_geno.Si_ppm_se = summ_stats_geno.Si_ppm_std ./ sqrt.(summ_stats_geno.
 gsi_spp = groupby(analysis_data_noinduction, [:OfficialName])
 spp_si_contents_noind = combine(gsi_spp, [:Si_ppm, :Species] => ((si, sp) -> (sppMEANsi = mean(si), sppSEsi = standarderror(si), spp = first(sp))) => AsTable)
 spp_si_contents_noind.GenotypeID = 1:12
-sort!(spp_si_contents_noind, [:spp, :sppMEANsi])
+sort!(spp_si_contents_noind, [:spp, :OfficialName])
 
 spp_palette = palette([
     :palegreen, 
@@ -234,12 +244,14 @@ markersize = 8,
 #legend = spp_si_contents_noind.Genotype
 labels = spp_si_contents_noind.spp[10])
 plot!(xrotation =45)
-plot!(xlabel = "Cultivar (Species)", ylabel = "Silicon Leaf Content (%)")
-end
+plot!(xlabel = "Cultivar", ylabel = "Leaf Silicon Content (%)")
 plot!(size = (600,600), dpi = 600)
 plot!(xtickfontsize =10)
+plot!(xlabelfontsize = 14)
+plot!(ylabelfontsize = 14)
+plot!(legendfontsize = 12)
 plot!(grid=false)
-
+end
 savefig(spp_mean_si_plot, "./manuscript/images/spp_si_content.png")
 
 
@@ -282,6 +294,55 @@ png(gboxplot, "manuscript/images/induction_plot")
 test_df = DataFrame(var1 = repeat(["A", "B", "C"], inner = 3, outer =3), var2 = repeat(["D", "E", "F"], inner = 9, outer = 1), yvals = rand(Normal(0,1), 27))
 tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
 
+filtered_analysis_data = filter(row -> ismissing(row.isDamaged) || row.isDamaged  ≠ "Undamaged", analysis_data)
+
+g_analysisdata = groupby(filtered_analysis_data, [:Induction, :Species])
+si_induction_summary = combine(g_analysisdata, [:Si_ppm, :Species, :Induction] => ((si, sp, in) -> (grpMEANsi = mean(si/10000), grpSEsi = standarderror(si/10000), spp = first(sp), ind = first(in))) => AsTable)
+
+
+sort!(si_induction_summary, [:spp, :ind])
+si_induction_summary.order = [1,2,3,4,5,6,7,8,9,10,11,12]
+begin
+    induction_si_plot = plot(si_induction_summary.order[[1,4,7,10]], 
+    si_induction_summary.grpMEANsi[[1,4,7,10]] .± si_induction_summary.grpSEsi[[1,4,7,10]],
+    seriestype = :scatter,
+    markersize = 8,
+    #legend = si_induction_summary.Genotype
+    labels = "Control")
+
+    plot!(si_induction_summary.order[[2,5,8,11]], 
+    si_induction_summary.grpMEANsi[[2,5,8,11]] .± si_induction_summary.grpSEsi[[2,5,8,11]],
+    seriestype = :scatter,
+    markersize = 8,
+    #legend = si_induction_summary.Genotype
+    labels = "Insect")
+
+    plot!(si_induction_summary.order[[3,6,9,12]], 
+    si_induction_summary.grpMEANsi[[3,6,9,12]] .± si_induction_summary.grpSEsi[[3,6,9,12]],
+    seriestype = :scatter,
+    markersize = 8,
+    #legend = si_induction_summary.Genotype
+    labels = "Methyl-Jasmonate")
+
+    #= plot!(si_induction_summary.spp[10:12], 
+    si_induction_summary.grpMEANsi[10:12] .± si_induction_summary.grpSEsi[10:12],
+    seriestype = :scatter,
+    markersize = 8,
+    #legend = si_induction_summary.Genotype
+    labels = si_induction_summary.ind[10]) =#
+
+    plot!(xticks = ([2,5,8,11], unique(si_induction_summary.spp)))
+
+    #plot!(xrotation =45)
+
+    plot!(xlabel = "Species", ylabel = "Silicon Leaf Content (%)")
+    plot!(grid=false)
+    plot!(size = (800,600), dpi = 600)
+    end
+
+savefig(induction_si_plot, "./manuscript/images/induction_plot.png")
+
+
 ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], interaction=true)
     ad_spread = ad_spread[:, Not([:treat2_Control, :treat1_Barley])]
     scale_vals = DataFrame()
@@ -298,7 +359,8 @@ ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], inte
 
 phenolic_data = CSV.read("data/real_data/si_absorbance_data.csv", DataFrame)
 phenolics_filtered = filter(row -> ismissing(row.isDamaged) || row.isDamaged  ≠ "Undamaged", phenolic_data)
-
+phe_summary_stats_g  = groupby(phenolics_filtered, :Species)
+summ_stats_phe = combine(phe_summary_stats_g, :mcabsorbance => mean, :mcabsorbance => standarderror)
 gboxplot_ab = @df phenolics_filtered groupedboxplot(:Induction, :mcabsorbance, group = :Species)
 plot!(xlabel = "Treatment Group", ylabel = "Phenolic Content", dpi = 600, size = (800,600))
 png(gboxplot_ab, "manuscript/images/absorbance_boxplots")
@@ -309,13 +371,51 @@ plot!(ph_si_scatter, xlabel = "Leaf Silicon Content (%)", ylabel = "Leaf Phenoli
 plot!(size = (800,600), dpi = 800)
 png(ph_si_scatter, "manuscript/images/phenolic_silicon_regression")
 
-function standarderror(col) 
-    sd = std(col)
-    denom = sqrt(length(col)-1)
-    se = sd/denom
-    return se
-end
+g_phenolicdata = groupby(phenolics_filtered, [:Induction, :Species])
+phe_induction_summary = combine(g_phenolicdata, [:mcabsorbance, :Species, :Induction] => ((abs, sp, in) -> (grpMEANabs = mean(abs), grpSEabs = standarderror(abs), spp = first(sp), ind = first(in))) => AsTable)
 
+
+sort!(phe_induction_summary, [:spp, :ind])
+phe_induction_summary.order = [1,2,3,4,5,6,7,8,9,10,11,12]
+begin
+    induction_phe_plot = plot(phe_induction_summary.order[[1,4,7,10]], 
+    phe_induction_summary.grpMEANabs[[1,4,7,10]] .± phe_induction_summary.grpSEabs[[1,4,7,10]],
+    seriestype = :scatter,
+    markersize = 8,
+    #legend = phe_induction_summary.Genotype
+    labels = "Control")
+
+    plot!(phe_induction_summary.order[[2,5,8,11]], 
+    phe_induction_summary.grpMEANabs[[2,5,8,11]] .± phe_induction_summary.grpSEabs[[2,5,8,11]],
+    seriestype = :scatter,
+    markersize = 8,
+    #legend = phe_induction_summary.Genotype
+    labels = "Insect")
+
+    plot!(phe_induction_summary.order[[3,6,9,12]], 
+    phe_induction_summary.grpMEANabs[[3,6,9,12]] .± phe_induction_summary.grpSEabs[[3,6,9,12]],
+    seriestype = :scatter,
+    markersize = 8,
+    #legend = phe_induction_summary.Genotype
+    labels = "Methyl-Jasmonate")
+
+    #= plot!(phe_induction_summary.spp[10:12], 
+    phe_induction_summary.grpMEANsi[10:12] .± phe_induction_summary.grpSEsi[10:12],
+    seriestype = :scatter,
+    markersize = 8,
+    #legend = phe_induction_summary.Genotype
+    labels = phe_induction_summary.ind[10]) =#
+
+    plot!(xticks = ([2,5,8,11], unique(phe_induction_summary.spp)))
+
+    #plot!(xrotation =45)
+
+    plot!(xlabel = "Species", ylabel = "Leaf Phenolic Content")
+    plot!(grid=false)
+    plot!(size = (800,600), dpi = 600)
+    end
+
+savefig(induction_phe_plot, "./manuscript/images/phenolic_induction_plot.png")
 
 
 gph = groupby(phenolic_data, [:Species])
@@ -349,3 +449,96 @@ plot!(xlabel = "Species Treatment Combination", ylabel = "Mean Silicon Content (
 
 plot(test_trt.treatmentcombo, test_trt.sppMEANabsorbance .± test_trt.sppSEabsorbance, seriestype = :scatter, group = test_trt.spp, size = (1200,600), dpi = 600, markersize = 10)
 plot!(xlabel = "Species Treatment Combination", ylabel = "Mean Silicon Content (%)")
+
+
+transform!(phenolic_data, :Genotype => ByRow(x->cultivar_dict[x]) => :OfficialName)
+phenolics_data_noinduction = filter(row -> row.Induction == "Control", phenolic_data)
+gdat_geno = groupby(phenolics_data_noinduction, :Genotype)
+summ_stats_geno = combine(gdat_geno, :mcabsorbance => mean, :mcabsorbance => standarderror, nrow)
+#CSV.write("./data/real_data/summary_statistics_genotype.csv", summ_stats_geno)
+
+gab_spp = groupby(phenolics_data_noinduction, [:OfficialName])
+spp_phe_contents_noind = combine(gab_spp, [:mcabsorbance, :Species] => ((ab, sp) -> (sppMEANab = mean(ab), sppSEab = standarderror(ab), spp = first(sp))) => AsTable)
+spp_phe_contents_noind.GenotypeID = 1:12
+sort!(spp_phe_contents_noind, [:spp, :OfficialName])
+
+spp_palette = palette([
+    :palegreen, 
+    :lime, 
+    :darkgreen,
+    :skyblue, 
+    :dodgerblue, 
+    :blue, 
+    :pink, 
+    :hotpink, 
+    :deeppink,
+    :orange, 
+    :darkorange2, 
+    :orange4])
+
+color_map = DataFrame(Cultivar = ["austenson", "brandon", "camden", "copeland", "landmark", "morgan", "plentiful", "pronghorn", "stampeder", "summit", "synergy", "tyndal"],
+Order = [11, 4, 1, 10, 3, 6, 9, 8, 12, 5, 2, 7,],
+Color = [
+    :palegreen, 
+    :lime, 
+    :darkgreen,
+    :skyblue, 
+    :dodgerblue, 
+    :blue, 
+    :pink, 
+    :hotpink, 
+    :deeppink,
+    :orange, 
+    :darkorange2, 
+    :orange4])
+
+sort!(color_map, :Order)
+spp_palette = color_map.Color
+plot(spp_phe_contents_noind.GenotypeID, 
+spp_phe_contents_noind.sppMEANab .± spp_phe_contents_noind.sppSEab, 
+seriestype = :scatter, 
+group = spp_phe_contents_noind.Genotype, 
+size = (1200,600), 
+dpi = 600, 
+markersize = 10,
+grid=false,
+palette = spp_palette
+)
+plot!(xticks = ([2,5,8,11], unique(spp_phe_contents_noind.spp)))
+plot!(xlabel = "Cultivar", ylabel = "Mean Silicon Content (%)")
+begin
+spp_mean_phe_plot = plot(spp_phe_contents_noind.OfficialName[1:3], 
+spp_phe_contents_noind.sppMEANab[1:3] .± spp_phe_contents_noind.sppSEab[1:3],
+seriestype = :scatter,
+markersize = 8,
+#legend = spp_phe_contents_noind.Genotype
+labels = spp_phe_contents_noind.spp[1])
+plot!(spp_phe_contents_noind.OfficialName[4:6], 
+spp_phe_contents_noind.sppMEANab[4:6] .± spp_phe_contents_noind.sppSEab[4:6],
+seriestype = :scatter,
+markersize = 8,
+#legend = spp_phe_contents_noind.Genotype
+labels = spp_phe_contents_noind.spp[4])
+plot!(spp_phe_contents_noind.OfficialName[7:9], 
+spp_phe_contents_noind.sppMEANab[7:9] .± spp_phe_contents_noind.sppSEab[7:9],
+seriestype = :scatter,
+markersize = 8,
+#legend = spp_phe_contents_noind.Genotype
+labels = spp_phe_contents_noind.spp[7])
+plot!(spp_phe_contents_noind.OfficialName[10:12], 
+spp_phe_contents_noind.sppMEANab[10:12] .± spp_phe_contents_noind.sppSEab[10:12],
+seriestype = :scatter,
+markersize = 8,
+#legend = spp_phe_contents_noind.Genotype
+labels = spp_phe_contents_noind.spp[10])
+plot!(xrotation =45)
+plot!(xlabel = "Cultivar", ylabel = "Leaf Phenolic Content (mg/kg)")
+end
+plot!(size = (600,600), dpi = 600)
+plot!(xtickfontsize =10)
+plot!(xlabelfontsize = 14)
+plot!(ylabelfontsize = 14)
+plot!(legendfontsize = 12)
+plot!(grid=false)
+
+savefig(spp_mean_phe_plot, "./manuscript/images/spp_phenolic_content.png")

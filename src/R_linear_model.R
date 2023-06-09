@@ -20,9 +20,21 @@ si_filtered  <- si_data[si_data$isDamaged != "Undamaged",]
 si_filtered$Genotype <- as.factor(si_filtered$Genotype)
 si_filtered$Induction <- as.factor(si_filtered$Induction)
 si_filtered$Species <- as.factor(si_filtered$Species)
-si_mod <- lmerTest::lmer(log(Si_ppm) ~ Induction * Species + mass_g + (1|Species/Genotype), si_filtered)
+si_mod <- lmerTest::lmer(log(Si_ppm/10000) ~ Induction * Species + mass_g + (1|Genotype), si_filtered)
 si_mod <- lme4::lmer(log(Si_ppm) ~ Induction * Species + mass_g + (1|Genotype), si_filtered)
-anova(si_mod, type = 2)
+anova(si_mod, type = 3)
+e1 <- emmeans(si_mod, ~ Species * Induction)
+e2 <- contrast(e1, interaction = c("pairwise", "pairwise"))
+my.aes = list(point = list(size = 4))
+e3 <- pwpp(e1, aes = my.aes) + ggplot2::theme_bw( base_size =12) + ggplot2::labs(y = "Contrast")
+e4 <- pwpm(e1)
+pairs(e1)
+
+model_means_cld <- CLD(object = e1,
+                       adjust = "Tukey",
+                       Letters = letters,
+                       alpha = 0.05)
+ggplot2::ggsave("/home/isaac/Desktop/test_fig.png", width = 30, height = 20, units = "cm", dpi = 600)
 summary(aov(Si_ppm/10000 ~ Induction * Species + mass_g, si_filtered))
 summary(si_mod)
 lmerTest::anova(si_mod)
@@ -81,11 +93,22 @@ abdf_filtered  <- absorbancedf[absorbancedf$isDamaged != "Undamaged",]
 abdf_filtered$Genotype <- as.factor(abdf_filtered$Genotype)
 abdf_filtered$Species <- as.factor(abdf_filtered$Species)
 abdf_filtered$Induction <- as.factor(abdf_filtered$Induction)
-ab_mod <- lme4::lmer(mcabsorbance ~ Induction * Species + mass_g + (1|Genotype), abdf_filtered)
-summary(ab_mod)
-Anova(ab_mod)
+ab_mod <- lmer(log(mcabsorbance) ~ Induction * Species + mass_g + (1|Genotype), abdf_filtered)
+anova(ab_mod)
+ea1 <- emmeans(ab_mod, ~ Species * Induction)
+ea2 <- contrast(e1, interaction = c("pairwise", "pairwise"))
+my.aes = list(point = list(size = 4))
+ea3 <- pwpp(e1, aes = my.aes) + ggplot2::theme_bw( base_size =12) + ggplot2::labs(y = "Contrast")
+ea4 <- pwpm(e1)
+pairs(ea1)
+cld(ea1)
+model_means_cld <- cld(object = ea1,
+                       adjust = "Tukey",
+                       Letters = letters,
+                       alpha = 0.05)
+
 summary(lm(mcabsorbance ~ mass_g, absorbancedf))
-absorbance_mod <- lmer(scale(mcabsorbance) ~ scale(Si_ppm) + scale(mass_g) + Species+ Induction + (1|Genotype) ,REML = FALSE, abdf_filtered)
+absorbance_mod <- lmer(scale(log(mcabsorbance)) ~ scale(log(Si_ppm)) + scale(mass_g) + Species+ Induction + (1|Genotype) ,REML = FALSE, abdf_filtered)
 control_absorbance_only <- absorbancedf[absorbancedf$Induction == "Control",]
 summary(lmerTest::lmer(scale(log(mcabsorbance)) ~ scale(log(Si_ppm)) + Species + mass_g + (1|Genotype), control_absorbance_only))
 summary(lm(scale(mcabsorbance) ~ scale(Si_ppm), control_absorbance_only))
