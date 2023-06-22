@@ -394,30 +394,37 @@ g_phenolicdata = groupby(phenolics_filtered, [:Induction, :Species])
 phe_induction_summary = combine(g_phenolicdata, [:phenolicsmgpperg, :Species, :Induction] => ((abs, sp, in) -> (grpMEANabs = mean(abs), grpSEabs = standarderror(abs), spp = first(sp), ind = first(in))) => AsTable)
 
 
-sort!(phe_induction_summary, [:spp, :ind])
+sort!(phe_induction_summary, [:ind, :spp])
 phe_induction_summary.order = [1,2,3,4,5,6,7,8,9,10,11,12]
 end
 begin
-    induction_phe_plot = plot(phe_induction_summary.order[[1,4,7,10]], 
-    phe_induction_summary.grpMEANabs[[1,4,7,10]] .± phe_induction_summary.grpSEabs[[1,4,7,10]],
+    induction_phe_plot = plot(phe_induction_summary.order[[1,5,9]], 
+    phe_induction_summary.grpMEANabs[[1,5,9]] .± phe_induction_summary.grpSEabs[[1,5,9]],
     seriestype = :scatter,
     markersize = 10,
     #legend = phe_induction_summary.Genotype
-    labels = "Control")
+    labels = "Barley")
 
-    plot!(phe_induction_summary.order[[2,5,8,11]], 
-    phe_induction_summary.grpMEANabs[[2,5,8,11]] .± phe_induction_summary.grpSEabs[[2,5,8,11]],
+    plot!(phe_induction_summary.order[[2,6,10]], 
+    phe_induction_summary.grpMEANabs[[2,6,10]] .± phe_induction_summary.grpSEabs[[2,6,10]],
     seriestype = :scatter,
     markersize = 10,
     #legend = phe_induction_summary.Genotype
-    labels = "Insect")
+    labels = "Oats")
 
-    plot!(phe_induction_summary.order[[3,6,9,12]], 
-    phe_induction_summary.grpMEANabs[[3,6,9,12]] .± phe_induction_summary.grpSEabs[[3,6,9,12]],
+    plot!(phe_induction_summary.order[[3,7,11]], 
+    phe_induction_summary.grpMEANabs[[3,7,11]] .± phe_induction_summary.grpSEabs[[3,7,11]],
     seriestype = :scatter,
     markersize = 10,
     #legend = phe_induction_summary.Genotype
-    labels = "Methyl-Jasmonate")
+    labels = "Triticale")
+
+    plot!(phe_induction_summary.order[[4,8,12]], 
+    phe_induction_summary.grpMEANabs[[4,8,12]] .± phe_induction_summary.grpSEabs[[4,8,12]],
+    seriestype = :scatter,
+    markersize = 10,
+    #legend = phe_induction_summary.Genotype
+    labels = "Wheat")
 
     #= plot!(phe_induction_summary.spp[10:12], 
     phe_induction_summary.grpMEANsi[10:12] .± phe_induction_summary.grpSEsi[10:12],
@@ -426,18 +433,18 @@ begin
     #legend = phe_induction_summary.Genotype
     labels = phe_induction_summary.ind[10]) =#
 
-    plot!(xticks = ([2,5,8,11], unique(phe_induction_summary.spp)))
+    plot!(xticks = ([2.5,6.5,10.5], unique(phe_induction_summary.ind)))
 
     #plot!(xrotation =45)
     plot!(xtickfontsize =18 ,xlabelfontsize = 20, ytickfontsize = 18, ylabelfontsize = 20, legendfontsize = 16)
     plot!(left_margin=5mm, bottom_margin=2mm)
-    plot!(xlabel = "Species", ylabel = "Leaf Phenolic Content (mg/g)")
+    plot!(xlabel = "Treatment Type", ylabel = "Leaf Phenolic Content (mg/g)")
     plot!(size = (800,600), dpi = 600)
     plot!(grid=false)
     
     end
 
-savefig(induction_phe_plot, "./manuscript/images/phenolic_induction_plot.png")
+savefig(induction_phe_plot, "./manuscript/images/phenolic_induction_plot_bytrt.png")
 
 begin
 gph = groupby(phenolic_data, [:Species])
