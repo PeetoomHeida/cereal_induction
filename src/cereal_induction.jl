@@ -290,29 +290,36 @@ g_analysisdata = groupby(filtered_analysis_data, [:Induction, :Species])
 si_induction_summary = combine(g_analysisdata, [:Si_ppm, :Species, :Induction] => ((si, sp, in) -> (grpMEANsi = mean(si/10000), grpSEsi = standarderror(si/10000), spp = first(sp), ind = first(in))) => AsTable)
 
 
-sort!(si_induction_summary, [:spp, :ind])
+sort!(si_induction_summary, [:ind, :spp])
 si_induction_summary.order = [1,2,3,4,5,6,7,8,9,10,11,12]
 begin
-    induction_si_plot = plot(si_induction_summary.order[[1,4,7,10]], 
-    si_induction_summary.grpMEANsi[[1,4,7,10]] .± si_induction_summary.grpSEsi[[1,4,7,10]],
+    induction_si_plot = plot(si_induction_summary.order[[1,5,9]], 
+    si_induction_summary.grpMEANsi[[1,5,9]] .± si_induction_summary.grpSEsi[[1,5,9]],
     seriestype = :scatter,
     markersize = 10,
     #legend = si_induction_summary.Genotype
-    labels = "Control")
+    labels = "Barley")
 
-    plot!(si_induction_summary.order[[2,5,8,11]], 
-    si_induction_summary.grpMEANsi[[2,5,8,11]] .± si_induction_summary.grpSEsi[[2,5,8,11]],
+    plot!(si_induction_summary.order[[2,6,10]], 
+    si_induction_summary.grpMEANsi[[2,6,10]] .± si_induction_summary.grpSEsi[[2,6,10]],
     seriestype = :scatter,
     markersize = 10,
     #legend = si_induction_summary.Genotype
-    labels = "Insect")
+    labels = "Oats")
 
-    plot!(si_induction_summary.order[[3,6,9,12]], 
-    si_induction_summary.grpMEANsi[[3,6,9,12]] .± si_induction_summary.grpSEsi[[3,6,9,12]],
+    plot!(si_induction_summary.order[[3,7,11]], 
+    si_induction_summary.grpMEANsi[[3,7,11]] .± si_induction_summary.grpSEsi[[3,7,11]],
     seriestype = :scatter,
     markersize = 10,
     #legend = si_induction_summary.Genotype
-    labels = "Methyl-Jasmonate")
+    labels = "Triticale")
+
+    plot!(si_induction_summary.order[[4,8,12]], 
+    si_induction_summary.grpMEANsi[[4,8,12]] .± si_induction_summary.grpSEsi[[4,8,12]],
+    seriestype = :scatter,
+    markersize = 10,
+    #legend = si_induction_summary.Genotype
+    labels = "Wheat")
 
     #= plot!(si_induction_summary.spp[10:12], 
     si_induction_summary.grpMEANsi[10:12] .± si_induction_summary.grpSEsi[10:12],
@@ -321,17 +328,17 @@ begin
     #legend = si_induction_summary.Genotype
     labels = si_induction_summary.ind[10]) =#
 
-    plot!(xticks = ([2,5,8,11], unique(si_induction_summary.spp)))
+    plot!(xticks = ([2.5, 6.5, 10.5], unique(si_induction_summary.ind)))
     plot!(xtickfontsize =16 ,xlabelfontsize = 20, ytickfontsize = 16, ylabelfontsize = 20, legendfontsize = 16)
     plot!(left_margin=5mm, bottom_margin=2mm)
     #plot!(xrotation =45)
 
-    plot!(xlabel = "Species", ylabel = "Silicon Leaf Content (%)")
+    plot!(xlabel = "Treatment Type", ylabel = "Leaf Silicon Content (%)")
     plot!(grid=false)
     plot!(size = (800,600), dpi = 600)
     end
 
-savefig(induction_si_plot, "./manuscript/images/induction_plot.png")
+savefig(induction_si_plot, "./manuscript/images/induction_plot_bytrt.png")
 
 
 ad_spread = spreadvars(df=analysis_data, treat_types=[:Species,:Induction], interaction=true)
