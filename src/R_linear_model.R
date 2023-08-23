@@ -13,7 +13,7 @@ library(emmeans)
 library(car)
 library(Hmisc)
 library(lmerTest)
-library(rstanarm)
+#library(rstanarm)
 options(contrasts = c("contr.helmert", "contr.poly"))
 si_data <- as.data.frame(read.csv("data/real_data/biomass_si_data.csv"))
 si_filtered  <- si_data[si_data$isDamaged != "Undamaged",]
@@ -24,6 +24,7 @@ si_mod <- lmerTest::lmer(log(Si_ppm/10000) ~ Induction * Species + mass_g + (1|G
 si_mod <- lme4::lmer(log(Si_ppm) ~ Induction * Species + mass_g + (1|Genotype), si_filtered)
 anova(si_mod, type = 3)
 e1 <- emmeans(si_mod, ~ Species * Induction)
+
 e2 <- contrast(e1, interaction = c("pairwise", "pairwise"))
 my.aes = list(point = list(size = 4))
 e3 <- pwpp(e1, aes = my.aes) + ggplot2::theme_bw( base_size =12) + ggplot2::labs(y = "Contrast")
@@ -61,6 +62,7 @@ my_emm <- pairs(emmeans(si_mod, ~ Induction * Species))
 foo <- pwpm(my_emm, by = NULL, adjust = "bonferroni")
 xtable::xtable(foo)
 emmeans(si_mod, list(pairwise ~ Species|Induction), adjust = "tukey", type = "response")
+emmeans(si_mod, list(pairwise ~ Induction), adjust = "tukey", type = "response")
 ggplot(si_filtered, aes(x = Induction, y = Si_ppm)) +
 geom_col() +
 theme_classic(base_size = 22)

@@ -258,7 +258,7 @@ begin
     png(biomass_si_scatter, "images/biomass_regression")
 end
 
-
+begin
 scale_vals = DataFrame()
 ads_centered = rescalecols(df=analysis_data, collist=[:Si_ppm], centers = scale_vals)
 full_model = fullcenteredglm(df=analysis_data)
@@ -285,11 +285,40 @@ test_df = DataFrame(var1 = repeat(["A", "B", "C"], inner = 3, outer =3), var2 = 
 tplot = @df test_df groupedboxplot(:var1, :yvals, group = :var2)
 
 filtered_analysis_data = filter(row -> ismissing(row.isDamaged) || row.isDamaged  ≠ "Undamaged", analysis_data)
+end
+#Compare Induction Treatments in Graph
 
+g_by_induction = groupby(filtered_analysis_data, [:Induction])
+si_by_induction = combine(g_by_induction, [:Si_ppm, :Induction] => ((si, in) -> (grpMEANsi = mean(si/10000), grpSEsi = standarderror(si/10000), ind = first(in))) => AsTable)
+sort!(si_by_induction, [:ind])
+begin
+    induction_only_plot = plot(si_by_induction.Induction, 
+    si_by_induction.grpMEANsi .± si_by_induction.grpSEsi,
+    seriestype = :scatter,
+    markersize = 10,
+    color = :black,
+    legend = false
+    )
+
+    
+
+    #plot!(xticks = ([2.5, 6.5, 10.5], unique(si_induction_summary.ind)))
+    plot!(xtickfontsize =16 ,xlabelfontsize = 20, ytickfontsize = 16, ylabelfontsize = 20, legendfontsize = 16)
+    plot!(left_margin=5mm, bottom_margin=2mm, right_margin = 10mm)
+    #plot!(xrotation =45)
+
+    plot!(xlabel = "Treatment Type", ylabel = "Leaf Silicon Content (%)")
+    plot!(grid=false)
+    plot!(size = (800,600), dpi = 600)
+end
+savefig(induction_only_plot, "./manuscript/images/induction_only_bytrt.png")
+begin
 g_analysisdata = groupby(filtered_analysis_data, [:Induction, :Species])
 si_induction_summary = combine(g_analysisdata, [:Si_ppm, :Species, :Induction] => ((si, sp, in) -> (grpMEANsi = mean(si/10000), grpSEsi = standarderror(si/10000), spp = first(sp), ind = first(in))) => AsTable)
 
 
+
+end
 sort!(si_induction_summary, [:ind, :spp])
 si_induction_summary.order = [1,2,3,4,5,6,7,8,9,10,11,12]
 begin
@@ -363,7 +392,7 @@ function phenolic_conversion(x)
     ppm = -222.142 + 2073.3(x)
     #to convert from ppm to mg
     #mg = ppm*L
-    mg = ppm * 0.003
+    mg = ppm * 0.002
 
     #To make the value mg/kg use * 10,
     # to make the value %dry matter, use *10000 (mg/100mg)

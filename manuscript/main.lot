@@ -1,0 +1,8 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces ANOVA table for our linear mixed effects model analysing the effect of defence induction and species identity on leaf silicon content. We generated the ANOVA table using the R package lmerTest, specifying a type III ANOVA. Degrees of freedom are Satterthwaite approximations.\relax }}{19}{table.caption.9}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces ANOVA table for our linear mixed effects model analysing the effect of defence induction and species identity on leaf phenolic content. We generated the ANOVA table using the R package lmerTest, specifying a type III ANOVA. Degrees of freedom are Satterthwaite approximations.\relax }}{19}{table.caption.10}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Pedigrees of the cultivars used in this study\relax }}{26}{table.caption.16}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Genomic regions with significant correlation to leaf manganese content, and the corresponding genes in the \textit {Aegilops tauschii} Aet v5.0 assembly. The assembly was scanned using the NCBI genome viewer tool.\relax }}{41}{table.caption.17}%
+\addvspace {10\p@ }
